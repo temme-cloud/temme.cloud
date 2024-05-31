@@ -1,4 +1,21 @@
 baseURL = 'https://temme.cloud/'
-languageCode = 'de-DE'
+languageCode = 'de-EN'
 title = 'temme.cloud'
-theme = 'ananke'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+disable_share = true
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[params]
+site_logo = "temme-cloud-logo.png"
+author = "robintemme"
+
+[[params.ananke_socials]]
+type = "gitlab"
+url = "https://gitlab.com/temme.cloud"
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"

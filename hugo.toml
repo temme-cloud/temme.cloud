@@ -1,0 +1,4 @@
+baseURL = 'https://temme.cloud/'
+languageCode = 'de-DE'
+title = 'temme.cloud'
+theme = 'ananke'

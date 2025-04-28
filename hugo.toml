@@ -1,7 +1,8 @@
 baseURL = 'https://temme.cloud/'
 language = 'de'
 languageCode = 'de-DE'
-title = 'Temme Cloud & Tech GmbH'
+title = 'Temme Cloud & Tech GmbH'
+subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
 theme = 'hello-friend-ng'
 contentDir = "content"
 
@@ -13,7 +14,7 @@ dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
 
 # Subtitle for home
-homeSubtitle = "Schön, dass du hier gelandet bist. Hier entsteht gerade etwas Neues."
+homeSubtitle = "Hier entsteht gerade etwas Neues."
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
@@ -25,25 +26,13 @@ enableSharingButtons = false
 enableGlobalLanguageMenu = false
 
 # Metadata mostly used in document's head
-description = "Temme Cloud & Tech GmbH - IT-Services and Software Development"
+description = "Temme Cloud & Tech GmbH - IT-Services and Software Development"
 keywords = "website, homepage, senior software engineer, devops, backend, software, freelancer, golang"
 images = [""]
 
 defaultContentLanguage = 'de'
-# defaultContentLanguageInSubdir = true
-[languages]
-[languages.de]
-# contentDir = 'content/de'
-disabled = false
-languageCode = 'de-DE'
-languageDirection = 'ltr'
-languageName = 'Deutsch'
-title = 'Temme Cloud & Tech GmbH'
-weight = 1
-[languages.de.params]
-subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
 
-[languages.de.params.logo]
+[params.logo]
 logoText = "in development :)"
 logoHomeLink = "/"
 

@@ -1,0 +1,76 @@
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Compiled C/C++ files
+*.o
+*.out
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.swp
+*.swo
+*.swl
+*.swn
+*.log
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Others
+*.bak
+*.swp
+*.swo
+*.swn
+*.tmp
+*.temp
+*.o
+*.info
+*.lst
+*.out
+*.pid
+*.rej
+*.orig

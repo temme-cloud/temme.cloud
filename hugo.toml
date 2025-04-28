@@ -8,8 +8,8 @@ defaultContentLanguage = "en"
 enableEmoji = true
 
 [params]
-site_logo = "temme-cloud-logo.png"
-author = "robintemme"
+# site_logo = "temme-cloud-logo.png"
+author = "Temme Cloud & Tech GmbH"
 
 [[params.ananke_socials]]
 type = "gitlab"

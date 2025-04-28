@@ -26,8 +26,9 @@ enableSharingButtons = false
 enableGlobalLanguageMenu = false
 
 # Metadata mostly used in document's head
-description = "Temme Cloud & Tech GmbH - IT-Services and Software Development"
-keywords = "website, homepage, senior software engineer, devops, backend, software, freelancer, golang"
+description = "Temme Cloud & Tech GmbH - IT-Dienstleistungen und Softwareentwicklung"
+keywords = "Temme Cloud & Tech GmbH, IT-Dienstleistungen, Softwareentwicklung, DevOps, Backend, Software, Freelancer, Golang, Python, TypeScript, HTML, CSS, Webentwicklung, Cloud-Computing, Kubernetes, Docker, Terraform, Ansible, CI/CD, Continuous Integration, Continuous Deployment, Agile Softwareentwicklung, GitLab, GitHub, Jira, Confluence, Scrum, Kanban, IT-Sicherheit, Datenschutz, DSGVO, IT-Consulting, IT-Architektur, IT-Strategie, IT-Projektmanagement"
+# Set the default image for the og:image meta tag
 images = [""]
 
 defaultContentLanguage = 'de'

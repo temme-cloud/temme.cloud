@@ -10,18 +10,24 @@ Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren 
 
 ## Datenerfassung auf unserer Website
 
-**Wer ist verantwortlich für die Datenerfassung auf dieser Website?**
+### Wer ist verantwortlich für die Datenerfassung auf dieser Website?
+
 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber:
 
-**Temme Cloud & Tech GmbH**
+#### Temme Cloud & Tech GmbH
+
 Grüntaler Str. 32
+
 13357 Berlin
+
 E-Mail: privacy@temme.cloud
 
-**Wie erfassen wir Ihre Daten?**
+### Wie erfassen wir Ihre Daten?
+
 Ihre Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem, Uhrzeit des Seitenaufrufs, IP-Adresse).
 
-**Wofür nutzen wir Ihre Daten?**
+### Wofür nutzen wir Ihre Daten?
+
 Die Daten werden erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Eine Auswertung zu Marketingzwecken findet nicht statt.
 
 ---
@@ -38,10 +44,14 @@ Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert 
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
 
-**Verantwortlicher:**
+#### Verantwortlicher:
+
 Temme Cloud & Tech GmbH
+
 Grüntaler Str. 32
+
 13357 Berlin
+
 E-Mail: privacy@temme.cloud
 
 ---

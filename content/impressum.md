@@ -2,32 +2,42 @@
 
 ## Angaben gemäß § 5 DDG (ehemals §5 TMG)
 
-**Temme Cloud & Tech GmbH**
+### Temme Cloud & Tech GmbH
+
 Grüntaler Str. 32
+
 13357 Berlin
+
 Deutschland
 
-**Vertreten durch:**
+### Vertreten durch
+
 Robin Temme (Geschäftsführer)
 
-**Kontakt:**
+### Kontakt
+
 E-Mail: info@temme.cloud
 
-**Handelsregister:**
+### Handelsregister
+
 Eintragung im Handelsregister.
+
 Registergericht: Amtsgericht Berlin (Charlottenburg)
+
 Handelsregisternummer: HRB 273232 B
 
-<!-- **Umsatzsteuer-ID:**
+<!-- ### Umsatzsteuer-ID
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: [Nummer einfügen] -->
 
 ---
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-**Temme Cloud & Tech GmbH**
+### Temme Cloud & Tech GmbH
 Grüntaler Str. 32
+
 13357 Berlin
+
 Deutschland
 
 ---

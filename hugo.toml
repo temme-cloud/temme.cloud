@@ -13,7 +13,7 @@ dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
 
 # Subtitle for home
-homeSubtitle = "Robin Temme - Freelancing Senior Software Engineer"
+homeSubtitle = "Schön, dass du hier gelandet bist. Hier entsteht gerade etwas Neues."
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
@@ -43,12 +43,8 @@ weight = 1
 [languages.de.params]
 subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
 
-[[params.social]]
-name = "linkedin"
-url = "https://linkedin.com/in/rtemme"
-
 [languages.de.params.logo]
-logoText = ":)"
+logoText = "in development :)"
 logoHomeLink = "/"
 
 [params.footer]

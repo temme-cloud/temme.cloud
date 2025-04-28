@@ -1,21 +1,58 @@
 baseURL = 'https://temme.cloud/'
-languageCode = 'de-EN'
-title = 'temme.cloud'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
-disable_share = true
-enableRobotsTXT = true
-defaultContentLanguage = "en"
-enableEmoji = true
+language = 'de'
+languageCode = 'de-DE'
+title = 'Temme Cloud & Tech GmbH'
+theme = 'hello-friend-ng'
+contentDir = "content"
 
 [params]
-# site_logo = "temme-cloud-logo.png"
 author = "Temme Cloud & Tech GmbH"
+dateform = "2. Jan 2006"
+dateformShort = "2. Jan"
+dateformNum = "02.01.2006"
+dateformNumTime = "02.01.2006 15:04"
 
-[[params.ananke_socials]]
-type = "gitlab"
-url = "https://gitlab.com/temme.cloud"
+# Subtitle for home
+homeSubtitle = "Robin Temme - Freelancing Senior Software Engineer"
 
-[sitemap]
-  changefreq = "daily"
-  priority = 0.5
-  filename = "sitemap.xml"
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = true
+
+# Enable sharing buttons, if you like
+enableSharingButtons = false
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = false
+
+# Metadata mostly used in document's head
+description = "Temme Cloud & Tech GmbH - IT-Services and Software Development"
+keywords = "website, homepage, senior software engineer, devops, backend, software, freelancer, golang"
+images = [""]
+
+defaultContentLanguage = 'de'
+# defaultContentLanguageInSubdir = true
+[languages]
+[languages.de]
+# contentDir = 'content/de'
+disabled = false
+languageCode = 'de-DE'
+languageDirection = 'ltr'
+languageName = 'Deutsch'
+title = 'Temme Cloud & Tech GmbH'
+weight = 1
+[languages.de.params]
+subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
+
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin.com/in/rtemme"
+
+[languages.de.params.logo]
+logoText = ":)"
+logoHomeLink = "/"
+
+[params.footer]
+bottomText = [
+    "<a href=\"/impressum\">Impressum</a>",
+    "<a href=\"/datenschutz\">Datenschutz</a>",
+]

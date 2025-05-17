@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 /* Light theme color */
-$light-background: #fff;
-$light-background-secondary: #eaeaea;
-$light-background-header: #fafafa;
-$light-color: #222;
-$light-color-variant: black;
-$light-color-secondary: #999;
-$light-border-color: #dcdcdc;
-$light-table-color: #dcdcdc;
+$light-background: #f0f8f6; // Adjusted to complement petrol green
+$light-background-secondary: #d9ebe7; // Softer secondary background
+$light-background-header: #e6f3f0; // Slightly darker than background
+$light-color: #387367; // Main petrol green
+$light-color-variant: #28574e; // Darker variant of petrol green
+$light-color-secondary: #6a9a8f; // Muted secondary color
+$light-border-color: #bcd4cf; // Border color complementing petrol green
+$light-table-color: #bcd4cf; // Table border color
 
 /* Dark theme colors */
-$dark-background: #232425;
-$dark-background-secondary: #3b3d42;
-$dark-background-header: #1b1c1d;
-$dark-color: #a9a9b3;
-$dark-color-variant: white;
-$dark-color-secondary: #b3b3bd;
-$dark-border-color: #4e4e57;
-$dark-table-color: #4e4e57;
+$dark-background: #1e2b28; // Darker shade complementing petrol green
+$dark-background-secondary: #2a3c38; // Slightly lighter secondary background
+$dark-background-header: #16201d; // Darker header background
+$dark-color: #a8c9c2; // Light text color complementing petrol green
+$dark-color-variant: #cfe4df; // Lighter variant for contrast
+$dark-color-secondary: #8fb3ac; // Muted secondary color
+$dark-border-color: #3a4f4b; // Border color for dark theme
+$dark-table-color: #3a4f4b; // Table border color
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";

@@ -6,7 +6,9 @@
     <main>
         <div>
             {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+               <div style="display: flex; justify-content: center; align-items: center;">
+                   <img src="{{ .Site.Params.Portrait.Path }}" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+               </div>
             {{ end }}
 
             <h1>{{ .Site.Title }}</h1>

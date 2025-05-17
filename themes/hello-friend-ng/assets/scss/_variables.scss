@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 /* Light theme color */
-$light-background: #f0f8f6; // Adjusted to complement petrol green
-$light-background-secondary: #d9ebe7; // Softer secondary background
-$light-background-header: #e6f3f0; // Slightly darker than background
-$light-color: #387367; // Main petrol green
-$light-color-variant: #28574e; // Darker variant of petrol green
-$light-color-secondary: #6a9a8f; // Muted secondary color
-$light-border-color: #bcd4cf; // Border color complementing petrol green
-$light-table-color: #bcd4cf; // Table border color
+$light-background: #eaf4f2; // Stronger petrol influence in background
+$light-background-secondary: #d3e9e5; // More petrol-toned secondary background
+$light-background-header: #cde5e2; // Stronger petrol tone for header background
+$light-color: #4a4a4a; // Neutral gray for text
+$light-color-variant: #28574e; // Darker petrol variant for contrast
+$light-color-secondary: #4f8a7e; // Stronger secondary petrol tone
+$light-border-color: #a8d0c9; // Petrol-toned border color
+$light-table-color: #a8d0c9; // Petrol-toned table border color
 
 /* Dark theme colors */
-$dark-background: #1e2b28; // Darker shade complementing petrol green
-$dark-background-secondary: #2a3c38; // Slightly lighter secondary background
-$dark-background-header: #16201d; // Darker header background
-$dark-color: #a8c9c2; // Light text color complementing petrol green
-$dark-color-variant: #cfe4df; // Lighter variant for contrast
-$dark-color-secondary: #8fb3ac; // Muted secondary color
-$dark-border-color: #3a4f4b; // Border color for dark theme
-$dark-table-color: #3a4f4b; // Table border color
+$dark-background: #17302c; // Stronger petrol influence in dark background
+$dark-background-secondary: #20443f; // More petrol-toned secondary background
+$dark-background-header: #112724; // Stronger petrol tone for header background
+$dark-color: #b0b0b0; // Light gray for text in dark theme
+$dark-color-variant: #c2e0da; // Lighter petrol variant for contrast
+$dark-color-secondary: #7fb0a6; // Muted petrol secondary color
+$dark-border-color: #2e4f4a; // Stronger petrol-toned border color
+$dark-table-color: #2e4f4a; // Stronger petrol-toned table border color
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";

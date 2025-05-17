@@ -40,6 +40,10 @@ alt = "Logo"
 # logoText = "in development :)"
 # logoHomeLink = "/"
 
+[params.portrait]
+path = "/logo.svg"
+maxWidth = "200px"
+
 [params.footer]
 bottomText = [
     "<a href=\"/impressum\">Impressum</a>",

@@ -13,6 +13,8 @@ dateformShort = "2. Jan"
 dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
 
+[params.meta]
+favicon = true
 # Subtitle for home
 homeSubtitle = "Hier entsteht gerade etwas Neues."
 
@@ -34,8 +36,10 @@ images = [""]
 defaultContentLanguage = 'de'
 
 [params.logo]
-logoText = "in development :)"
-logoHomeLink = "/"
+path = "/logo.svg"
+alt = "Logo"
+# logoText = "in development :)"
+# logoHomeLink = "/"
 
 [params.footer]
 bottomText = [

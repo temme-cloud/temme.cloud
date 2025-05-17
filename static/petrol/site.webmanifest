@@ -1,5 +1,5 @@
 {
-  "name": "Temme Cloud & Tech GmbH",
+  "name": "Temme Cloud & Tech GmbH",
   "short_name": "TEMME",
   "icons": [
     {
@@ -16,6 +16,6 @@
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#387367",
+  "background_color": "#ffffff",
   "display": "standalone"
 }

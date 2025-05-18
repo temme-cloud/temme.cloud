@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 /* Light theme color */
-$light-background: #eaf4f2; // Stronger petrol influence in background
-$light-background-secondary: #d3e9e5; // More petrol-toned secondary background
-$light-background-header: #cde5e2; // Stronger petrol tone for header background
-$light-color: #4a4a4a; // Neutral gray for text
-$light-color-variant: #28574e; // Darker petrol variant for contrast
-$light-color-secondary: #4f8a7e; // Stronger secondary petrol tone
-$light-border-color: #a8d0c9; // Petrol-toned border color
-$light-table-color: #a8d0c9; // Petrol-toned table border color
+$light-background: #007163; // Petrol green as the main background color
+$light-background-secondary: #4a8a7c; // Slightly lighter petrol green for secondary background
+$light-background-header: #ffffff; // Darker petrol green for header background
+$light-color: #ffffff; // White for text
+$light-color-variant: #d9f2ec; // Very light petrol green for contrast
+$light-color-secondary: #ffffff; // Muted petrol green for secondary text
+$light-border-color: #5e9e8f; // Border color with petrol green tone
+$light-table-color: #5e9e8f; // Table border color with petrol green tone
 
 /* Dark theme colors */
-$dark-background: #17302c; // Stronger petrol influence in dark background
-$dark-background-secondary: #20443f; // More petrol-toned secondary background
-$dark-background-header: #112724; // Stronger petrol tone for header background
-$dark-color: #b0b0b0; // Light gray for text in dark theme
-$dark-color-variant: #c2e0da; // Lighter petrol variant for contrast
-$dark-color-secondary: #7fb0a6; // Muted petrol secondary color
-$dark-border-color: #2e4f4a; // Stronger petrol-toned border color
-$dark-table-color: #2e4f4a; // Stronger petrol-toned table border color
+$dark-background: #007163; // Darker petrol green for dark background
+$dark-background-secondary: #007163; // Even darker petrol green for secondary background
+$dark-background-header: #ffffff; // Darkest petrol green for header background
+$dark-color: #d9f2ec; // Light petrol green for text in dark theme
+$dark-color-variant: #ffffff; // Muted petrol green for contrast
+$dark-color-secondary: #5e9e8f; // Muted petrol green for secondary text
+$dark-border-color: #007163; // Petrol green for borders
+$dark-table-color: #007163; // Petrol green for table borders
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";

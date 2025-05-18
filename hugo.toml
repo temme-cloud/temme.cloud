@@ -1,8 +1,8 @@
 baseURL = 'https://temme.cloud/'
 language = 'de'
 languageCode = 'de-DE'
-title = 'Temme Cloud & Tech GmbH'
-subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
+title = 'Hi! Ich bin Robin!'
+# subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
 theme = 'hello-friend-ng'
 contentDir = "content"
 
@@ -12,7 +12,8 @@ dateform = "2. Jan 2006"
 dateformShort = "2. Jan"
 dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
-themeColor = "#387367"
+themeColor = "#007163"
+# enableThemeToggle = true
 
 # Subtitle for home
 homeSubtitle = "Hier entsteht gerade etwas Neues."
@@ -30,7 +31,7 @@ enableGlobalLanguageMenu = false
 description = "Temme Cloud & Tech GmbH - IT-Dienstleistungen und Softwareentwicklung"
 keywords = "Temme Cloud & Tech GmbH, IT-Dienstleistungen, Softwareentwicklung, DevOps, Backend, Software, Freelancer, Golang, Python, TypeScript, HTML, CSS, Webentwicklung, Cloud-Computing, Kubernetes, Docker, Terraform, Ansible, CI/CD, Continuous Integration, Continuous Deployment, Agile Softwareentwicklung, GitLab, GitHub, Jira, Confluence, Scrum, Kanban, IT-Sicherheit, Datenschutz, DSGVO, IT-Consulting, IT-Architektur, IT-Strategie, IT-Projektmanagement"
 # Set the default image for the og:image meta tag
-images = [""]
+images = ["logo.svg"]
 
 defaultContentLanguage = 'de'
 
@@ -40,15 +41,39 @@ alt = "Logo"
 # logoText = "in development :)"
 # logoHomeLink = "/"
 
+
 [params.portrait]
-path = "/logo.svg"
-maxWidth = "200px"
+# path = "/logo-full-white.svg"
+# maxWidth = "400px"
+path = "/logo-white.svg"
+maxWidth = "400px"
 
 [params.footer]
-bottomText = [
-    "<a href=\"/impressum\">Impressum</a>",
-    "<a href=\"/datenschutz\">Datenschutz</a>",
-]
+companyName = "Temme Cloud & Tech GmbH"
+companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
+companyContact = "info@temme.cloud"
+logoPath = "/logo-full-white.svg"
+logoMaxWidth = "200px"
+impressumLink = "/impressum"
+privacyPolicyLink = "/datenschutz"
 
-# [params.meta]
-# favicon = true
+[params.intro]
+introText = "Ich bin IT-Diensleister und biete maßgefertigte Cloudlösungen und innovative Programmierung für Dich und Deine Firma an. Zu meinen Stärken gehören Bass-Ukulele und Python. Außerdem ist Through the Fire and Flames der beste Power Metal Song der Welt."
+introTextSize = "1.2rem"
+
+[menus]
+[[menu.main]]
+  name = "Über mich"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "Projekte"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
+

@@ -1,0 +1,16 @@
+@import "variables";
+
+.description {
+  width: 100%; // Ensure it spans the full width of the viewport
+  max-width: none; // Remove any max-width constraints
+  background-color: $light-background-secondary; // Use dark grey background
+  padding: 2rem 0;
+
+  .description-content {
+    max-width: 600px; // Center block width
+    margin: 0 auto; // Center block horizontally
+    text-align: left; // Ensure text is not centered
+    color: $dark-color; // Use dark grey text color for readability
+    line-height: 1.6; // Improve readability
+  }
+}

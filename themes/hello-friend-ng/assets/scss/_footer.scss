@@ -5,11 +5,12 @@
 
   &__inner {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
     margin: 0 auto;
     width: 760px;
     max-width: 100%;
+    padding: 20px;
 
     @media #{$media-size-tablet} {
       flex-direction: column;
@@ -22,6 +23,7 @@
     align-items: center;
     font-size: 1rem;
     color: $light-color-secondary;
+    width: 100%;
 
     @media #{$media-size-tablet} {
       flex-direction: column;
@@ -29,7 +31,7 @@
     }
 
     & > *:not(:last-child)::after {
-      content: "•";
+      // content: "•";
       padding: 0 5px;
 
       @media #{$media-size-tablet} {
@@ -46,4 +48,47 @@
       }
     }
   }
+
+  &__column {
+    flex: 1;
+
+    &--left {
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+
+      p {
+        margin: 0; // Remove default margins for better alignment
+      }
+    }
+  }
+
+  &__logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+
+  &__company-info {
+    p {
+      margin: 5px 0; // Add spacing between lines
+    }
+  }
+
+  &__links {
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.footer__text--small {
+  font-size: 0.75rem; /* Adjust as needed */
+  margin: 0.25rem 0;  /* Smaller top and bottom spacing */
 }

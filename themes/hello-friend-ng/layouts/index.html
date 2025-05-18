@@ -20,6 +20,12 @@
                     {{ partial "social-icons.html" . }}
                 </div>
             {{- end }}
+
+            {{- if .Site.Params.Intro }}
+                <div>
+                    {{ partial "intro.html" . }}
+                </div>
+            {{- end }}
         </div>
     </main>
 {{ end }}

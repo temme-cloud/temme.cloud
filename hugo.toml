@@ -1,19 +1,19 @@
 baseURL = 'https://temme.cloud/'
 language = 'de'
 languageCode = 'de-DE'
-title = 'Hi! Ich bin Robin!'
-# subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
+title = 'Temme Cloud & Tech GmbH'
+subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
 theme = 'hello-friend-ng'
 contentDir = "content"
 
 [params]
-author = "Temme Cloud & Tech GmbH"
+author = "Temme Cloud & Tech GmbH"
 dateform = "2. Jan 2006"
 dateformShort = "2. Jan"
 dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
 themeColor = "#007163"
-enableThemeToggle = true
+# enableThemeToggle = true
 
 # Subtitle for home
 homeSubtitle = "Hier entsteht gerade etwas Neues."
@@ -29,7 +29,7 @@ enableGlobalLanguageMenu = false
 
 # Metadata mostly used in document's head
 description = "Temme Cloud & Tech GmbH - IT-Dienstleistungen und Softwareentwicklung"
-keywords = "Temme Cloud & Tech GmbH, IT-Dienstleistungen, Softwareentwicklung, DevOps, Backend, Software, Freelancer, Golang, Python, TypeScript, HTML, CSS, Webentwicklung, Cloud-Computing, Kubernetes, Docker, Terraform, Ansible, CI/CD, Continuous Integration, Continuous Deployment, Agile Softwareentwicklung, GitLab, GitHub, Jira, Confluence, Scrum, Kanban, IT-Sicherheit, Datenschutz, DSGVO, IT-Consulting, IT-Architektur, IT-Strategie, IT-Projektmanagement"
+keywords = "Temme Cloud & Tech GmbH, IT-Dienstleistungen, Softwareentwicklung, DevOps, Backend, Software, Freelancer, Golang, Python, TypeScript, HTML, CSS, Webentwicklung, Cloud, Cloud-Computing, Kubernetes, Docker, Terraform, Ansible, CI/CD, Continuous Integration, Continuous Deployment, Agile Softwareentwicklung, GitLab, GitHub, Jira, Confluence, Scrum, Kanban, IT-Sicherheit, Datenschutz, DSGVO, IT-Consulting, IT-Architektur, IT-Strategie, IT-Projektmanagement"
 # Set the default image for the og:image meta tag
 images = ["logo.svg"]
 
@@ -46,12 +46,12 @@ alt = "Logo"
 # path = "/logo-full-white.svg"
 # maxWidth = "400px"
 path = "/logo-white.svg"
-maxWidth = "400px"
+maxWidth = "320px"
 
 [params.footer]
-companyName = "Temme Cloud & Tech GmbH"
-companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
-companyContact = "info@temme.cloud"
+# companyName = "Temme Cloud & Tech GmbH"
+# companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
+# companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"
 logoMaxWidth = "200px"
 impressumLink = "/impressum"

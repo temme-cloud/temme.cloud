@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 /* Light theme color */
-$light-background: #007163; // Petrol green as the main background color
-$light-background-secondary: #4a8a7c; // Slightly lighter petrol green for secondary background
-$light-background-header: #ffffff; // Darker petrol green for header background
-$light-color: #ffffff; // White for text
-$light-color-variant: #d9f2ec; // Very light petrol green for contrast
-$light-color-secondary: #ffffff; // Muted petrol green for secondary text
-$light-border-color: #5e9e8f; // Border color with petrol green tone
-$light-table-color: #5e9e8f; // Table border color with petrol green tone
+$light-background: #007163; // Petrol green as the main color of the corporate design
+$light-background-secondary: #4a8a7c;
+$light-background-header: #ffffff; // White background for header
+$light-color: #ffffff;
+$light-color-variant: #d9f2ec;
+$light-color-secondary: #ffffff;
+$light-border-color: #5e9e8f;
+$light-table-color: #5e9e8f;
 
 /* Dark theme colors */
-$dark-background: #007163; // Darker petrol green for dark background
-$dark-background-secondary: #007163; // Even darker petrol green for secondary background
-$dark-background-header: #ffffff; // Darkest petrol green for header background
-$dark-color: #d9f2ec; // Light petrol green for text in dark theme
-$dark-color-variant: #ffffff; // Muted petrol green for contrast
-$dark-color-secondary: #5e9e8f; // Muted petrol green for secondary text
-$dark-border-color: #007163; // Petrol green for borders
-$dark-table-color: #007163; // Petrol green for table borders
+$dark-background: #007163;
+$dark-background-secondary: #007163;
+$dark-background-header: #ffffff; // White background for header in dark mode
+$dark-color: #ffffff;
+$dark-color-variant: #ffffff;
+$dark-color-secondary: #5e9e8f;
+$dark-border-color: #007163;
+$dark-table-color: #007163;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";

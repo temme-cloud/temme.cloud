@@ -2,25 +2,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   padding: 20px;
   // Default
   background: $light-background-header;
+  color: $dark-grey;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
+    color: $dark-grey;
   }
 
   @media (prefers-color-scheme: light) {
     background: $light-background-header;
+    color: $dark-grey;
   }
 
   [data-theme=dark] & {
     background: $dark-background-header;
+    color: $dark-grey;
   }
 
   [data-theme=light] & {
     background: $light-background-header;
+    color: $dark-grey;
   }
 
   &__right {
@@ -57,7 +66,8 @@
 
 .not-selectable {
   user-select: none;
-  -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
+

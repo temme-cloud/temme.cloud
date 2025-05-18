@@ -3,7 +3,7 @@
 /* Light theme color */
 $light-background: #007163; // Petrol green as the main color of the corporate design
 $light-background-secondary: #4a8a7c;
-$light-background-header: #ffffff; // White background for header
+$light-background-header: #ffffff;
 $light-color: #ffffff;
 $light-color-variant: #d9f2ec;
 $light-color-secondary: #ffffff;
@@ -12,13 +12,15 @@ $light-table-color: #5e9e8f;
 
 /* Dark theme colors */
 $dark-background: #007163;
-$dark-background-secondary: #007163;
-$dark-background-header: #ffffff; // White background for header in dark mode
+$dark-background-secondary: #4a8a7c;
+$dark-background-header: #ffffff;
 $dark-color: #ffffff;
-$dark-color-variant: #ffffff;
+$dark-color-variant: #d9f2ec;
 $dark-color-secondary: #5e9e8f;
-$dark-border-color: #007163;
-$dark-table-color: #007163;
+$dark-border-color: #5e9e8f;
+$dark-table-color: #5e9e8f;
+
+/* General colors */
 $dark-grey: #232323;
 
 $media-size-phone: "(max-width: 684px)";

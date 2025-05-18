@@ -13,7 +13,7 @@ dateformShort = "2. Jan"
 dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
 themeColor = "#007163"
-# enableThemeToggle = true
+enableThemeToggle = true
 
 # Subtitle for home
 homeSubtitle = "Hier entsteht gerade etwas Neues."

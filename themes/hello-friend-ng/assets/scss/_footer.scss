@@ -20,13 +20,13 @@
   &__content {
     display: flex;
     flex-direction: row;
-    align-items: normal;
+    align-items: start;
     font-size: 1rem;
     color: $light-color-secondary;
     width: 100%;
 
     @media #{$media-size-tablet} {
-      flex-direction: column;
+      flex-direction: row;
       margin-top: 10px;
     }
 
@@ -69,6 +69,17 @@
     max-width: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow: hidden; // Hide extra SVG whitespace
+    display: flex; // Ensure child SVG or img fits container
+    align-items: center;
+    justify-content: center;
+
+    svg, img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
   }
 
   &__company-info {

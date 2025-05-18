@@ -15,8 +15,11 @@ dateformNumTime = "02.01.2006 15:04"
 themeColor = "#007163"
 # enableThemeToggle = true
 
+# title for home
+homeTitle = "IT-Dienstleistungen & Softwareentwicklung"
+
 # Subtitle for home
-homeSubtitle = "Hier entsteht gerade etwas Neues."
+homeSubtitle = "Hier entsteht gerade eine neue Webseite."
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
@@ -46,14 +49,14 @@ alt = "Logo"
 # path = "/logo-full-white.svg"
 # maxWidth = "400px"
 path = "/logo-white.svg"
-maxWidth = "320px"
+maxWidth = "300px"
 
 [params.footer]
 # companyName = "Temme Cloud & Tech GmbH"
 # companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
 # companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"
-logoMaxWidth = "200px"
+logoMaxWidth = "180px"
 impressumLink = "/impressum"
 privacyPolicyLink = "/datenschutz"
 

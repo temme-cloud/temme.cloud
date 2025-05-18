@@ -1,0 +1,16 @@
+.intro-center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.intro-center-box p {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}

@@ -1,28 +1,5 @@
-<style>
-.intro-center-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-</style>
-<div class="intro-center-box">
+<div id="intro" class="intro-center-box">
     <p style="font-size: {{ .Site.Params.intro.IntroTextSize | default "1rem" }};">
         {{ .Site.Params.intro.IntroText }}
     </p>
 </div>
-<style>
-.intro-center-box p {
-    text-align: left;
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-}
-.intro-center-box {
-    margin-top: 80px;
-}
-</style>

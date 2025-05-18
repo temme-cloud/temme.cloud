@@ -6,8 +6,8 @@
     <main>
         <div>
             {{ if .Site.Params.Portrait.Path }}
-               <div style="display: flex; justify-content: center; align-items: center;">
-                   <img src="{{ .Site.Params.Portrait.Path }}" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+               <div style="display: flex; justify-content: center; align-items: center; padding: 2rem;">
+                    <img src="{{ .Site.Params.Portrait.Path }}" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
                </div>
             {{ end }}
 

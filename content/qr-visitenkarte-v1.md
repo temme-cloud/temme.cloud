@@ -2,6 +2,7 @@
 title: "Digitale Visitenkarte"
 date: 2025-05-27
 url: "/qr-visitenkarte-v1"
+robots: noindex
 type: "page"
 ---
 

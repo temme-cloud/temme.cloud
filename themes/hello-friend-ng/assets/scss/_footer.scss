@@ -67,8 +67,7 @@
 
   &__logo {
     max-width: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     overflow: hidden; // Hide extra SVG whitespace
     display: flex; // Ensure child SVG or img fits container
     align-items: center;

@@ -38,6 +38,8 @@ images = ["logo.svg"]
 
 defaultContentLanguage = 'de'
 
+customJS = ["/js/redirect-vcard.js"]
+
 [params.logo]
 path = "/logo.svg"
 alt = "Logo"
@@ -79,4 +81,3 @@ privacyPolicyLink = "/datenschutz"
 #   name = "Blog"
 #   url = "https://temme.tech"
 #   weight = 3
-

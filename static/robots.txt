@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /qr-visitenkarte-v1
+Disallow: /robin.vcf

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Temme;Robin;;;
+FN:Robin Temme
+ORG:Temme Cloud & Tech GmbH
+TITLE:Go | DevOps | Security
+TEL;TYPE=WORK,voice:+49 30 91698770
+EMAIL;type=INTERNET;type=WORK;type=pref:robin@temme.cloud
+URL:https://temme.cloud
+END:VCARD

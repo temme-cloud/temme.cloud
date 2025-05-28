@@ -8,41 +8,41 @@ type: "page"
 
 🌭 **Hallo!**
 
-Du bist hier gelandet, weil du **Robins Visitenkarte** gescannt hast.
+Du hast **Robins Visitenkarte** gescannt.
 
-In wenigen Sekunden wirst du automatisch weitergeleitet zu seiner **digitalen vCard**.
+Gleich startet der Download seiner **digitalen vCard (.vcf-Datei)**.
 
-Falls nichts passiert, kannst du [hier klicken](/robin.vcf), um manuell fortzufahren.
+[Hier klicken](/robin.vcf), falls nichts passiert.
 
 
 ## 🇬🇧 Digital Business Card
 
 ☕ **Hello!**
 
-You landed here because you scanned **Robin’s business card**.
+You scanned **Robin’s business card**.
 
-In a few seconds, you'll be automatically redirected to his **digital vCard**.
+His **digital vCard (.vcf file)** will download shortly.
 
-If nothing happens, you can [click here](/robin.vcf) to proceed manually.
+[Click here](/robin.vcf) if nothing happens.
 
 
 ## 🇺🇦 Цифрова візитна картка
 
 🌻 **Привіт!**
 
-Ви потрапили сюди, бо відсканували **візитку Робіна**.
+Ви відсканували **візитку Робіна**.
 
-Через кілька секунд вас буде автоматично перенаправлено до його **цифрової візитної картки**.
+Скоро розпочнеться завантаження його **цифрової візитної картки (.vcf)**.
 
-Якщо цього не сталося, натисніть [тут](/robin.vcf), щоб перейти вручну.
+[Натисніть тут](/robin.vcf), якщо нічого не відбувається.
 
 
 ## 🇵🇱 Cyfrowa wizytówka
 
 🥟 **Cześć!**
 
-Trafiłeś tutaj, ponieważ zeskanowałeś **wizytówkę Robina**.
+Zeskanowałeś **wizytówkę Robina**.
 
-Za kilka sekund zostaniesz automatycznie przekierowany do jego **cyfrowej wizytówki**.
+Zaraz pobierze się jego **cyfrowa wizytówka (.vcf)**.
 
-Jeśli nic się nie stanie, możesz [kliknąć tutaj](/robin.vcf), aby przejść ręcznie.
+[Kliknij tutaj](/robin.vcf), jeśli nic się nie dzieje.

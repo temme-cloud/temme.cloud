@@ -16,7 +16,9 @@ Robin Temme (Geschäftsführer)
 
 ### Kontakt
 
-E-Mail: info@temme.cloud
+E-Mail: <a href="mailto:info@temme.cloud">info@temme.cloud</a>
+
+Telefon: +49 30 91698770
 
 ### Handelsregister
 
@@ -26,8 +28,11 @@ Registergericht: Amtsgericht Berlin (Charlottenburg)
 
 Handelsregisternummer: HRB 273232 B
 
-<!-- ### Umsatzsteuer-ID
-Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: [Nummer einfügen] -->
+### Umsatzsteuer-ID
+
+Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:
+
+DE453870189
 
 ---
 

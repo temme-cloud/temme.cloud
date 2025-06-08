@@ -6,7 +6,7 @@ menu:
 date: 2025-03-03
 ---
 
-![Robin Temme](../face.png)
+<img src="../face.png" alt="Robin Temme" class="about-portrait"/>
 
 Hi, ich bin Robin - Gründer und Geschäftsführer der **Temme Cloud & Tech GmbH**.
 

@@ -1,5 +1,5 @@
 .footer {
-  padding: 40px 20px;
+  padding: 0px 20px;
   flex-grow: 0;
   color: $light-color-secondary;
 
@@ -31,7 +31,6 @@
     }
 
     & > *:not(:last-child)::after {
-      // content: "•";
       padding: 0 5px;
 
       @media #{$media-size-tablet} {

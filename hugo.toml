@@ -5,6 +5,7 @@ title = 'Temme Cloud & Tech GmbH'
 subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
 theme = 'hello-friend-ng'
 contentDir = "content"
+safeMode = 'unsafe'
 
 [params]
 author = "Temme Cloud & Tech GmbH"
@@ -62,6 +63,9 @@ logoMaxWidth = "180px"
 impressumLink = "/impressum"
 privacyPolicyLink = "/datenschutz"
 
-# [params.intro]
-# introText = "Ich bin IT-Diensleister und biete maßgefertigte Cloudlösungen und innovative Programmierung für Dich und Deine Firma an. Zu meinen Stärken gehören Bass-Ukulele und Python. Außerdem ist Through the Fire and Flames der beste Power Metal Song der Welt."
-# introTextSize = "1.2rem"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser.attribute]
+    block = true  # Erforderlich für Block-Elemente wie Bilder und Absätze

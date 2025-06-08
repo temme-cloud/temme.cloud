@@ -21,6 +21,7 @@ Für konkrete Fragen zu Backend-Architektur, CI/CD, Cloud oder DevOps.
 Inklusive Vor- und Nachbereitung, Dokumentation & Rechnung.
 
 ➡️ [Jetzt Session buchen](https://cal.com/robintemme/tech-consulting)
+
 **Preis:** €100 / Stunde (via stripe)
 
 ---

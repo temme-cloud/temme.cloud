@@ -1,10 +1,11 @@
 ---
-title: "Temme Cloud & Tech GmbH"
+title: "Temme Cloud & Tech GmbH"
 description: "IT-Consulting für skalierbare Systeme, Cloud-Infrastruktur und Backend-Architektur."
 date: 2025-06-08
 url: "/"
 layout: "page"
 ---
+
 
 **Komplexe Systeme. Klare Lösungen.**
 

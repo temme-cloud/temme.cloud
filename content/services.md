@@ -16,7 +16,7 @@ Ich helfe Tech-Teams dabei, komplexe Herausforderungen in funktionierende System
 - Datenbankdesign & API-Sicherheit
 
 ### ⚙️ DevOps & Infrastruktur
-- GitLab CI/CD, Kubernetes, Docker, Terraform
+- GitLab CI/CD, Kubernetes, Docker, Terraform, Ansible
 - Automatisierung & Plattformbetrieb (AWS, GCP, On-Prem)
 - Monitoring, Logging & Secrets Management
 
@@ -34,3 +34,6 @@ Ich helfe Tech-Teams dabei, komplexe Herausforderungen in funktionierende System
 
 Du brauchst ein Thema, das hier nicht steht?
 Sprich mich einfach an - ich denke gern out of the box und technologieoffen.
+
+---
+✉️ [Kontakt aufnehmen](../contact)

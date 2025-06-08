@@ -32,3 +32,7 @@ Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet.
 ---
 
 > Vertraulichkeit ist mir wichtig – konkrete Namen nenne ich nur auf Anfrage oder nach NDA.
+
+
+---
+✉️ [Kontakt aufnehmen](../contact)

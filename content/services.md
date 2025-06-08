@@ -6,7 +6,7 @@ menu:
 date: 2025-03-03
 ---
 
-Wir helfen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln - mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
+Ich helfe Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln - mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
 
 ---
 
@@ -33,4 +33,4 @@ Wir helfen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Syste
 ---
 
 Du brauchst ein Thema, das hier nicht steht?
-Sprich uns einfach an - wir denken gern out of the box und technologienoffen.
+Sprich mich einfach an - ich denke gern out of the box und technologieoffen.

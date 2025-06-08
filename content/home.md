@@ -6,8 +6,7 @@ type: "page"
 url: "/"
 ---
 
-
-**Komplexe Systeme. Klare Lösungen.**
+### Komplexe Systeme. Klare Lösungen.
 
 Ich bin ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration - ich bringe moderne Technologien dorthin, wo sie echten Mehrwert schaffen.
 

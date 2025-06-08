@@ -9,10 +9,10 @@
     margin: 0 auto;
     width: 760px;
     max-width: 100%;
-    padding: 20px;
 
     @media #{$media-size-tablet} {
       flex-direction: column;
+      padding: 0px 20px 20px 20px;
     }
   }
 

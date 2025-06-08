@@ -5,7 +5,7 @@ menu:
     weight: 40
 ---
 
-Wir haben in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl unserer Referenzen:
+Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl meiner Referenzen:
 
 ### 🛠️ GitLab-Plattformbetrieb für IT-Tochter eines Handelskonzerns
 - Betrieb & Optimierung einer GitLab-CI-Infrastruktur für 1.000+ Entwickler:innen
@@ -24,4 +24,4 @@ Wir haben in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet
 
 ---
 
-> Vertraulichkeit ist uns wichtig – konkrete Namen nennen wir nur auf Anfrage oder nach NDA.
+> Vertraulichkeit ist mir wichtig – konkrete Namen nenne ich nur auf Anfrage oder nach NDA.

@@ -36,7 +36,7 @@ Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns her
 
 🎯 [15 Min Kennenlernen](https://cal.com/robintemme/15min)
 
-💡 [60 Min Tech-Consulting](https://cal.com/robintemme/consulting)
+💡 [60 Min Tech-Consulting](https://cal.com/robintemme/tech-consulting)
 
 📧 [info@temme.cloud](mailto:info@temme.cloud)
 

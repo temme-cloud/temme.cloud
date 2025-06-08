@@ -29,7 +29,7 @@
       {{ if .Params.Cover }}
         <figure class="post-cover">
           <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
-          
+
           {{ if .Params.CoverCaption }}
             <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
           {{ end }}
@@ -58,8 +58,8 @@
       </div>
     </article>
 
-    <hr />
 
+    <hr />
     <div class="post-info">
       {{ partial "tags.html" .Params.tags }}
       {{ partial "categories.html" . }}
@@ -88,11 +88,11 @@
           {{ dateFormat "2006-01-02 15:04" .Date.Local }}
         {{ end }}
 
-        {{ if .Lastmod }} 
+        {{ if .Lastmod }}
           {{ if not (eq .Lastmod .Date )}}
             {{ if .Site.Params.dateformNumTime }}
               ({{ i18n "lastModified" }}: {{ dateFormat .Site.Params.dateformNumTime .Lastmod.Local }})
-            {{ else }} 
+            {{ else }}
               ({{ i18n "lastModified" }}: {{ dateFormat "2006-01-02 15:04" .Lastmod.Local }})
             {{ end }}
           {{ end }}

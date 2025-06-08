@@ -6,12 +6,12 @@ menu:
 date: 2025-03-03
 ---
 
-Du möchtest ein Projekt starten, brauchst technische Unterstützung oder willst einfach mal kurz brainstormen?
+Du oder dein Team möchte ein Projekt starten, braucht technische Unterstützung oder will einfach mal kurz brainstormen?
 
 ---
 
 ### 📞 Kostenloses Erstgespräch (15 Min)
-Lass uns kurz sprechen und schauen, ob ich dir helfen kann. Direkt und unkompliziert.
+Lass uns kurz sprechen und schauen, ob ich helfen kann. Direkt und unkompliziert.
 
 ➡️ [Termin buchen](https://cal.com/robintemme/15min)
 
@@ -28,7 +28,7 @@ Inklusive Vor- und Nachbereitung, Dokumentation & Rechnung.
 ---
 
 ### 📧 E-Mail
-Du erreichst mich auch direkt per Mail:
+Oder gerne auch direkt per Mail:
 
 **robin@temme.cloud**
 

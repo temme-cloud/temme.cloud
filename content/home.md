@@ -4,7 +4,6 @@ description: "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud &
 author: "Temme Cloud & Tech GmbH"
 date: 2025-03-03
 url: "/"
-type: "home"
 ---
 
 ### Komplexe Systeme. Klare Lösungen.
@@ -31,7 +30,7 @@ Ich arbeite für Konzerne und Mittelständler an hochskalierbaren Plattformen, d
 
 ## Buchen & Kontakt
 
-Ich biete kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie ich dir helfen kann.
+Ich biete kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie ich dir oder deinem Team helfen kann.
 
 
 🎯 [15 Min Kennenlernen](https://cal.com/robintemme/15min)

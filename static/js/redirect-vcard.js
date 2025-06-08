@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
   if (shouldRedirect) {
     setTimeout(function () {
       window.location.href = "/robin.vcf";
-    }, 10000);
+    }, 8000);
   }
 });

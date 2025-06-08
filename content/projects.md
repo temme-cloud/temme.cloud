@@ -5,7 +5,7 @@ menu:
     weight: 40
 ---
 
-Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl unserer Referenzen:
+Wir haben in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl unserer Referenzen:
 
 ### 🛠️ GitLab-Plattformbetrieb für IT-Tochter eines Handelskonzerns
 - Betrieb & Optimierung einer GitLab-CI-Infrastruktur für 1.000+ Entwickler:innen

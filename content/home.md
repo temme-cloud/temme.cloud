@@ -12,7 +12,7 @@ Ich bin ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarea
 
 ---
 
-## Was ich tue
+## Was ich mache
 
 Ich helfe Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 

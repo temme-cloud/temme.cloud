@@ -55,7 +55,7 @@ path = "/logo-white.svg"
 maxWidth = "300px"
 
 [params.footer]
-companyName = "Temme Cloud & Tech GmbH"
+companyName = "Temme Cloud & Tech GmbH"
 companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
 companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"

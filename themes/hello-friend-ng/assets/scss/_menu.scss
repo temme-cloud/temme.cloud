@@ -1,4 +1,6 @@
 .menu {
+  font-family: "houschka-rounded", sans-serif;
+
   z-index: 9999;
   // Default
   background: $light-background-header;
@@ -34,7 +36,6 @@
     justify-content: flex-start;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
     font-size: 1rem;
     list-style: none;
 
@@ -126,11 +127,11 @@
     @media (prefers-color-scheme: light) {
       background: $light-background-header;
     }
-    
+
     [data-theme=dark] & {
       background: $dark-background-header;
     }
-  
+
     [data-theme=light] & {
       background: $light-background-header;
     }
@@ -145,7 +146,7 @@
 
   .dropdown-content a:hover {
     background: $dark-background-header;
-    
+
     @media (prefers-color-scheme: light) {
       background: $light-background-header;
     }
@@ -153,7 +154,7 @@
     [data-theme=dark] & {
       background: $dark-background-header;
     }
-  
+
     [data-theme=light] & {
       background: $light-background-header;
     }

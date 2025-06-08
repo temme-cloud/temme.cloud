@@ -7,7 +7,7 @@ menu:
 
 Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl meiner Referenzen:
 
-### 🛠️ GitLab-Plattformbetrieb für IT-Tochter einer namhaften Drogeriemarktkette
+### 🛠️ GitLab-Plattformbetrieb für namhafte Drogeriemarktkette
 - Betrieb & Optimierung einer GitLab-CI-Infrastruktur für 1.000+ Entwickler:innen
 - Automatisierung mit Kubernetes, GitLab CI/CD, AWS & GCP
 - Tool-Support für Jira, Confluence, 1Password, Grafana, Snyk und mehr

@@ -1,4 +1,8 @@
-# Datenschutzerklärung
+---
+title: "Datenschutzerklärung"
+date: 2025-03-03
+robots: noindex
+---
 
 ## Datenschutz auf einen Blick
 

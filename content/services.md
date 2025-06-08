@@ -3,6 +3,7 @@ title: "Leistungen"
 menu:
   main:
     weight: 30
+date: 2025-03-03
 ---
 
 Wir helfen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln - mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.

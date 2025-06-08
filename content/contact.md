@@ -3,6 +3,7 @@ title: "Kontakt"
 menu:
   main:
     weight: 50
+date: 2025-03-03
 ---
 
 Du möchtest ein Projekt starten, brauchst technische Unterstützung oder willst einfach mal kurz brainstormen?

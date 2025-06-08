@@ -3,6 +3,7 @@ title: "Projekte"
 menu:
   main:
     weight: 40
+date: 2025-03-03
 ---
 
 Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl meiner Referenzen.

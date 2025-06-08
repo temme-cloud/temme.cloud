@@ -5,6 +5,8 @@ menu:
     weight: 20
 ---
 
+![Robin Temme](../face.png)
+
 Hi, ich bin Robin - Gründer und Geschäftsführer der **Temme Cloud & Tech GmbH**.
 
 Ich helfe Tech-Teams dabei, komplexe Systeme zu entwirren, Software wartbar zu machen und Infrastruktur in den Griff zu bekommen - ohne Drama, aber mit klarer Struktur, sauberer Doku und modernen Tools.

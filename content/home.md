@@ -15,7 +15,7 @@ Wir sind ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Software
 
 ## Was wir tun
 
-Wir helfen Tech-Teams, komplexe Systeme zu bauen – mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
+Wir helfen Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 
 [Mehr erfahren →](/services)
 

@@ -10,7 +10,7 @@ Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet.
 ### 🛠️ GitLab-Plattformbetrieb für IT-Tochter einer namhaften Drogeriemarktkette
 - Betrieb & Optimierung einer GitLab-CI-Infrastruktur für 1.000+ Entwickler:innen
 - Automatisierung mit Kubernetes, GitLab CI/CD, AWS & GCP
-- Tool-Support für Jira, Confluence, 1Password, Grafana
+- Tool-Support für Jira, Confluence, 1Password, Grafana, Snyk und mehr
 
 ### 📚 Datenverarbeitung bei Digitalplattform für Bücher & Hörbücher
 - Python-basierte Datenpipelines für E-Book- & Audiobook-Management

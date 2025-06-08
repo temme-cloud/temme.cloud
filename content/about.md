@@ -1,5 +1,5 @@
 ---
-title: "Über"
+title: "Über mich"
 menu:
   main:
     weight: 20
@@ -18,3 +18,7 @@ Was ich nicht mache: halbgare Workarounds, blinden Hype oder Code, den in drei M
 Ob im Konzern oder im Mittelstand - ich werde oft geholt, wenn Projekte technisch feststecken oder wenn’s ernst wird. Ich bringe Struktur rein, schaffe Vertrauen und bin nicht nur der Techie, sondern auch der Social Glue im Team.
 
 Wenn du eine Lösung brauchst, die auch in einem Jahr noch stabil läuft - **let's talk.**
+
+---
+
+✉️ [Kontakt aufnehmen](../contact)

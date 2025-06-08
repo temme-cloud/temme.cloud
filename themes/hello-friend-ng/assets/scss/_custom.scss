@@ -1,7 +1,7 @@
 .about-portrait {
   display: block;
-  width: 420px;
-  height: 420px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   object-position: 80% center; // cut off slightly on the left
   border-radius: 50%;
@@ -10,4 +10,10 @@
   background: #f5f5f5;
   overflow: hidden;
   margin: 0 auto 2rem auto;
+
+  @media (max-width: 600px) {
+    width: 220px;
+    height: 220px;
+    border-width: 3px;
+  }
 }

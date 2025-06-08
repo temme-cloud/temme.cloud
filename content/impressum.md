@@ -16,7 +16,7 @@ Robin Temme (Geschäftsführer)
 
 ### Kontakt
 
-E-Mail: <a href="mailto:info@temme.cloud">info@temme.cloud</a>
+E-Mail: [info@temme.cloud](mailto:info@temme.cloud)
 
 Telefon: +49 30 91698770
 

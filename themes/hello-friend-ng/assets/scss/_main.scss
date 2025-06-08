@@ -336,7 +336,6 @@ ol ol {
   flex: 1 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
@@ -344,8 +343,6 @@ ol ol {
   display: flex;
   flex-direction: column;
   flex: 1 auto;
-  align-items: center;
-  justify-content: center;
   margin: 0;
 
   @media #{$media-size-phone} {

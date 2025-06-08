@@ -16,10 +16,10 @@ themeColor = "#007163"
 # enableThemeToggle = true
 
 # title for home
-homeTitle = "IT-Dienstleistungen & Softwareentwicklung"
+homeTitle = "Komplexe Systeme. Klare Lösungen."
 
 # Subtitle for home
-homeSubtitle = "Hier entsteht gerade eine neue Webseite."
+homeSubtitle = "Wir sind ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen."
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
@@ -65,19 +65,3 @@ privacyPolicyLink = "/datenschutz"
 # [params.intro]
 # introText = "Ich bin IT-Diensleister und biete maßgefertigte Cloudlösungen und innovative Programmierung für Dich und Deine Firma an. Zu meinen Stärken gehören Bass-Ukulele und Python. Außerdem ist Through the Fire and Flames der beste Power Metal Song der Welt."
 # introTextSize = "1.2rem"
-
-# [menus]
-# [[menu.main]]
-#   name = "Über mich"
-#   url = "#intro"
-#   weight = 1
-
-# [[menu.main]]
-#   name = "Projekte"
-#   url = "#projects"
-#   weight = 2
-
-# [[menu.main]]
-#   name = "Blog"
-#   url = "https://temme.tech"
-#   weight = 3

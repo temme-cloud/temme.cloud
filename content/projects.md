@@ -11,7 +11,7 @@ Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet.
 ---
 
 ### 🛠️ GitLab-Plattformbetrieb für namhafte Drogeriemarktkette
-- Betrieb & Optimierung einer GitLab-CI-Infrastruktur für 1.000+ Entwickler:innen
+- Betrieb & Optimierung einer GitLab-Infrastruktur für 1.000+ Entwickler:innen
 - Automatisierung mit Kubernetes, GitLab CI/CD, AWS & GCP
 - Tool-Support für Jira, Confluence, 1Password, Grafana, Snyk und mehr
 

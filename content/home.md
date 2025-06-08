@@ -31,10 +31,13 @@ Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, 
 
 ## Buchen & Kontakt
 
+Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie wir dir helfen können.
+
+
 🎯 [15 Min Kennenlernen](https://cal.com/robintemme/15min)
 
 💡 [60 Min Tech-Consulting](https://cal.com/robintemme/consulting)
 
-📧 [robin@temme.cloud](mailto:robin@temme.cloud)
+📧 [info@temme.cloud](mailto:info@temme.cloud)
 
 [Zur Kontaktseite →](/contact)

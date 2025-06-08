@@ -13,13 +13,14 @@
 
 {{ block "title" . }}
     <title>
-        {{ if or .IsHome (eq .Path "/") }}
+        {{ if eq .Permalink .Site.Home.Permalink }}
             {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }} {{ end }}
         {{ else }}
-            {{ .Title }} :: {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}
+            {{ .Title }} | {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}
         {{ end }}
     </title>
 {{ end }}
+
 <!-- Font - Houschka Rounded -->
 <link rel="stylesheet" href="https://use.typekit.net/clz1zkl.css">
 

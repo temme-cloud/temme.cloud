@@ -31,7 +31,7 @@ Ich arbeite für Konzerne und Mittelständler an hochskalierbaren Plattformen, d
 
 ## Buchen & Kontakt
 
-Ich biete kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie ich dir helfen können.
+Ich biete kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie ich dir helfen kann.
 
 
 🎯 [15 Min Kennenlernen](https://cal.com/robintemme/15min)

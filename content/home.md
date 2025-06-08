@@ -1,9 +1,10 @@
 ---
 title: "Temme Cloud & Tech GmbH"
-description: "IT-Consulting für skalierbare Systeme, Cloud-Infrastruktur und Backend-Architektur."
+description: "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
+author: "Temme Cloud & Tech GmbH"
 date: 2025-03-03
-type: "page"
 url: "/"
+type: "home"
 ---
 
 ### Komplexe Systeme. Klare Lösungen.

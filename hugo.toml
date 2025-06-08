@@ -2,7 +2,7 @@ baseURL = 'https://temme.cloud/'
 language = 'de'
 languageCode = 'de-DE'
 title = 'Temme Cloud & Tech GmbH'
-subtitle = 'IT-Dienstleistungen und Softwareentwicklung'
+subtitle = 'Skalierbare Software, stabile Infrastruktur, echte Lösungen.'
 theme = 'hello-friend-ng'
 contentDir = "content"
 safeMode = 'unsafe'
@@ -32,8 +32,8 @@ enableSharingButtons = false
 enableGlobalLanguageMenu = false
 
 # Metadata mostly used in document's head
-description = "Temme Cloud & Tech GmbH - IT-Dienstleistungen und Softwareentwicklung"
-keywords = "Temme Cloud & Tech GmbH, IT-Dienstleistungen, Softwareentwicklung, DevOps, Backend, Software, Freelancer, Golang, Python, TypeScript, HTML, CSS, Webentwicklung, Cloud, Cloud-Computing, Kubernetes, Docker, Terraform, Ansible, CI/CD, Continuous Integration, Continuous Deployment, Agile Softwareentwicklung, GitLab, GitHub, Jira, Confluence, Scrum, Kanban, IT-Sicherheit, Datenschutz, DSGVO, IT-Consulting, IT-Architektur, IT-Strategie, IT-Projektmanagement"
+description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
+keywords = "Temme Cloud & Tech GmbH, IT-Consulting, Softwareentwicklung, DevOps, Backend, Cloud-Infrastruktur, Golang, Python, Kubernetes, Docker, Terraform, GitLab CI, GitHub, REST, GraphQL, Microservices, CI/CD, Agile, Scrum, IT-Sicherheit, OAuth2, DSGVO, IT-Architektur, Infrastructure as Code, SRE, Platform Engineering, IT Berlin, Tech Berlin, Temme Berlin, Cloud Berlin, GCP, AWS, Azure, IT-Dienstleister Berlin, IT-Beratung Berlin"
 # Set the default image for the og:image meta tag
 images = ["logo.svg"]
 

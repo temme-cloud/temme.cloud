@@ -13,7 +13,7 @@
 
 {{ block "title" . }}
     <title>
-        {{ if .IsHome }}
+        {{ if or .IsHome (eq .Path "/") }}
             {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }} {{ end }}
         {{ else }}
             {{ .Title }} :: {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}

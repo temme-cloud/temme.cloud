@@ -8,13 +8,13 @@ url: "/"
 
 ### Komplexe Systeme. Klare Lösungen.
 
-Ich bin ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration - ich bringe moderne Technologien dorthin, wo sie echten Mehrwert schaffen.
+Ich bin ein spezialisierter IT-Dienstleister mit Fokus auf skalierbarer Softwarearchitektur, zuverlässiger Infrastruktur und technischer Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration - ich bringe moderne Technologien dorthin, wo sie echten Mehrwert schaffen.
 
 ---
 
 ## How can I help?
 
-Ich helfe Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
+Ich helfe internationalen Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 
 [Mehr erfahren →](/services)
 

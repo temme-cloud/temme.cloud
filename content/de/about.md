@@ -6,12 +6,12 @@ menu:
 date: 2025-03-03
 ---
 
-<img src="../robin.png" alt="Robin Temme" class="about-portrait"/>
+<img src="../../robin.png" alt="Robin Temme" class="about-portrait"/>
 <br>
 
 Hi, ich bin **Robin** - Gründer und Geschäftsführer der **Temme Cloud & Tech GmbH**.
 
-Ich helfe Tech-Teams dabei, komplexe Systeme zu entwirren, Software wartbar zu machen und Infrastruktur in den Griff zu bekommen - ohne Drama, aber mit klarer Struktur, sauberer Doku und modernen Tools.
+Ich helfe internationalen Tech-Teams dabei, komplexe Systeme zu entwirren, Software wartbar zu machen und Infrastruktur in den Griff zu bekommen - ohne Drama, aber mit klarer Struktur, sauberer Doku und modernen Tools.
 
 Mein Stack ist tief, mein Mindset pragmatisch: Ich entwickle skalierbare Backend-Systeme in Go & Python, automatisiere Deployments mit Kubernetes & GitLab CI und bringe Dinge zuverlässig in Produktion.
 Was ich nicht mache: halbgare Workarounds, blinden Hype oder Code, den in drei Monaten niemand mehr versteht.

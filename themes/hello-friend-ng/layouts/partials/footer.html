@@ -30,10 +30,18 @@
             <!-- Column 2: Legal Links -->
             <div class="footer__column footer__column--right">
                 {{ if .Site.Params.footer.impressumLink }}
-                <p><a href="{{ .Site.Params.footer.impressumLink }}">Impressum</a></p>
+                <p>
+                    <a href="{{ .Site.Params.footer.impressumLink | relLangURL }}">
+                        {{ i18n "impressum" }}
+                    </a>
+                </p>
                 {{ end }}
                 {{ if .Site.Params.footer.privacyPolicyLink }}
-                <p><a href="{{ .Site.Params.footer.privacyPolicyLink }}">Datenschutz</a></p>
+                <p>
+                    <a href="{{ .Site.Params.footer.privacyPolicyLink | relLangURL }}">
+                        {{ i18n "datenschutz" }}
+                    </a>
+                </p>
                 {{ end }}
             </div>
         </div>

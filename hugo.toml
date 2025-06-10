@@ -29,7 +29,7 @@ disableReadOtherPosts = true
 enableSharingButtons = false
 
 # Show a global language switcher in the navigation bar
-enableGlobalLanguageMenu = false
+enableGlobalLanguageMenu = true
 
 # Metadata mostly used in document's head
 description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
@@ -38,14 +38,15 @@ keywords = "Temme Cloud & Tech GmbH, IT-Consulting, Softwareentwicklung, DevOps,
 images = ["logo.svg"]
 
 defaultContentLanguage = 'de'
+# defaultContentLanguageInSubdir = true
 
 customJS = ["/js/redirect-vcard.js"]
 
 [params.logo]
 path = "/logo.svg"
 alt = "Logo"
+logoHomeLink = "/"
 # logoText = "in development :)"
-# logoHomeLink = "/"
 
 
 [params.portrait]
@@ -69,3 +70,40 @@ privacyPolicyLink = "/datenschutz"
       unsafe = true
     [markup.goldmark.parser.attribute]
     block = true  # Erforderlich für Block-Elemente wie Bilder und Absätze
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+    contentDir = "content/de"
+    title = "Temme Cloud & Tech GmbH"
+    languageCode = "de-DE"
+    params = { homeTitle = "Komplexe Systeme. Klare Lösungen." }
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    title = "Temme Cloud & Tech GmbH"
+    languageCode = "en"
+    params = { homeTitle = "Complex systems. Clear solutions." }
+  [languages.pl]
+    languageName = "Polski"
+    weight = 3
+    contentDir = "content/pl"
+    title = "Temme Cloud & Tech GmbH"
+    languageCode = "pl"
+    params = { homeTitle = "Złożone systemy. Jasne rozwiązania." }
+  [languages.uk]
+    languageName = "Українська"
+    weight = 4
+    contentDir = "content/uk"
+    title = "Temme Cloud & Tech GmbH"
+    languageCode = "uk"
+    params = { homeTitle = "Складні системи. Чіткі рішення." }
+  [languages.it]
+    languageName = "Italiano"
+    weight = 5
+    contentDir = "content/it"
+    title = "Temme Cloud & Tech GmbH"
+    languageCode = "it"
+    params = { homeTitle = "Sistemi complessi. Soluzioni chiare." }

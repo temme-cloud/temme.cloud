@@ -6,7 +6,7 @@ menu:
 date: 2025-03-03
 ---
 
-Ich helfe Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln - mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
+Ich helfe internationalen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln - mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
 
 ---
 

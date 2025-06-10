@@ -4,6 +4,7 @@ description: "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud &
 author: "Temme Cloud & Tech GmbH"
 date: 2025-03-03
 url: "/"
+layout: "single"
 ---
 
 ### Komplexe Systeme. Klare Lösungen.
@@ -14,7 +15,7 @@ Ich bin ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarea
 
 ## How can I help?
 
-Ich helfe Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
+Ich helfe internationalen Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 
 [Mehr erfahren →](/services)
 

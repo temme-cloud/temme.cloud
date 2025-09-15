@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Frenz;Kris;;;
+FN:Kris Frenz
+ORG:Temme Cloud & Tech GmbH
+TITLE:Fullstack Software Developer
+TEL;TYPE=WORK,voice:+49 30 91698770
+EMAIL;type=INTERNET;type=WORK;type=pref:kris@temme.cloud
+X-SOCIALPROFILE;type=linkedin:https://www.linkedin.com/in/rtemme
+URL:https://temme.cloud
+URL:https://krisfrenz.com
+END:VCARD

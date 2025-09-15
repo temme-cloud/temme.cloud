@@ -15,7 +15,7 @@ His **digital vCard (.vcf file)** will download shortly.
 [Click here](/kris.vcf) if nothing happens.
 
 
-## 🇩🇪 Digitale Visitenkarte
+---
 
 🌭 **Hallo!**
 

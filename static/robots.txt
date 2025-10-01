@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /qr-visitenkarte-v1
+Disallow: /qr-visitenkarte-v2
 Disallow: /robin.vcf
+Disallow: /kris.vcf
 Disallow: /face.png

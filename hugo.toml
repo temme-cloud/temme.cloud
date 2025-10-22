@@ -1,11 +1,23 @@
 baseURL = 'https://temme.cloud/'
-language = 'de'
-languageCode = 'de-DE'
 title = 'Temme Cloud & Tech GmbH'
 subtitle = 'Skalierbare Software, stabile Infrastruktur, echte Lösungen.'
 theme = 'hello-friend-ng'
-contentDir = "content"
 safeMode = 'unsafe'
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.de]
+    languageName = 'Deutsch'
+    languageCode = 'de-DE'
+    weight = 1
+    contentDir = 'content/de'
+
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en-US'
+    weight = 2
+    contentDir = 'content/en'
 
 [params]
 author = "Temme Cloud & Tech GmbH"
@@ -29,15 +41,13 @@ disableReadOtherPosts = true
 enableSharingButtons = false
 
 # Show a global language switcher in the navigation bar
-enableGlobalLanguageMenu = false
+enableGlobalLanguageMenu = true
 
 # Metadata mostly used in document's head
 description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
 keywords = "Temme Cloud & Tech GmbH, IT-Consulting, Softwareentwicklung, DevOps, Backend, Cloud-Infrastruktur, Golang, Python, Kubernetes, Docker, Terraform, GitLab CI, GitHub, REST, GraphQL, Microservices, CI/CD, Agile, Scrum, IT-Sicherheit, OAuth2, DSGVO, IT-Architektur, Infrastructure as Code, SRE, Platform Engineering, IT Berlin, Tech Berlin, Temme Berlin, Cloud Berlin, GCP, AWS, Azure, IT-Dienstleister Berlin, IT-Beratung Berlin"
 # Set the default image for the og:image meta tag
 images = ["logo.svg"]
-
-defaultContentLanguage = 'de'
 
 customJS = ["/js/redirect-vcard.js"]
 
@@ -60,8 +70,31 @@ companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
 companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"
 logoMaxWidth = "180px"
-impressumLink = "/impressum"
-privacyPolicyLink = "/datenschutz"
+impressumLink = "impressum"
+privacyPolicyLink = "datenschutz"
+impressumLabel = "Impressum"
+privacyPolicyLabel = "Datenschutz"
+
+[languages.en.params]
+homeTitle = "Complex systems. Clear solutions."
+homeSubtitle = "We are a specialized IT services partner focused on scalable software architecture, reliable infrastructure, and technical excellence. Whether backend engineering, DevOps, or cloud migration—we bring modern technology to the teams where it creates real value."
+description = "Technical excellence for cloud, backend & CI/CD—Temme Cloud & Tech GmbH helps teams deliver reliable, maintainable software solutions."
+keywords = "Temme Cloud & Tech GmbH, IT consulting, software engineering, DevOps, backend, cloud infrastructure, Golang, Python, Kubernetes, Docker, Terraform, GitLab CI, GitHub, REST, GraphQL, microservices, CI/CD, agile, IT security, OAuth2, GDPR, IT architecture, infrastructure as code, SRE, platform engineering, IT Berlin, tech Berlin, cloud Berlin, GCP, AWS, Azure, IT services Berlin"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+  [languages.en.params.footer]
+  companyName = "Temme Cloud & Tech GmbH"
+  companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
+  companyContact = "info@temme.cloud"
+  logoPath = "/logo-full-white.svg"
+  logoMaxWidth = "180px"
+  impressumLink = "imprint"
+  privacyPolicyLink = "privacy"
+  impressumLabel = "Legal notice"
+  privacyPolicyLabel = "Privacy policy"
 
 [markup]
   [markup.goldmark]

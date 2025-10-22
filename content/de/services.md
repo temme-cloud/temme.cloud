@@ -2,8 +2,11 @@
 title: "Leistungen"
 menu:
   main:
+    identifier: "services"
+    name: "Leistungen"
     weight: 30
 date: 2025-03-03
+translationKey: "services"
 ---
 
 Wir helfen internationalen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln – mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
@@ -42,4 +45,4 @@ Du brauchst ein Thema, das hier nicht steht?
 Sprich uns einfach an – wir denken gern out of the box und technologieoffen.
 
 ---
-✉️ [Kontakt aufnehmen](../contact)
+✉️ [Kontakt aufnehmen]({{< relref "contact.md" >}})

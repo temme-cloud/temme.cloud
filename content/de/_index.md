@@ -3,7 +3,8 @@ title: "Temme Cloud & Tech GmbH"
 description: "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
 author: "Temme Cloud & Tech GmbH"
 date: 2025-03-03
-url: "/"
+translationKey: "home"
+aliases: ["/home/"]
 ---
 
 ### Komplexe Systeme. Klare Lösungen.
@@ -16,7 +17,7 @@ Wir sind ein spezialisierter IT-Dienstleister mit Fokus auf skalierbarer Softwar
 
 Wir unterstützen internationale Tech-Teams dabei, komplexe Systeme zu bauen – mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 
-[Mehr erfahren →](/services)
+[Mehr erfahren →]({{< relref "services.md" >}})
 
 ---
 
@@ -24,7 +25,7 @@ Wir unterstützen internationale Tech-Teams dabei, komplexe Systeme zu bauen –
 
 Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, datengetriebenen Backends und resilienter Infrastruktur.
 
-[Referenzen ansehen →](/projects)
+[Referenzen ansehen →]({{< relref "projects.md" >}})
 
 ---
 
@@ -39,4 +40,4 @@ Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns her
 
 📧 [info@temme.cloud](mailto:info@temme.cloud)
 
-[Zur Kontaktseite →](/contact)
+[Zur Kontaktseite →]({{< relref "contact.md" >}})

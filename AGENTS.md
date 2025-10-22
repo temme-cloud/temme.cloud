@@ -6,16 +6,17 @@
 
 ## Project Snapshot
 - Stack: [Hugo](https://gohugo.io/) static site generator with the `hello-friend-ng` theme.
-- Production URL: `https://temme.cloud/` (German language site).
+- Production URL: `https://temme.cloud/` (default German, English translation available).
 - Primary configuration: `hugo.toml`.
-- Content root: `content/`; shared assets: `static/`; generated output: `public/`.
+- Content root: `content/<lang>/` (currently `de` & `en`); shared assets: `static/`; generated output: `public/`.
 - Theme overrides live under `layouts/`; page bundles reside in `pages/` if needed.
 
 ## Day-to-Day Tasks
 - **Local preview**: run `hugo server` from the repo root; the site serves at `http://localhost:1313`.
 - **Build for deployment**: run `hugo`; artifacts write to `public/`.
-- **Adding content**: create/edit Markdown under `content/`. Respect existing front matter fields (title, description, draft, etc.).
-- **Updating navigation or footer**: adjust `[menu]` and `[params.footer.*]` blocks in `hugo.toml`.
+- **Adding content**: create/edit Markdown under the relevant language folder in `content/<lang>/`. Keep `translationKey` consistent across locales and respect existing front matter fields (title, description, draft, etc.).
+- **Translating pages**: duplicate the file into the other language folder, reuse the same `translationKey`, and update menu metadata so both locales appear in navigation.
+- **Updating navigation or footer**: adjust `[menu]` and localized `[params.<lang>.footer.*]` blocks in `hugo.toml`.
 - **Static assets**: drop images, fonts, or downloadable files in `static/` to expose them at the site root.
 
 ## Content & Copy Guidelines

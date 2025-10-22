@@ -1,6 +1,7 @@
 ---
 title: "Impressum"
 date: 2025-03-03
+translationKey: "imprint"
 robots: noindex
 ---
 

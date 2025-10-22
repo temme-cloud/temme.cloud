@@ -2,8 +2,11 @@
 title: "Kontakt"
 menu:
   main:
+    identifier: "contact"
+    name: "Kontakt"
     weight: 50
 date: 2025-03-03
+translationKey: "contact"
 ---
 
 Du oder dein Team möchte ein Projekt starten, braucht technische Unterstützung oder will einfach mal kurz brainstormen?

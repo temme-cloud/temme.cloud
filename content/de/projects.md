@@ -2,8 +2,11 @@
 title: "Projekte"
 menu:
   main:
+    identifier: "projects"
+    name: "Projekte"
     weight: 40
 date: 2025-03-03
+translationKey: "projects"
 ---
 
 Wir haben in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl unserer Referenzen.
@@ -35,4 +38,4 @@ Wir haben in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet
 
 
 ---
-✉️ [Kontakt aufnehmen](../contact)
+✉️ [Kontakt aufnehmen]({{< relref "contact.md" >}})

@@ -1,0 +1,41 @@
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <div class="footer__column footer__column--left">
+                <div class="footer__row">
+                    {{- with .Site.Params.footer.logoPath }}
+                        <div class="footer__logo-column">
+                            <img src="{{ . }}" alt="Company Logo" class="footer__logo"
+                                 {{ with $.Site.Params.footer.logoMaxWidth }}style="max-width: {{ . }};"{{ end }}>
+                        </div>
+                    {{- end }}
+                    <div class="footer__info-column">
+                        {{- with .Site.Params.footer.companyName }}
+                            <p class="footer__text footer__text--small"><strong>{{ . }}</strong></p>
+                        {{- end }}
+                        {{- with .Site.Params.footer.companyAddress }}
+                            <div>
+                                {{- range . }}
+                                    <p class="footer__text footer__text--small">{{ . }}</p>
+                                {{- end }}
+                            </div>
+                        {{- end }}
+                        {{- with .Site.Params.footer.companyContact }}
+                            <p class="footer__text footer__text--small">{{ . }}</p>
+                        {{- end }}
+                    </div>
+                </div>
+            </div>
+            <div class="footer__column footer__column--right">
+                {{- with .Site.Params.footer.impressumLink }}
+                    {{- $label := or $.Site.Params.footer.impressumLabel "Impressum" -}}
+                    <p><a href="{{ . | relLangURL }}">{{ $label }}</a></p>
+                {{- end }}
+                {{- with .Site.Params.footer.privacyPolicyLink }}
+                    {{- $label := or $.Site.Params.footer.privacyPolicyLabel "Datenschutz" -}}
+                    <p><a href="{{ . | relLangURL }}">{{ $label }}</a></p>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+</footer>

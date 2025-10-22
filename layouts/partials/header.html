@@ -1,0 +1,59 @@
+<header class="header">
+    <span class="header__inner">
+        {{ partial "logo.html" . }}
+
+        <span class="header__right">
+            {{ if len .Site.Menus }}
+                {{- $currentPage := . -}}
+                {{- $languageMenuEnabled := or (.Site.Params.EnableGlobalLanguageMenu) (.Site.Params.enableGlobalLanguageMenu) (.Site.Params.enablegloballanguagemenu) -}}
+                <nav class="menu">
+                    <ul class="menu__inner">
+                        {{- range .Site.Menus.main }}
+                            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                        {{- end }}
+                        {{- if and $languageMenuEnabled (gt (len .Site.Languages) 1) }}
+                            {{- $currentLang := .Site.Language.Lang -}}
+                            {{- $homeIndex := newScratch -}}
+                            {{- $homeIndex.Set $currentLang .Site.Home -}}
+                            {{- range .Site.Home.Translations }}
+                                {{- $homeIndex.Set .Lang . -}}
+                            {{- end }}
+                            <li class="menu__language" aria-label="Languages">
+                                {{- range $index, $lang := .Site.Languages }}
+                                    {{- if gt $index 0 }}
+                                        <span aria-hidden="true" class="menu__language-separator">/</span>
+                                    {{- end }}
+                                    {{- $code := upper $lang.Lang -}}
+                                    {{- if eq $lang.Lang $currentLang }}
+                                        <span class="menu__language-link is-active" aria-current="true">{{ $code }}</span>
+                                    {{- else }}
+                                        {{- $translation := first 1 (where $currentPage.Translations "Lang" $lang.Lang) -}}
+                                        {{- if gt (len $translation) 0 }}
+                                            {{- with index $translation 0 }}
+                                                <a class="menu__language-link" href="{{ .RelPermalink }}">{{ $code }}</a>
+                                            {{- end }}
+                                        {{- else }}
+                                            {{- with $homeIndex.Get $lang.Lang }}
+                                                <a class="menu__language-link" href="{{ .RelPermalink }}">{{ $code }}</a>
+                                            {{- end }}
+                                        {{- end }}
+                                    {{- end }}
+                                {{- end }}
+                            </li>
+                        {{- end }}
+                    </ul>
+                </nav>
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            {{- end }}
+
+            {{- if .Site.Params.EnableThemeToggle }}
+                <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+            {{- end}}
+        </span>
+    </span>
+</header>

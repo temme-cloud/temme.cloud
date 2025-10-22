@@ -1,6 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 date: 2025-03-03
+translationKey: "privacy"
 robots: noindex
 ---
 

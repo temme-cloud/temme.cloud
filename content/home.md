@@ -8,13 +8,13 @@ url: "/"
 
 ### Komplexe Systeme. Klare Lösungen.
 
-Ich bin ein spezialisierter IT-Dienstleister mit Fokus auf skalierbarer Softwarearchitektur, zuverlässiger Infrastruktur und technischer Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration - ich bringe moderne Technologien dorthin, wo sie echten Mehrwert schaffen.
+Wir sind ein spezialisierter IT-Dienstleister mit Fokus auf skalierbarer Softwarearchitektur, zuverlässiger Infrastruktur und technischer Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen.
 
 ---
 
-## How can I help?
+## Wie wir helfen
 
-Ich helfe internationalen Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
+Wir unterstützen internationale Tech-Teams dabei, komplexe Systeme zu bauen – mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 
 [Mehr erfahren →](/services)
 
@@ -22,7 +22,7 @@ Ich helfe internationalen Tech-Teams, komplexe Systeme zu bauen - mit Fokus auf 
 
 ## Ausgewählte Projekte
 
-Ich arbeite für Konzerne und Mittelständler an hochskalierbaren Plattformen, datengetriebenen Backends und resilienter Infrastruktur.
+Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, datengetriebenen Backends und resilienter Infrastruktur.
 
 [Referenzen ansehen →](/projects)
 
@@ -30,7 +30,7 @@ Ich arbeite für Konzerne und Mittelständler an hochskalierbaren Plattformen, d
 
 ## Buchen & Kontakt
 
-Ich biete kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie ich dir oder deinem Team helfen kann.
+Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie wir dir oder deinem Team helfen können.
 
 
 🎯 [15 Min Kennenlernen](https://cal.com/robintemme/15min)

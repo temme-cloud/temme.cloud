@@ -6,7 +6,7 @@ menu:
 date: 2025-03-03
 ---
 
-Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl meiner Referenzen.
+Wir haben in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet. Hier eine Auswahl unserer Referenzen.
 
 ---
 
@@ -31,7 +31,7 @@ Ich habe in den letzten Jahren an einer Vielzahl spannender Projekte gearbeitet.
 
 ---
 
-> Vertraulichkeit ist mir wichtig – konkrete Namen nenne ich nur auf Anfrage oder nach NDA.
+> Vertraulichkeit ist uns wichtig – konkrete Namen nennen wir nur auf Anfrage oder nach NDA.
 
 
 ---

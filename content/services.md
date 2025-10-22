@@ -6,7 +6,7 @@ menu:
 date: 2025-03-03
 ---
 
-Ich helfe internationalen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln - mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
+Wir helfen internationalen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln – mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
 
 ---
 
@@ -30,10 +30,16 @@ Ich helfe internationalen Tech-Teams dabei, komplexe Herausforderungen in funkti
 - Least Privilege, Auditing, Secrets-Management
 - Beratung zu DSGVO & technischen Schutzmaßnahmen
 
+### 🤝 Unser Netzwerk
+- Bewährtes Partnernetzwerk: DevOps- und Security-Expert:innen, Data Engineers, Designer:innen (UI/UX), Embedded- und Reverse-Engineering-Spezialist:innen – und mehr.
+- Passgenaue Teams: Wir stellen das Kernteam und erweitern gezielt um die richtige Expertise.
+- Skalierbar und schnell: Von punktueller Unterstützung bis zu kompletten Projektteams.
+- Sicher und compliant: NDA, klare Zugriffsmodelle, saubere Dokumentation.
+
 ---
 
 Du brauchst ein Thema, das hier nicht steht?
-Sprich mich einfach an - ich denke gern out of the box und technologieoffen.
+Sprich uns einfach an – wir denken gern out of the box und technologieoffen.
 
 ---
 ✉️ [Kontakt aufnehmen](../contact)

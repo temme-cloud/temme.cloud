@@ -11,7 +11,7 @@ Du oder dein Team möchte ein Projekt starten, braucht technische Unterstützung
 ---
 
 ### 📞 Kostenloses Erstgespräch (15 Min)
-Lass uns kurz sprechen und schauen, ob ich helfen kann. Direkt und unkompliziert.
+Lass uns kurz sprechen und schauen, ob wir helfen können. Direkt und unkompliziert.
 
 ➡️ [Termin buchen](https://cal.com/robintemme/15min)
 
@@ -30,6 +30,6 @@ Inklusive Vor- und Nachbereitung, Dokumentation & Rechnung.
 ### 📧 E-Mail
 Oder gerne auch direkt per Mail:
 
-**robin@temme.cloud**
+**info@temme.cloud**
 
-Ich melde mich in der Regel innerhalb von 24 Stunden zurück.
+Wir melden uns in der Regel innerhalb von 24 Stunden zurück.

@@ -30,3 +30,21 @@
   margin: 0 6px;
   opacity: 0.6;
 }
+
+.about-portrait {
+  display: block;
+  width: clamp(220px, 45vw, 400px);
+  height: clamp(220px, 45vw, 400px);
+  margin: 0 auto 2rem auto;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  background: #f5f5f5;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 80% center;
+
+  @media #{$media-size-phone} {
+    border-width: 3px;
+  }
+}

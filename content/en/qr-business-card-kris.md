@@ -1,12 +1,14 @@
 ---
-title: "Digitale Visitenkarte"
+title: "Digital business card"
 date: 2025-03-03
-robots: noindex
 type: "page"
-slug: "qr-visitenkarte-v2"
+slug: "digital-business-card-kris"
 translationKey: "qr-vcard-kris"
+robots: noindex
 downloadFile: "/kris.vcf"
 downloadDelay: 2000
+aliases:
+  - "/en/qr-visitenkarte-v2/"
 ---
 
 ☕ **Hello!**
@@ -24,6 +26,6 @@ His **digital vCard (.vcf file)** will download shortly.
 
 Du hast **Kris' Visitenkarte** gescannt.
 
-Gleich startet der Download seiner **digitalen vCard (.vcf-Datei)**.
+Gleich startet der Download der **digitalen vCard (.vcf-Datei)**.
 
 [Hier klicken](/kris.vcf), falls nichts passiert.

@@ -1,24 +1,15 @@
 ---
-title: "Digitale Visitenkarte"
+title: "Digital business card"
 date: 2025-03-03
-robots: noindex
 type: "page"
-slug: "qr-visitenkarte-v1"
+slug: "digital-business-card-robin"
 translationKey: "qr-vcard-robin"
+robots: noindex
 downloadFile: "/robin.vcf"
 downloadDelay: 2000
+aliases:
+  - "/en/qr-visitenkarte-v1/"
 ---
-
-🌭 **Hallo!**
-
-Du hast **Robins Visitenkarte** gescannt.
-
-Gleich startet der Download seiner **digitalen vCard (.vcf-Datei)**.
-
-[Hier klicken](/robin.vcf), falls nichts passiert.
-
-
-## 🇬🇧 Digital Business Card
 
 ☕ **Hello!**
 
@@ -28,6 +19,19 @@ His **digital vCard (.vcf file)** will download shortly.
 
 [Click here](/robin.vcf) if nothing happens.
 
+
+---
+
+🌭 **Hallo!**
+
+Du hast **Robins Visitenkarte** gescannt.
+
+Gleich startet der Download der **digitalen vCard (.vcf-Datei)**.
+
+[Hier klicken](/robin.vcf), falls nichts passiert.
+
+
+---
 
 ## 🇺🇦 Цифрова візитна картка
 

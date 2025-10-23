@@ -5,9 +5,9 @@
         {{ partial "head.html" . }}
     </head>
 
-    {{ block "body" . }}
-        <body>
-    {{ end }}
+{{ block "body" . }}
+        <body{{ with .Params.downloadFile }} data-download-file="{{ . }}"{{ end }}{{ with .Params.downloadDelay }} data-download-delay="{{ . }}"{{ end }}>
+{{ end }}
 
         <div class="container">
             {{ partial "header.html" . }}

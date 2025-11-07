@@ -16,7 +16,7 @@ Wir helfen internationalen Tech-Teams dabei, komplexe Herausforderungen in funkt
 - Datenbankdesign & API-Sicherheit
 
 ### ⚙️ DevOps & Infrastruktur
-- GitLab CI/CD, Kubernetes, Docker, Terraform, Ansible
+- GitLab CI/CD, Kubernetes, Docker, Terraform, Puppet, Ansible
 - Automatisierung & Plattformbetrieb (AWS, GCP, On-Prem)
 - Monitoring, Logging & Secrets Management
 

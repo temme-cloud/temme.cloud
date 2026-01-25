@@ -1,0 +1,7 @@
+{{- if . -}}
+<p>
+    {{- range . -}}
+        <span class="tag"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+    {{- end -}}
+</p>
+{{- end -}}

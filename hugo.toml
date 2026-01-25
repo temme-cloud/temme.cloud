@@ -3,7 +3,7 @@ language = 'de'
 languageCode = 'de-DE'
 title = 'Temme Cloud & Tech GmbH'
 subtitle = 'Skalierbare Software, stabile Infrastruktur, echte Lösungen.'
-theme = 'hello-friend-ng'
+theme = 'temme-cloud'
 contentDir = "content"
 safeMode = 'unsafe'
 

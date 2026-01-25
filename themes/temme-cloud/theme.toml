@@ -1,0 +1,9 @@
+name = "Temme Cloud"
+license = "Proprietary"
+description = "Custom Hugo theme for temme.cloud"
+homepage = "https://temme.cloud"
+min_version = "0.80.0"
+
+[author]
+  name = "Temme Cloud & Tech GmbH"
+  homepage = "https://temme.cloud"

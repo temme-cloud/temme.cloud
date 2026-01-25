@@ -6,21 +6,14 @@ robots: noindex
 type: "page"
 ---
 
-☕ **Hello!**
+Diese Seite ist nicht mehr verfügbar.
 
-You scanned **Kris’s business card**.
+Du wirst in Kürze zur Startseite weitergeleitet.
 
-His **digital vCard (.vcf file)** will download shortly.
+[Hier klicken](/) falls nichts passiert.
 
-[Click here](/kris.vcf) if nothing happens.
-
-
----
-
-🌭 **Hallo!**
-
-Du hast **Kris' Visitenkarte** gescannt.
-
-Gleich startet der Download seiner **digitalen vCard (.vcf-Datei)**.
-
-[Hier klicken](/kris.vcf), falls nichts passiert.
+<script>
+  setTimeout(function() {
+    window.location.href = '/';
+  }, 3000);
+</script>

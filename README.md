@@ -1,21 +1,24 @@
 # Temme Cloud & Tech GmbH Landing Page
 
-This repository contains the source code for the landing page of **Temme Cloud & Tech GmbH**, built using [Hugo](https://gohugo.io/) and the `hello-friend-ng` theme.
+This repository contains the source code for the landing page of **Temme Cloud & Tech GmbH**, built with [Hugo](https://gohugo.io/) and a custom theme (`temme-cloud`) based on `hello-friend-ng`.
 
 ## Project Details
 
 - **Base URL**: [https://temme.cloud/](https://temme.cloud/)
 - **Language**: German (`de-DE`)
-- **Theme**: `hello-friend-ng`
-- **Content Directory**: `content`
+- **Theme**: `temme-cloud` (custom, based on `hello-friend-ng`)
+- **Config**: `hugo.toml`
+- **Content Directory**: `content/`
+- **Static Assets**: `static/`
+- **Generated Output**: `public/` (do not edit directly)
 
 ### Key Features
 
-- Customizable metadata for SEO (description, keywords, etc.).
-- Configurable date formats.
-- Home subtitle: "Hier entsteht gerade etwas Neues."
-- Sharing buttons and global language menu can be toggled.
-- Footer links to Impressum and Datenschutz pages.
+- Custom theme built on top of `hello-friend-ng` for the Temme Cloud brand.
+- Configurable metadata (description, keywords, og:image) and date formats.
+- Home title/subtitle, sharing buttons, and language menu are configurable via `hugo.toml`.
+- Footer includes company info plus links to Impressum, Datenschutz, and contact.
+- Additional JavaScript hooks configured via `customJS`.
 
 ## Setup Instructions
 
@@ -49,16 +52,13 @@ This repository contains the source code for the landing page of **Temme Cloud &
 The main configuration file is `hugo.toml`. Key settings include:
 
 - **Base URL**: Update the `baseURL` field if deploying to a different domain.
-- **Theme Color**: Modify the `themeColor` under `[params]`.
-- **Footer Links**: Adjust the links in `[params.footer.bottomText]`.
+- **Theme**: Managed under `themes/temme-cloud`.
+- **Theme Color**: Modify `themeColor` under `[params]`.
+- **Footer Links**: Adjust the links in `[params.footer]`.
 
 ## Deployment
 
-You can deploy the generated static files to any web server or hosting platform. Popular options include:
-
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [GitHub Pages](https://pages.github.com/)
+Deployment is handled by Netlify. A push to GitHub triggers a Netlify build that runs `hugo` and publishes the generated `public/` output.
 
 ## License
 

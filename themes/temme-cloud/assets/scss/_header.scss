@@ -1,35 +1,31 @@
 .header {
   display: flex;
-  align-items: right;
+  align-items: center;
   justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 20px;
-  // Default
-  background: $light-background-header;
+  padding: 16px 24px;
+  background: #ffffff;
   color: $dark-grey;
+  border-bottom: 3px solid $light-background;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-header;
-    color: $dark-grey;
-  }
+  // When scrolled into white content area
+  &.header--green {
+    background: $light-background;
+    color: $light-color;
+    border-bottom-color: transparent;
 
-  @media (prefers-color-scheme: light) {
-    background: $light-background-header;
-    color: $dark-grey;
-  }
+    .menu a {
+      color: $light-color;
+    }
 
-  [data-theme=dark] & {
-    background: $dark-background-header;
-    color: $dark-grey;
-  }
-
-  [data-theme=light] & {
-    background: $light-background-header;
-    color: $dark-grey;
+    .menu-trigger {
+      fill: $light-color;
+    }
   }
 
   &__right {
@@ -47,8 +43,9 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    width: 760px;
-    max-width: 100%;
+    width: 100%;
+    max-width: $max-width;
+    padding: 0 20px;
   }
 }
 

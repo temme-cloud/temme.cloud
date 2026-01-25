@@ -1,14 +1,8 @@
 ---
-title: "Temme Cloud & Tech GmbH"
+title: "Temme Cloud & Tech GmbH"
 description: "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
 author: "Temme Cloud & Tech GmbH"
 date: 2025-03-03
----
-
-### Komplexe Systeme. Klare Lösungen.
-
-Wir sind ein spezialisierter IT-Dienstleister mit Fokus auf skalierbarer Softwarearchitektur, zuverlässiger Infrastruktur und technischer Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen.
-
 ---
 
 ## Wie wir helfen
@@ -39,3 +33,26 @@ Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns her
 📧 [info@temme.cloud](mailto:info@temme.cloud)
 
 [Zur Kontaktseite →](/contact)
+
+---
+
+## Unsere Partner
+
+Wir arbeiten eng mit ausgewählten Partnern zusammen, die unsere Werte teilen und unsere Expertise ergänzen.
+
+<div class="partners">
+  <a href="https://frankeundschwarz.de" target="_blank" class="partner-card">
+    <div class="partner-card__logo partner-card__logo--dark">
+      <img src="/partners/franke-schwarz.png" alt="Franke und Schwarz">
+    </div>
+    <h3>Franke und Schwarz GmbH</h3>
+    <p>Sales Transformation</p>
+  </a>
+  <a href="https://friday-deployments.com" target="_blank" class="partner-card">
+    <div class="partner-card__logo">
+      <img src="/partners/friday-deployments.svg" alt="Friday Deployments">
+    </div>
+    <h3>Friday Deployments GmbH</h3>
+    <p>DevOps Consulting</p>
+  </a>
+</div>

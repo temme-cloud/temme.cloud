@@ -8,6 +8,26 @@
 
   img {
     height: 44px;
+    transition: opacity 0.3s ease;
+  }
+
+  &__default {
+    display: block;
+  }
+
+  &__white {
+    display: none;
+  }
+
+  // When header is green, show white logo
+  .header--green & {
+    &__default {
+      display: none;
+    }
+
+    &__white {
+      display: block;
+    }
   }
 
   &__mark {

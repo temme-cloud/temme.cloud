@@ -1,40 +1,49 @@
 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <!-- Column 1: Logo and Company Information -->
-            <div class="footer__column footer__column--left">
-                <div class="footer__row">
-                    {{ if .Site.Params.footer.logoPath }}
-                    <div class="footer__logo-column">
-                        <img src="{{ .Site.Params.footer.logoPath }}" alt="Company Logo" class="footer__logo"
-                             {{ with .Site.Params.footer.logoMaxWidth }}style="max-width: {{ . }};"{{ end }}>
-                    </div>
+            <!-- Left side: Logo and Address -->
+            <div class="footer__left">
+                {{ if .Site.Params.footer.logoPath }}
+                <div class="footer__logo">
+                    <img src="{{ .Site.Params.footer.logoPath }}" alt="Company Logo"
+                         {{ with .Site.Params.footer.logoMaxWidth }}style="max-width: {{ . }};"{{ end }}>
+                </div>
+                {{ end }}
+                <div class="footer__address">
+                    {{ if .Site.Params.footer.companyAddress }}
+                    {{ range .Site.Params.footer.companyAddress }}
+                    <p>{{ . }}</p>
                     {{ end }}
-                    <div class="footer__info-column">
-                        {{ if .Site.Params.footer.companyName }}
-                        <p class="footer__text footer__text--small"><strong>{{ .Site.Params.footer.companyName }}</strong></p>
-                        {{ end }}
-                        {{ if .Site.Params.footer.companyAddress }}
-                        <div>
-                            {{ range .Site.Params.footer.companyAddress }}
-                            <p class="footer__text footer__text--small">{{ . }}</p>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                        {{ if .Site.Params.footer.companyContact }}
-                        <p class="footer__text footer__text--small">{{ .Site.Params.footer.companyContact }}</p>
-                        {{ end }}
-                    </div>
+                    {{ end }}
+                    {{ if .Site.Params.footer.companyRegister }}
+                    <p>{{ .Site.Params.footer.companyRegister }}</p>
+                    {{ end }}
                 </div>
             </div>
-            <!-- Column 2: Legal Links -->
-            <div class="footer__column footer__column--right">
-                {{ if .Site.Params.footer.impressumLink }}
-                <p><a href="{{ .Site.Params.footer.impressumLink }}">Impressum</a></p>
+
+            <!-- Right side: Link columns -->
+            <div class="footer__right">
+                {{ if .Site.Params.footer.services }}
+                <div class="footer__column">
+                    <h4>Dienstleistungen</h4>
+                    {{ range .Site.Params.footer.services }}
+                    <p><a href="{{ .url }}">{{ .name }}</a></p>
+                    {{ end }}
+                </div>
                 {{ end }}
-                {{ if .Site.Params.footer.privacyPolicyLink }}
-                <p><a href="{{ .Site.Params.footer.privacyPolicyLink }}">Datenschutz</a></p>
-                {{ end }}
+
+                <div class="footer__column">
+                    <h4>Unternehmen</h4>
+                    {{ if .Site.Params.footer.impressumLink }}
+                    <p><a href="{{ .Site.Params.footer.impressumLink }}">Impressum</a></p>
+                    {{ end }}
+                    {{ if .Site.Params.footer.contactLink }}
+                    <p><a href="{{ .Site.Params.footer.contactLink }}">Kontakt</a></p>
+                    {{ end }}
+                    {{ if .Site.Params.footer.privacyPolicyLink }}
+                    <p><a href="{{ .Site.Params.footer.privacyPolicyLink }}">Datenschutz</a></p>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>

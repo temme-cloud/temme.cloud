@@ -1,33 +1,18 @@
 .menu {
   font-family: "houschka-rounded", sans-serif;
-
   z-index: 9999;
-  // Default
-  background: $light-background-header;
-
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-header;
-  }
-
-  @media (prefers-color-scheme: light) {
-    background: $light-background-header;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-background-header;
-  }
-
-  [data-theme=light] & {
-    background: $light-background-header;
-  }
+  background: transparent;
 
   @media #{$media-size-phone} {
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 0;
     border: none;
     margin: 0;
-    padding: 10px;
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 
   &__inner {
@@ -56,15 +41,20 @@
   }
 
   &-trigger {
-    width: 24px;
-    height: 24px;
-    fill: currentColor;
+    width: 28px;
+    height: 28px;
+    fill: $light-background;
     margin-left: 10px;
     cursor: pointer;
     display: none;
 
     @media #{$media-size-phone} {
       display: block;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
     }
   }
 

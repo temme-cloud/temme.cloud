@@ -39,7 +39,7 @@ images = ["logo.svg"]
 
 defaultContentLanguage = 'de'
 
-customJS = ["/js/redirect-vcard.js"]
+customJS = ["/js/redirect-vcard.js", "/js/header-scroll.js"]
 
 [params.logo]
 path = "/logo.svg"
@@ -62,6 +62,19 @@ logoPath = "/logo-full-white.svg"
 logoMaxWidth = "180px"
 impressumLink = "/impressum"
 privacyPolicyLink = "/datenschutz"
+contactLink = "/contact"
+
+[[params.footer.services]]
+name = "Programmieren"
+url = "/services"
+
+[[params.footer.services]]
+name = "Hosting"
+url = "/services"
+
+[[params.footer.services]]
+name = "Consulting"
+url = "/services"
 
 [markup]
   [markup.goldmark]

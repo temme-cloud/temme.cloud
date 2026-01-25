@@ -1,104 +1,104 @@
 .footer {
   flex-grow: 0;
-  color: $light-color-secondary;
+  background: $light-background;
+  color: $light-color;
+  padding: 60px 24px;
 
   &__inner {
     display: flex;
-    align-items: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
     margin: 0 auto;
-    width: 760px;
-    max-width: 100%;
-    padding-bottom: 20px;
-
-    @media #{$media-size-tablet} {
-      flex-direction: column;
-      padding: 0px 20px 20px 20px;
-    }
+    width: 100%;
+    max-width: $max-width;
   }
 
   &__content {
     display: flex;
     flex-direction: row;
-    align-items: start;
-    font-size: 1rem;
-    color: $light-color-secondary;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
+    gap: 40px;
 
     @media #{$media-size-tablet} {
-      flex-direction: row;
-      margin-top: 10px;
-    }
-
-    & > *:not(:last-child)::after {
-      padding: 0 5px;
-
-      @media #{$media-size-tablet} {
-          content: "";
-          padding: 0;
-      }
-    }
-
-    & > *:last-child {
-      padding: 0 0px;
-
-      @media #{$media-size-tablet} {
-          padding: 0;
-      }
+      flex-direction: column;
+      gap: 40px;
     }
   }
 
-  &__column {
+  &__left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
     flex: 1;
 
-    &--left {
-      text-align: left;
-    }
-
-    &--right {
-      text-align: right;
-
-      p {
-        margin: 0; // Remove default margins for better alignment
-      }
+    @media #{$media-size-phone} {
+      flex-direction: column;
+      gap: 20px;
     }
   }
 
   &__logo {
-    max-width: 150px;
-    padding-bottom: 10px;
-    overflow: hidden; // Hide extra SVG whitespace
-    display: flex; // Ensure child SVG or img fits container
-    align-items: center;
-    justify-content: center;
+    flex-shrink: 0;
+    display: block;
 
-    svg, img {
+    img {
       display: block;
-      width: 100%;
+      width: 180px;
       height: auto;
-      object-fit: contain;
     }
   }
 
-  &__company-info {
+  &__address {
+    font-size: 0.875rem;
+    line-height: 1.7;
+
     p {
-      margin: 5px 0; // Add spacing between lines
+      margin: 0;
     }
   }
 
-  &__links {
+  &__right {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    flex-shrink: 0;
+
+    @media #{$media-size-phone} {
+      flex-direction: row;
+      gap: 40px;
+      width: 100%;
+      justify-content: flex-start;
+    }
+  }
+
+  &__column {
+    h4 {
+      font-size: 0.875rem;
+      font-weight: 700;
+      margin: 0 0 16px 0;
+      color: $light-color;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 8px 0;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+
     a {
-      color: inherit;
+      color: $light-color;
       text-decoration: none;
+      opacity: 0.9;
 
       &:hover {
+        opacity: 1;
         text-decoration: underline;
       }
     }
   }
-}
-
-.footer__text--small {
-  font-size: 0.75rem; /* Adjust as needed */
-  margin: 0.25rem 0;  /* Smaller top and bottom spacing */
 }

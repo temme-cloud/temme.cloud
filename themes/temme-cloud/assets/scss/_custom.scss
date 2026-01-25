@@ -22,3 +22,292 @@
   font-family: 'Montserrat Alternates';
   src: local('☠️');
 }
+
+// Hero Section (Green)
+.hero {
+  background: $light-background;
+  color: $light-color;
+  padding: 80px 24px 60px;
+  text-align: center;
+  width: 100%;
+
+  &__inner {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    margin-bottom: 32px;
+
+    img {
+      max-width: 200px;
+      height: auto;
+      margin: 0 auto;
+
+      @media #{$media-size-phone} {
+        max-width: 150px;
+      }
+    }
+  }
+
+  &__company {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+    opacity: 0.9;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 24px;
+    color: $light-color;
+
+    @media #{$media-size-phone} {
+      font-size: 1.75rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 700px;
+    opacity: 0.95;
+
+    @media #{$media-size-phone} {
+      font-size: 1rem;
+    }
+  }
+
+  // Smaller variant for subpages
+  &--page {
+    padding: 60px 24px 50px;
+
+    .hero__title {
+      font-size: 2rem;
+      margin-bottom: 16px;
+
+      @media #{$media-size-phone} {
+        font-size: 1.5rem;
+      }
+    }
+
+    .hero__subtitle {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Post variant for white background
+.post--white {
+  background: #ffffff;
+  color: $dark-grey;
+  width: 100%;
+  max-width: none;
+  padding: 60px 24px;
+  margin: 0;
+
+  article {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-grey;
+  }
+
+  a {
+    color: $light-background;
+  }
+
+  em, i, strong {
+    color: $dark-grey;
+  }
+
+  hr {
+    background: #e0e0e0;
+  }
+}
+
+// Partner Section
+.partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  text-decoration: none;
+  color: $dark-grey;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  &__logo {
+    width: 140px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 8px;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    &--dark {
+      background: #2b3d4a;
+    }
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 1.125rem;
+    color: $dark-grey;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: $light-background;
+    text-align: center;
+  }
+}
+
+// Section background variants
+.section-white {
+  background: #ffffff;
+  color: $dark-grey;
+  padding: 60px 20px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-grey;
+  }
+
+  a {
+    color: $light-background;
+  }
+
+  em, i, strong {
+    color: $dark-grey;
+  }
+
+  code {
+    background: $light-background;
+    color: $light-color;
+  }
+
+  pre {
+    background: $light-background-secondary;
+    color: $light-color;
+
+    code {
+      color: $light-color;
+    }
+  }
+
+  &__inner {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+}
+
+.section-green {
+  background: $light-background;
+  color: $light-color;
+  padding: 60px 20px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
+  &__inner {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+}
+
+// Button variants for different backgrounds
+.button-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.btn-filled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background: $light-background;
+  color: $light-color;
+  border: 2px solid $light-background;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "houschka-rounded", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $light-background-secondary;
+    border-color: $light-background-secondary;
+  }
+
+  // On white background
+  .section-white & {
+    background: $light-background;
+    color: $light-color;
+    border-color: $light-background;
+  }
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background: transparent;
+  color: $light-color;
+  border: 2px solid $light-color;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "houschka-rounded", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  // On white background
+  .section-white & {
+    color: $light-background;
+    border-color: $light-background;
+
+    &:hover {
+      background: rgba(0, 113, 99, 0.1);
+    }
+  }
+}

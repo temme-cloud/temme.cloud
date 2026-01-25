@@ -225,42 +225,19 @@ code {
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-display: auto;
   font-feature-settings: normal;
-  padding: 1px 6px;
+  padding: 2px 8px;
   margin: 0 2px;
-  border-radius: 5px;
-  font-size: 0.95rem;
-  // Default
-  background: $light-background-secondary;
-
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-secondary;
-  }
-
-  @media (prefers-color-scheme: light) {
-    background: $light-background-secondary;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-background-secondary;
-  }
-
-  [data-theme=light] & {
-    background: $light-background-secondary;
-  }
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: $light-background;
+  color: #ffffff;
 }
 
 pre {
-  [data-theme=dark] & {
-    background-color: $dark-background-secondary;
-  }
-
-  [data-theme=light] & {
-    background-color: $light-background-secondary;
-  }
-
-  padding: 10px 10px 10px 20px;
+  background-color: $light-background;
+  padding: 16px 20px;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   overflow: auto;
 
   @media #{$media-size-phone} {
@@ -273,24 +250,7 @@ pre {
     margin: 0;
     padding: 0;
     font-size: inherit;
-    // Default
-    color: #ccc;
-
-    @media (prefers-color-scheme: dark) {
-      color: inherit;
-    }
-
-    @media (prefers-color-scheme: light) {
-      color: #ccc;
-    }
-
-    [data-theme=dark] & {
-      color: inherit;
-    }
-
-    [data-theme=light] & {
-      color: #ccc;
-    }
+    color: #ffffff;
   }
 }
 
@@ -351,6 +311,8 @@ ol ol {
   align-items: center;
   justify-content: start;
   margin: 0;
+  background: $light-background;
+  color: $light-color;
 
   @media #{$media-size-phone} {
     margin-top: 0;
@@ -361,24 +323,7 @@ hr {
   width: 100%;
   border: none;
   height: 1px;
-  // Default
-  background: $light-border-color;
-
-  @media (prefers-color-scheme: dark) {
-    background: $dark-border-color;
-  }
-
-  @media (prefers-color-scheme: light) {
-    background: $light-border-color;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-border-color;
-  }
-
-  [data-theme=light] & {
-    background: $light-border-color;
-  }
+  background: #e0e0e0;
 }
 
 .hidden {

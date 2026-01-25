@@ -21,6 +21,11 @@
 
     .menu a {
       color: $light-color;
+
+      // Mobile menu always has white background, so links stay green
+      @media #{$media-size-phone} {
+        color: $light-background;
+      }
     }
 
     .menu-trigger {

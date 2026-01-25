@@ -20,7 +20,7 @@ themeColor = "#007163"
 homeTitle = "Komplexe Systeme. Klare Lösungen."
 
 # Subtitle for home
-homeSubtitle = "Wir sind ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen."
+homeSubtitle = "Temme Cloud & Tech GmbH ist ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen."
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
@@ -49,10 +49,7 @@ alt = "Logo"
 
 
 [params.portrait]
-# path = "/logo-full-white.svg"
-# maxWidth = "400px"
 path = "/logo-white.svg"
-maxWidth = "300px"
 
 [params.footer]
 companyName = "Temme Cloud & Tech GmbH"
@@ -65,15 +62,15 @@ privacyPolicyLink = "/datenschutz"
 contactLink = "/contact"
 
 [[params.footer.services]]
-name = "Programmieren"
+name = "Backend-Engineering"
 url = "/services"
 
 [[params.footer.services]]
-name = "Hosting"
+name = "DevOps"
 url = "/services"
 
 [[params.footer.services]]
-name = "Consulting"
+name = "Security"
 url = "/services"
 
 [markup]

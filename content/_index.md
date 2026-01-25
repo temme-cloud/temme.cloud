@@ -26,11 +26,11 @@ Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, 
 Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie wir dir oder deinem Team helfen können.
 
 
-🎯 [15 Min Kennenlernen](https://cal.com/robintemme/15min)
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>[15 Min Kennenlernen](https://cal.com/robintemme/15min)
 
-💡 [60 Min Tech-Consulting](https://cal.com/robintemme/tech-consulting)
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>[60 Min Tech-Consulting](https://cal.com/robintemme/tech-consulting)
 
-📧 [info@temme.cloud](mailto:info@temme.cloud)
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[info@temme.cloud](mailto:info@temme.cloud)
 
 [Zur Kontaktseite →](/contact)
 
@@ -55,4 +55,20 @@ Wir arbeiten eng mit ausgewählten Partnern zusammen, die unsere Werte teilen un
     <h3>Friday Deployments GmbH</h3>
     <p>DevOps Consulting</p>
   </a>
+  <a href="https://sergo.de" target="_blank" class="partner-card">
+    <div class="partner-card__logo">
+      <img src="/partners/sergo.svg" alt="SERGO GmbH">
+    </div>
+    <h3>SERGO GmbH</h3>
+    <p>IT Services & Cloud</p>
+  </a>
+  <a href="https://lormentalhealth.de" target="_blank" class="partner-card">
+    <div class="partner-card__logo">
+      <img src="/partners/lor-mental-health.svg" alt="LOR Mental Health GmbH">
+    </div>
+    <h3>LOR Mental Health GmbH</h3>
+    <p>Mental Health & Wellbeing</p>
+  </a>
 </div>
+
+[Alle Partner ansehen →](/partners)

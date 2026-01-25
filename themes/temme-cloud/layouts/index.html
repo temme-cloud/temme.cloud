@@ -7,7 +7,6 @@
                 <img src="{{ . }}" alt="Logo" {{ with $.Site.Params.portrait.maxWidth }}style="max-width: {{ . }};"{{ end }}>
             </div>
             {{ end }}
-            <p class="hero__company">{{ .Site.Title }}</p>
             <h1 class="hero__title">{{ .Site.Params.homeTitle | default .Title }}</h1>
             {{ with .Site.Params.homeSubtitle }}
             <p class="hero__subtitle">{{ . }}</p>

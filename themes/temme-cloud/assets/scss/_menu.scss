@@ -41,20 +41,27 @@
   }
 
   &-trigger {
-    width: 28px;
-    height: 28px;
-    fill: $light-background;
+    width: 32px;
+    height: 32px;
     margin-left: 10px;
     cursor: pointer;
     display: none;
 
     @media #{$media-size-phone} {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     svg {
-      width: 100%;
-      height: 100%;
+      width: 28px;
+      height: 28px;
+      stroke: $light-background;
+    }
+
+    // When header is green, icon should be white
+    .header--green & svg {
+      stroke: $light-color;
     }
   }
 
@@ -69,6 +76,10 @@
 
     &:last-of-type {
       margin-right: 0;
+    }
+
+    @media #{$media-size-phone} {
+      color: $light-background;
     }
   }
 }

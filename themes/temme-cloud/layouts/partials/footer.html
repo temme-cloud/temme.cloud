@@ -23,7 +23,7 @@
                 </div>
                 <div class="footer__cta">
                     {{ if eq .Params.translationKey "community-program" }}
-                    <a href="https://cal.com/robintemme/community-sprechstunde" class="footer__cta-link">{{ i18n "footerTechSprechstunde" }}</a>
+                    <a href="{{ if eq .Language.Lang "de" }}https://www.cal.eu/team/temme-cloud-tech-gmbh/community-sprechstunde{{ else }}https://www.cal.eu/team/temme-cloud-tech-gmbh/community-office-hours{{ end }}" class="footer__cta-link" target="_blank" rel="noopener">{{ i18n "footerTechSprechstunde" }}</a>
                     {{ else }}
                     <a href="{{ .Language.Lang | printf "/%s/delivery-check/" }}" class="footer__cta-link">{{ i18n "footerDeliveryCheck" }}</a>
                     {{ end }}

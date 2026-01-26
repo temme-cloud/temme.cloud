@@ -4,7 +4,11 @@
         {{ range .Site.Menus.main -}}
             {{ if .Params.isButton }}
             <li class="menu__item--button">
+                {{- if eq $currentPage.Params.translationKey "community-program" }}
+                <a href="{{ if eq $currentPage.Language.Lang "de" }}https://www.cal.eu/team/temme-cloud-tech-gmbh/community-sprechstunde{{ else }}https://www.cal.eu/team/temme-cloud-tech-gmbh/community-office-hours{{ end }}" class="menu__button" target="_blank" rel="noopener">{{ i18n "footerTechSprechstunde" }}</a>
+                {{- else }}
                 <a href="{{ .URL | relLangURL }}" class="menu__button">{{ .Name }}</a>
+                {{- end }}
             </li>
             {{ else }}
             <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>

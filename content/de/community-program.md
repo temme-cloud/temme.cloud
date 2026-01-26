@@ -19,10 +19,9 @@ Du musst Technik nicht mögen, um sicher zu sein. Du brauchst nur jemanden, der 
 
 <div class="hero-ctas">
 <a href="/de/kontakt/" class="btn-filled btn-filled--light">Kontakt aufnehmen</a>
-<a href="https://cal.com/robintemme/community-sprechstunde" class="btn-outline btn-outline--light">Tech-Sprechstunde buchen</a>
+<a href="https://www.cal.eu/team/temme-cloud-tech-gmbh/community-sprechstunde" class="btn-outline btn-outline--light" target="_blank" rel="noopener">Tech-Sprechstunde buchen</a>
 </div>
 
-</div>
 </div>
 
 <div class="trust-strip">
@@ -30,6 +29,8 @@ Du musst Technik nicht mögen, um sicher zu sein. Du brauchst nur jemanden, der 
 <span class="with-dot">Sex Worker willkommen</span>
 <span>🌍 Berlin & neu in Berlin willkommen</span>
 <span class="with-dot">Diskret & respektvoll</span>
+</div>
+
 </div>
 
 Für Berlin. Für kleine Betriebe und Projekte ohne IT. Für Selbstständige, Kulturorte, Kiez-Orte.
@@ -75,6 +76,7 @@ Für Berliner Projekte und kleine Businesses ohne IT-Abteilung:
 <span class="tag">Sex Work</span>
 <span class="tag">Support-Organisationen</span>
 <span class="tag">Einzelhandel</span>
+<span class="tag">Spätis</span>
 <span class="tag">Handwerk</span>
 </div>
 

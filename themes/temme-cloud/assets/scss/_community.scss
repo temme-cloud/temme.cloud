@@ -51,20 +51,29 @@
 // Hero Section
 // ==========================================================================
 .hero-section {
-  padding: 70px 24px 50px;
+  padding: 120px 24px 0;
   text-align: center !important;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 59px);
+  margin-bottom: 0;
 
   @media #{$media-size-phone} {
-    padding: 50px 20px 36px;
+    padding: 80px 20px 0;
+    min-height: calc(100vh - 59px);
   }
 
   &__inner {
-    max-width: 620px;
+    max-width: 680px;
     margin: 0 auto;
     text-align: center !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   h1, h2, h3, h4, p {
@@ -73,27 +82,34 @@
   }
 
   h1 {
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin: 0 0 12px;
-    line-height: 1.25;
+    margin: 0 0 16px;
+    line-height: 1.2;
 
     @media #{$media-size-phone} {
-      font-size: 1.5rem;
+      font-size: 1.875rem;
     }
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 8px;
+    opacity: 0.95;
   }
 
   h3 {
     font-size: 1.0625rem;
     font-weight: 400;
-    margin: 0 0 20px;
+    margin: 0 0 24px;
     opacity: 0.85;
   }
 
   p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     line-height: 1.7;
-    max-width: 520px;
+    max-width: 540px;
     margin: 0 auto;
     opacity: 0.9;
   }
@@ -104,6 +120,24 @@
 
     h1, h2, h3, h4, p, strong {
       color: $light-color;
+    }
+  }
+
+  // Trust strip inside hero
+  .trust-strip {
+    margin-top: auto;
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px 24px;
+    color: rgba(255, 255, 255, 0.9);
+
+    span {
+      color: rgba(255, 255, 255, 0.9);
+
+      &.with-dot::before {
+        background: rgba(255, 255, 255, 0.7);
+      }
     }
   }
 }

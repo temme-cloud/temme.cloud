@@ -15,14 +15,13 @@ layout: "community-program"
 
 ### For Berlin and the neighborhood.
 
-You don't need to love tech to be safe. You just need someone who can show you **what matters** — calmly, clearly, and without judgment.
+You don't need to love tech to be safe. You just need someone who can show you **what matters** – calmly, clearly, and without judgment.
 
 <div class="hero-ctas">
 <a href="/en/contact/" class="btn-filled btn-filled--light">Get in touch</a>
-<a href="https://cal.com/robintemme/community-office-hours" class="btn-outline btn-outline--light">Book Tech Office Hours</a>
+<a href="https://www.cal.eu/team/temme-cloud-tech-gmbh/community-office-hours" class="btn-outline btn-outline--light" target="_blank" rel="noopener">Book Tech Office Hours</a>
 </div>
 
-</div>
 </div>
 
 <div class="trust-strip">
@@ -30,6 +29,8 @@ You don't need to love tech to be safe. You just need someone who can show you *
 <span class="with-dot">Sex workers welcome</span>
 <span>🌍 Berlin & new to Berlin welcome</span>
 <span class="with-dot">Discreet & respectful</span>
+</div>
+
 </div>
 
 For Berlin. For small businesses and projects without in-house IT. For solo operators, cultural spaces, neighborhood places.
@@ -75,6 +76,7 @@ Berlin-based projects and small operations without in-house IT:
 <span class="tag">Sex work</span>
 <span class="tag">Support organizations</span>
 <span class="tag">Local retail</span>
+<span class="tag">Spätis</span>
 <span class="tag">Crafts</span>
 </div>
 

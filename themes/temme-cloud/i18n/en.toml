@@ -58,3 +58,85 @@ other = "Contact"
 
 [footerPrivacy]
 other = "Privacy Policy"
+
+
+# ==========================================================================
+# Delivery Assessment
+# ==========================================================================
+
+[assessmentStep]
+other = "Step"
+
+[assessmentOf]
+other = "of"
+
+[assessmentNext]
+other = "Continue"
+
+[assessmentBack]
+other = "Back"
+
+[assessmentContinueToContact]
+other = "Continue to Contact"
+
+[assessmentSubmit]
+other = "Submit & View Results"
+
+[assessmentSubmitting]
+other = "Submitting..."
+
+[assessmentSelectRequired]
+other = "Please select an option."
+
+[assessmentSelectMultiple]
+other = "Multiple selections allowed"
+
+[assessmentFillRequired]
+other = "Please fill in all required fields."
+
+[assessmentSubmitError]
+other = "An error occurred. Please try again."
+
+[assessmentRequiresJS]
+other = "This assessment requires JavaScript. Please enable JavaScript in your browser."
+
+# Contact Form
+[assessmentContactTitle]
+other = "Almost there!"
+
+[assessmentContactDescription]
+other = "Enter your contact details to receive your personalized results."
+
+[assessmentFieldName]
+other = "Name"
+
+[assessmentFieldEmail]
+other = "Email"
+
+[assessmentFieldCompany]
+other = "Company"
+
+[assessmentFieldPhone]
+other = "Phone (optional)"
+
+[assessmentGDPRConsent]
+other = "I agree to the Privacy Policy and consent to being contacted."
+
+[assessmentGDPRLink]
+other = "Privacy Policy"
+
+# Results
+[assessmentResultsTitle]
+other = "Your Results"
+
+[assessmentPoints]
+other = "Points"
+
+[assessmentResultsCTA]
+other = "Want to learn more? We'd be happy to help improve your delivery process."
+
+[assessmentBookConsultation]
+other = "Book Free Consultation"
+
+[assessmentRecommendationsTitle]
+other = "Recommendations for You"

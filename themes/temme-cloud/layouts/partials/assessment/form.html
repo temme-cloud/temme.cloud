@@ -1,0 +1,64 @@
+<form id="delivery-assessment-form"
+      name="delivery-assessment"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      class="assessment-form"
+      novalidate>
+
+    <!-- Netlify required fields -->
+    <input type="hidden" name="form-name" value="delivery-assessment">
+    <input type="hidden" name="bot-field">
+
+    <!-- Hidden fields for data collection -->
+    <input type="hidden" name="assessment-version" value="1.0">
+    <input type="hidden" name="assessment-variant" id="assessment-variant">
+    <input type="hidden" name="assessment-language" value="{{ .Language.Lang }}">
+    <input type="hidden" name="assessment-score" id="assessment-score">
+    <input type="hidden" name="assessment-maturity" id="assessment-maturity">
+    <input type="hidden" name="assessment-responses" id="assessment-responses">
+    <input type="hidden" name="assessment-timestamp" id="assessment-timestamp">
+
+    <!-- Progress indicator -->
+    {{ partial "assessment/progress.html" . }}
+
+    <!-- Questions container (JS populated) -->
+    <div id="assessment-questions" class="assessment-questions" aria-live="polite">
+        <!-- Loading state -->
+        <div class="assessment-loading" id="assessment-loading">
+            <div class="assessment-loading__spinner"></div>
+            <span>Loading...</span>
+        </div>
+        <noscript>
+            <p>{{ i18n "assessmentRequiresJS" }}</p>
+        </noscript>
+    </div>
+
+    <!-- Contact form (final step, hidden initially) -->
+    {{ partial "assessment/contact-form.html" . }}
+
+    <!-- Results container (hidden initially) -->
+    {{ partial "assessment/results.html" . }}
+
+    <!-- Navigation -->
+    <div class="assessment-nav" id="assessment-nav" style="display: none;">
+        <button type="button"
+                class="btn-outline assessment-nav__back"
+                id="assessment-back"
+                aria-label="{{ i18n "assessmentBack" }}">
+            {{ i18n "assessmentBack" }}
+        </button>
+        <button type="button"
+                class="btn-filled assessment-nav__next"
+                id="assessment-next"
+                aria-label="{{ i18n "assessmentNext" }}">
+            {{ i18n "assessmentNext" }}
+        </button>
+        <button type="submit"
+                class="btn-filled assessment-nav__submit"
+                id="assessment-submit"
+                style="display: none;">
+            {{ i18n "assessmentSubmit" }}
+        </button>
+    </div>
+</form>

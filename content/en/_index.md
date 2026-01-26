@@ -14,6 +14,14 @@ We support international tech teams in building complex systems – with a focus
 
 ---
 
+## Delivery Assessment
+
+How mature is your software delivery process? Our free assessment shows you in 2 minutes where you stand and where there's room for improvement.
+
+<a href="/en/delivery-assessment/" class="btn-filled">Start Assessment →</a>
+
+---
+
 ## Selected Projects
 
 We work with enterprises and mid-sized companies on highly scalable platforms, data-driven backends, and resilient infrastructure.

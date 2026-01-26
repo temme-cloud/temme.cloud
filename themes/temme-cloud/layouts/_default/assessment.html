@@ -1,0 +1,63 @@
+{{ define "main" }}
+    <!-- Hero Section -->
+    <section class="hero hero--page">
+        <div class="hero__inner">
+            <h1 class="hero__title">{{ .Title | markdownify }}</h1>
+            {{ with .Params.description }}
+            <p class="hero__subtitle">{{ . }}</p>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Assessment Section -->
+    <main class="post post--white">
+        <article>
+            <div class="assessment-container"
+                 id="assessment-container"
+                 data-lang="{{ .Language.Lang }}"
+                 data-variant="{{ .Params.variant | default "default" }}"
+                 data-privacy-url="{{ .Params.privacyUrl | default (printf "/%s/datenschutz/" .Language.Lang) }}"
+                 data-contact-url="{{ .Params.contactUrl | default (printf "/%s/kontakt/" .Language.Lang) }}">
+
+                {{ partial "assessment/form.html" . }}
+
+            </div>
+        </article>
+    </main>
+
+    <!-- Embed questions data and i18n strings for JavaScript -->
+    <script>
+        window.ASSESSMENT_QUESTIONS = {{ (index .Site.Data.assessment "delivery-questions") | jsonify | safeJS }};
+        window.ASSESSMENT_I18N = {
+            step: "{{ i18n "assessmentStep" }}",
+            of: "{{ i18n "assessmentOf" }}",
+            next: "{{ i18n "assessmentNext" }}",
+            back: "{{ i18n "assessmentBack" }}",
+            continueToContact: "{{ i18n "assessmentContinueToContact" }}",
+            submit: "{{ i18n "assessmentSubmit" }}",
+            submitting: "{{ i18n "assessmentSubmitting" }}",
+            selectRequired: "{{ i18n "assessmentSelectRequired" }}",
+            selectMultiple: "{{ i18n "assessmentSelectMultiple" }}",
+            fillRequired: "{{ i18n "assessmentFillRequired" }}",
+            submitError: "{{ i18n "assessmentSubmitError" }}",
+            contactTitle: "{{ i18n "assessmentContactTitle" }}",
+            contactDescription: "{{ i18n "assessmentContactDescription" }}",
+            fieldName: "{{ i18n "assessmentFieldName" }}",
+            fieldEmail: "{{ i18n "assessmentFieldEmail" }}",
+            fieldCompany: "{{ i18n "assessmentFieldCompany" }}",
+            fieldPhone: "{{ i18n "assessmentFieldPhone" }}",
+            gdprConsent: "{{ i18n "assessmentGDPRConsent" }}",
+            gdprLink: "{{ i18n "assessmentGDPRLink" }}",
+            resultsTitle: "{{ i18n "assessmentResultsTitle" }}",
+            points: "{{ i18n "assessmentPoints" }}",
+            resultsCTA: "{{ i18n "assessmentResultsCTA" }}",
+            bookConsultation: "{{ i18n "assessmentBookConsultation" }}",
+            recommendationsTitle: "{{ i18n "assessmentRecommendationsTitle" }}"
+        };
+    </script>
+
+    <!-- Assessment JavaScript -->
+    {{ $assessment := resources.Get "js/delivery-assessment.js" }}
+    {{ $secureJS := $assessment | resources.Minify | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" defer></script>
+{{ end }}

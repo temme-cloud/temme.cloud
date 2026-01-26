@@ -14,6 +14,14 @@ Wir unterstützen internationale Tech-Teams dabei, komplexe Systeme zu bauen –
 
 ---
 
+## Delivery Assessment
+
+Wie reif ist euer Software-Delivery-Prozess? Unser kostenloses Assessment zeigt euch in 2 Minuten, wo ihr steht und wo Verbesserungspotenzial liegt.
+
+<a href="/de/delivery-assessment/" class="btn-filled">Assessment starten →</a>
+
+---
+
 ## Ausgewählte Projekte
 
 Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, datengetriebenen Backends und resilienter Infrastruktur.

@@ -1,0 +1,459 @@
+{
+  "version": "1.0.0",
+  "maxScore": 100,
+  "meta": {
+    "consentVersion": "2025-03",
+    "title": {
+      "de": "Delivery Assessment",
+      "en": "Delivery Assessment"
+    },
+    "subtitle": {
+      "de": "Wie reif ist euer Software-Delivery-Prozess? Findet es in 2 Minuten heraus.",
+      "en": "How mature is your software delivery process? Find out in 2 minutes."
+    }
+  },
+  "questions": [
+    {
+      "id": "objective",
+      "title": {
+        "de": "Strategischer Fokus",
+        "en": "Strategic Focus"
+      },
+      "text": {
+        "de": "Was ist euer wichtigstes Ziel in den nächsten 12 Monaten?",
+        "en": "What is your most important goal for the next 12 months?"
+      },
+      "type": "single",
+      "required": true,
+      "next": "team",
+      "options": [
+        {
+          "value": "launch",
+          "label": {
+            "de": "Neues Produkt oder Feature launchen",
+            "en": "Launch new product or feature"
+          },
+          "score": 18
+        },
+        {
+          "value": "scale",
+          "label": {
+            "de": "Skalierung und Betriebsstabilität",
+            "en": "Scaling and operational stability"
+          },
+          "score": 22
+        },
+        {
+          "value": "rehab",
+          "label": {
+            "de": "Legacy-System modernisieren",
+            "en": "Modernize legacy system"
+          },
+          "score": 16
+        },
+        {
+          "value": "cost",
+          "label": {
+            "de": "Kosten und Komplexität reduzieren",
+            "en": "Reduce costs and complexity"
+          },
+          "score": 14
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "title": {
+        "de": "Team-Struktur",
+        "en": "Team Structure"
+      },
+      "text": {
+        "de": "Wie ist euer Entwicklungsteam organisiert?",
+        "en": "How is your development team organized?"
+      },
+      "type": "single",
+      "required": true,
+      "next": "delivery",
+      "options": [
+        {
+          "value": "solo",
+          "label": {
+            "de": "Kleines Kernteam (< 5 Personen)",
+            "en": "Small core team (< 5 people)"
+          },
+          "score": 12
+        },
+        {
+          "value": "squad",
+          "label": {
+            "de": "Feature-Teams mit klarer Ownership",
+            "en": "Feature teams with clear ownership"
+          },
+          "score": 20
+        },
+        {
+          "value": "matrix",
+          "label": {
+            "de": "Cross-funktional mit geteilten Verantwortungen",
+            "en": "Cross-functional with shared responsibilities"
+          },
+          "score": 16
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": {
+        "de": "Deployment-Prozess",
+        "en": "Deployment Process"
+      },
+      "text": {
+        "de": "Wie gelangen Änderungen in die Produktion?",
+        "en": "How do changes reach production?"
+      },
+      "type": "single",
+      "required": true,
+      "options": [
+        {
+          "value": "manual",
+          "label": {
+            "de": "Manuell mit wenig Automatisierung",
+            "en": "Manual with little automation"
+          },
+          "score": 8,
+          "next": "blockers"
+        },
+        {
+          "value": "pipeline",
+          "label": {
+            "de": "CI/CD-Pipeline mit manueller Freigabe",
+            "en": "CI/CD pipeline with manual approval"
+          },
+          "score": 16,
+          "next": "risk"
+        },
+        {
+          "value": "continuous",
+          "label": {
+            "de": "Vollautomatisiert mit Auto-Rollback",
+            "en": "Fully automated with auto-rollback"
+          },
+          "score": 24,
+          "next": "risk"
+        }
+      ]
+    },
+    {
+      "id": "blockers",
+      "title": {
+        "de": "Deployment-Hürden",
+        "en": "Deployment Blockers"
+      },
+      "text": {
+        "de": "Was bremst euch beim Deployment am meisten?",
+        "en": "What slows down your deployments the most?"
+      },
+      "helper": {
+        "de": "Mehrfachauswahl möglich",
+        "en": "Multiple selections allowed"
+      },
+      "type": "multi",
+      "required": true,
+      "next": "risk",
+      "options": [
+        {
+          "value": "slow-reviews",
+          "label": {
+            "de": "Langsame Code Reviews oder Freigaben",
+            "en": "Slow code reviews or approvals"
+          },
+          "score": 8
+        },
+        {
+          "value": "flaky-tests",
+          "label": {
+            "de": "Instabile Tests oder fehlende Testabdeckung",
+            "en": "Flaky tests or lacking test coverage"
+          },
+          "score": 10
+        },
+        {
+          "value": "infra",
+          "label": {
+            "de": "Infrastruktur-Probleme oder fehlendes Monitoring",
+            "en": "Infrastructure issues or lacking monitoring"
+          },
+          "score": 12
+        },
+        {
+          "value": "process",
+          "label": {
+            "de": "Unklare Prozesse oder Verantwortlichkeiten",
+            "en": "Unclear processes or responsibilities"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "title": {
+        "de": "Regulatorisches Umfeld",
+        "en": "Regulatory Environment"
+      },
+      "text": {
+        "de": "Wie stark ist eure Branche reguliert?",
+        "en": "How heavily is your industry regulated?"
+      },
+      "type": "single",
+      "required": true,
+      "options": [
+        {
+          "value": "regulated",
+          "label": {
+            "de": "Stark reguliert (Finanz, Gesundheit, Behörden)",
+            "en": "Heavily regulated (Finance, Health, Government)"
+          },
+          "score": 14,
+          "next": "security"
+        },
+        {
+          "value": "balanced",
+          "label": {
+            "de": "Teilweise reguliert mit spezifischen Anforderungen",
+            "en": "Partially regulated with specific requirements"
+          },
+          "score": 18,
+          "next": "ops"
+        },
+        {
+          "value": "low",
+          "label": {
+            "de": "Kaum reguliert / Startup-Umfeld",
+            "en": "Minimal regulation / Startup environment"
+          },
+          "score": 20,
+          "next": "ops"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": {
+        "de": "Security-Integration",
+        "en": "Security Integration"
+      },
+      "text": {
+        "de": "Wie ist Security in euren Entwicklungsprozess integriert?",
+        "en": "How is security integrated into your development process?"
+      },
+      "type": "single",
+      "required": true,
+      "next": "ops",
+      "options": [
+        {
+          "value": "basic",
+          "label": {
+            "de": "Basis-Maßnahmen, wenig Automatisierung",
+            "en": "Basic measures, little automation"
+          },
+          "score": 12
+        },
+        {
+          "value": "managed",
+          "label": {
+            "de": "Policy as Code, Secrets-Management, regelmäßige Audits",
+            "en": "Policy as Code, secrets management, regular audits"
+          },
+          "score": 22
+        },
+        {
+          "value": "advanced",
+          "label": {
+            "de": "Threat Modeling, Zero Trust, kontinuierliches Scanning",
+            "en": "Threat modeling, Zero Trust, continuous scanning"
+          },
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "ops",
+      "title": {
+        "de": "Observability & Betrieb",
+        "en": "Observability & Operations"
+      },
+      "text": {
+        "de": "Wie stellt ihr Stabilität und Transparenz sicher?",
+        "en": "How do you ensure stability and transparency?"
+      },
+      "type": "single",
+      "required": true,
+      "next": "handover",
+      "options": [
+        {
+          "value": "reactive",
+          "label": {
+            "de": "Reaktiv - Fehler werden ad-hoc behoben",
+            "en": "Reactive - errors are fixed ad-hoc"
+          },
+          "score": 10
+        },
+        {
+          "value": "proactive",
+          "label": {
+            "de": "Monitoring und Alerting, Postmortems nach Incidents",
+            "en": "Monitoring and alerting, postmortems after incidents"
+          },
+          "score": 18
+        },
+        {
+          "value": "resilient",
+          "label": {
+            "de": "SLI/SLO definiert, Chaos Engineering, Load Tests",
+            "en": "SLI/SLO defined, chaos engineering, load tests"
+          },
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "handover",
+      "title": {
+        "de": "Knowledge Transfer",
+        "en": "Knowledge Transfer"
+      },
+      "text": {
+        "de": "Wie wird Wissen im Team weitergegeben?",
+        "en": "How is knowledge shared within the team?"
+      },
+      "type": "single",
+      "required": true,
+      "next": "contact",
+      "options": [
+        {
+          "value": "throw-over",
+          "label": {
+            "de": "Entwicklung übergibt an separates Ops-Team",
+            "en": "Development hands over to separate ops team"
+          },
+          "score": 8
+        },
+        {
+          "value": "shared",
+          "label": {
+            "de": "Gemeinsame Verantwortung, Runbooks vorhanden",
+            "en": "Shared responsibility, runbooks available"
+          },
+          "score": 16
+        },
+        {
+          "value": "full-team",
+          "label": {
+            "de": "Teams betreiben ihre Services Ende-zu-Ende (You build it, you run it)",
+            "en": "Teams run their services end-to-end (You build it, you run it)"
+          },
+          "score": 22
+        }
+      ]
+    }
+  ],
+  "results": {
+    "levels": [
+      {
+        "key": "beginner",
+        "min": 0,
+        "max": 40,
+        "color": "#e74c3c",
+        "label": {
+          "de": "Einsteiger",
+          "en": "Beginner"
+        },
+        "interpretation": {
+          "de": "Euer Delivery-Prozess hat signifikantes Verbesserungspotenzial. Manuelle Schritte und fehlende Automatisierung bremsen euch aus. Der erste Schritt: Identifiziert eure kritischsten Engpässe.",
+          "en": "Your delivery process has significant room for improvement. Manual steps and lack of automation are slowing you down. First step: identify your most critical bottlenecks."
+        }
+      },
+      {
+        "key": "developing",
+        "min": 41,
+        "max": 65,
+        "color": "#f39c12",
+        "label": {
+          "de": "In Entwicklung",
+          "en": "Developing"
+        },
+        "interpretation": {
+          "de": "Ihr habt solide Grundlagen gelegt, aber es gibt noch Lücken. Fokussiert euch auf Konsistenz und erweitert die Automatisierung schrittweise.",
+          "en": "You've laid solid foundations, but gaps remain. Focus on consistency and gradually expand automation."
+        }
+      },
+      {
+        "key": "established",
+        "min": 66,
+        "max": 85,
+        "color": "#3498db",
+        "label": {
+          "de": "Etabliert",
+          "en": "Established"
+        },
+        "interpretation": {
+          "de": "Euer Setup ist solide. Jetzt geht es um Effizienzsteigerung und Verfeinerung. Monitoring und Feedback-Loops können euch auf das nächste Level bringen.",
+          "en": "Your setup is solid. Now it's about increasing efficiency and refinement. Monitoring and feedback loops can take you to the next level."
+        }
+      },
+      {
+        "key": "advanced",
+        "min": 86,
+        "max": 150,
+        "color": "#007163",
+        "label": {
+          "de": "Fortgeschritten",
+          "en": "Advanced"
+        },
+        "interpretation": {
+          "de": "Beeindruckend! Euer Delivery-Prozess ist auf hohem Niveau. Haltet die Qualität und schaut nach Möglichkeiten für kontinuierliche Innovation.",
+          "en": "Impressive! Your delivery process is at a high level. Maintain quality and look for opportunities for continuous innovation."
+        }
+      }
+    ],
+    "recommendations": {
+      "manual": {
+        "de": "Automatisiert eure Deployments mit CI/CD-Pipelines, um manuelle Fehler zu reduzieren.",
+        "en": "Automate your deployments with CI/CD pipelines to reduce manual errors."
+      },
+      "regulated": {
+        "de": "Implementiert ein Compliance-Framework mit automatisierten Checks und Audit-Trails.",
+        "en": "Implement a compliance framework with automated checks and audit trails."
+      },
+      "reactive": {
+        "de": "Investiert in Observability - strukturiertes Logging und Metriken sind der erste Schritt.",
+        "en": "Invest in observability - structured logging and metrics are the first step."
+      },
+      "throw-over": {
+        "de": "Baut Silos ab: Shared Ownership und Runbooks verbessern die Zusammenarbeit.",
+        "en": "Break down silos: shared ownership and runbooks improve collaboration."
+      },
+      "flaky-tests": {
+        "de": "Stabilisiert eure Test-Suite und erhöht die Testabdeckung für kritische Pfade.",
+        "en": "Stabilize your test suite and increase test coverage for critical paths."
+      },
+      "beginner": {
+        "de": "Startet mit den Basics: Versionskontrolle, einfache CI-Pipeline und automatisierte Tests.",
+        "en": "Start with the basics: version control, simple CI pipeline, and automated tests."
+      },
+      "developing": {
+        "de": "Erweitert eure Pipeline um automatisierte Deployments und führt Infrastructure as Code ein.",
+        "en": "Expand your pipeline with automated deployments and introduce Infrastructure as Code."
+      },
+      "established": {
+        "de": "Fokussiert euch auf Observability, Alerting und kontinuierliches Feedback aus Produktion.",
+        "en": "Focus on observability, alerting, and continuous feedback from production."
+      },
+      "advanced": {
+        "de": "Experimentiert mit fortgeschrittenen Techniken wie Progressive Delivery und Chaos Engineering.",
+        "en": "Experiment with advanced techniques like Progressive Delivery and Chaos Engineering."
+      }
+    }
+  }
+}

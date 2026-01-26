@@ -58,3 +58,85 @@ other = "Kontakt"
 
 [footerPrivacy]
 other = "Datenschutz"
+
+
+# ==========================================================================
+# Delivery Assessment
+# ==========================================================================
+
+[assessmentStep]
+other = "Schritt"
+
+[assessmentOf]
+other = "von"
+
+[assessmentNext]
+other = "Weiter"
+
+[assessmentBack]
+other = "Zurück"
+
+[assessmentContinueToContact]
+other = "Weiter zur Kontaktaufnahme"
+
+[assessmentSubmit]
+other = "Absenden & Ergebnis anzeigen"
+
+[assessmentSubmitting]
+other = "Wird gesendet..."
+
+[assessmentSelectRequired]
+other = "Bitte wähle eine Option aus."
+
+[assessmentSelectMultiple]
+other = "Mehrfachauswahl möglich"
+
+[assessmentFillRequired]
+other = "Bitte fülle alle Pflichtfelder aus."
+
+[assessmentSubmitError]
+other = "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+
+[assessmentRequiresJS]
+other = "Dieses Assessment erfordert JavaScript. Bitte aktiviere JavaScript in deinem Browser."
+
+# Contact Form
+[assessmentContactTitle]
+other = "Fast geschafft!"
+
+[assessmentContactDescription]
+other = "Gib deine Kontaktdaten ein, um dein persönliches Ergebnis zu erhalten."
+
+[assessmentFieldName]
+other = "Name"
+
+[assessmentFieldEmail]
+other = "E-Mail"
+
+[assessmentFieldCompany]
+other = "Unternehmen"
+
+[assessmentFieldPhone]
+other = "Telefon (optional)"
+
+[assessmentGDPRConsent]
+other = "Ich stimme der Datenschutzerklärung zu und bin einverstanden, kontaktiert zu werden."
+
+[assessmentGDPRLink]
+other = "Datenschutzerklärung"
+
+# Results
+[assessmentResultsTitle]
+other = "Dein Ergebnis"
+
+[assessmentPoints]
+other = "Punkte"
+
+[assessmentResultsCTA]
+other = "Möchtest du mehr erfahren? Wir helfen dir gerne, euren Delivery-Prozess zu verbessern."
+
+[assessmentBookConsultation]
+other = "Kostenloses Erstgespräch buchen"
+
+[assessmentRecommendationsTitle]
+other = "Empfehlungen für euch"

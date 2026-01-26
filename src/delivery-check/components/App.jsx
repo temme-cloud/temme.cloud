@@ -21,22 +21,6 @@ export function App(props) {
 
   return (
     <>
-      {/* Netlify Forms hidden form for static detection */}
-      <form name="delivery-check" netlify netlify-honeypot="bot-field" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <input type="text" name="company" />
-        <input type="tel" name="phone" />
-        <input type="checkbox" name="gdpr-consent" />
-        <input type="hidden" name="delivery-check-version" />
-        <input type="hidden" name="delivery-check-variant" />
-        <input type="hidden" name="delivery-check-language" />
-        <input type="hidden" name="delivery-check-score" />
-        <input type="hidden" name="delivery-check-maturity" />
-        <input type="hidden" name="delivery-check-responses" />
-        <input type="hidden" name="delivery-check-timestamp" />
-      </form>
-
       {/* Progress bar - hidden when showing results */}
       <Show when={!showResults()}>
         <Progress store={store} />

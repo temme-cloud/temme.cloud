@@ -84,3 +84,6 @@ __pycache__
 *.pid
 *.rej
 *.orig
+
+# Playwright
+.playwright-mcp

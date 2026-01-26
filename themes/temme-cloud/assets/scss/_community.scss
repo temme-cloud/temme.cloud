@@ -27,9 +27,11 @@
       line-height: 1.75;
     }
 
-    // All headings centered
+    // All headings centered - force block display to override flex
     h1, h2, h3, h4, h5, h6 {
       text-align: center !important;
+      display: block !important;
+      width: 100% !important;
     }
 
     h2 {
@@ -67,6 +69,7 @@
 
   h1, h2, h3, h4, p {
     text-align: center !important;
+    display: block !important;
   }
 
   h1 {
@@ -172,9 +175,21 @@
   }
 
   span {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     text-align: center !important;
+    line-height: 1;
+
+    // Only add dot for items with .with-dot class
+    &.with-dot::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: $light-background;
+      border-radius: 50%;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
   }
 }
 
@@ -196,6 +211,8 @@
     margin: 0 0 24px;
     font-size: 1.375rem;
     text-align: center !important;
+    display: block !important;
+    width: 100% !important;
   }
 }
 
@@ -250,10 +267,12 @@
 
   h2, h3, h4, p {
     text-align: center !important;
+    display: block !important;
   }
 
   h2 {
     margin: 0 0 20px;
+    width: 100% !important;
   }
 
   p {
@@ -295,10 +314,12 @@
 
   h2, h3, h4, p {
     text-align: center !important;
+    display: block !important;
   }
 
   h2 {
     margin: 0 0 20px;
+    width: 100% !important;
   }
 
   p {
@@ -402,6 +423,18 @@
       height: 16px;
     }
   }
+
+  // Full-width variant for standalone cards
+  &--full {
+    max-width: 620px;
+    margin: 28px auto 0;
+    padding: 28px 24px;
+
+    @media #{$media-size-phone} {
+      max-width: 400px;
+      padding: 24px 20px;
+    }
+  }
 }
 
 // ==========================================================================
@@ -424,11 +457,13 @@
 
   h2, h3, h4, p {
     text-align: center !important;
+    display: block !important;
   }
 
   h2 {
     margin: 0 0 12px;
     font-size: 1.125rem;
+    width: 100% !important;
   }
 
   p {
@@ -459,17 +494,12 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 28px auto 0;
-  max-width: 800px;
-
-  @media (max-width: 800px) {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 500px;
-  }
+  max-width: 680px;
 
   @media #{$media-size-phone} {
     grid-template-columns: 1fr;
     gap: 12px;
-    max-width: 340px;
+    max-width: 400px;
   }
 }
 

@@ -9,7 +9,9 @@ layout: "community-program"
 <div class="hero-section hero-section--green">
 <div class="hero-section__inner">
 
-# <span class="icon-symbol">✦</span> IT-Hilfe, die sich nach Rückhalt anfühlt
+# <span class="icon-symbol">✦</span> IT-Hilfe auf Augenhöhe.
+
+## Temme Cloud & Tech Community Program
 
 ### Für Berlin und den Kiez.
 
@@ -25,12 +27,16 @@ Du musst Technik nicht mögen, um sicher zu sein. Du brauchst nur jemanden, der 
 
 <div class="trust-strip">
 <span>🏳️‍🌈 LGBTQIA+ willkommen</span>
-<span>Sex Worker willkommen</span>
+<span class="with-dot">Sex Worker willkommen</span>
 <span>🌍 Berlin & neu in Berlin willkommen</span>
-<span>Diskret & respektvoll</span>
+<span class="with-dot">Diskret & respektvoll</span>
 </div>
 
-Das **Temme Cloud & Tech Community Program** ist für Berliner kleine Betriebe, Kulturorte und Einzelpersonen ohne eigene IT. Wir sind ein kleines Team aus Berlin. Normalerweise arbeiten wir mit internationalen Tech-Teams an Backend, DevOps, Cloud und Security. Hier geht es um etwas anderes: **digitale Sicherheit, die im Alltag funktioniert** – für Menschen, die den Laden am Laufen halten, die nachts arbeiten, die Kultur möglich machen oder einfach niemanden haben, den man "mal eben" fragen kann.
+Für Berlin. Für kleine Betriebe und Projekte ohne IT. Für Selbstständige, Kulturorte, Kiez-Orte.
+
+Wir sind ein kleines Team aus Berlin und machen sonst Cloud, DevOps und Security für größere Setups.
+
+Hier ist das Ziel simpler: **Du sollst dich sicher fühlen und wissen, was du tust.**
 
 ---
 
@@ -122,15 +128,15 @@ Gehackt, Account weg, Datenverlust, "alles ist kaputt". Wir bleiben ruhig und ha
 
 </div>
 
-<div class="service-card">
+</div>
+
+<div class="service-card service-card--full">
 
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> Workshops für Teams
 
 **Sicherheitsgrundlagen für Mitarbeitende**
 
 Praxisnah, ohne Scham, ohne Folien-Schlacht – für kleine Betriebe.
-
-</div>
 
 </div>
 

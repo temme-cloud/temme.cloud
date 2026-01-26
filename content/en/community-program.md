@@ -9,7 +9,9 @@ layout: "community-program"
 <div class="hero-section hero-section--green">
 <div class="hero-section__inner">
 
-# <span class="icon-symbol">✦</span> Practical IT support that feels like backup
+# <span class="icon-symbol">✦</span> IT support that actually helps.
+
+## Temme Cloud & Tech Community Program
 
 ### For Berlin and the neighborhood.
 
@@ -25,12 +27,16 @@ You don't need to love tech to be safe. You just need someone who can show you *
 
 <div class="trust-strip">
 <span>🏳️‍🌈 LGBTQIA+ welcome</span>
-<span>Sex workers welcome</span>
+<span class="with-dot">Sex workers welcome</span>
 <span>🌍 Berlin & new to Berlin welcome</span>
-<span>Discreet & respectful</span>
+<span class="with-dot">Discreet & respectful</span>
 </div>
 
-The **Temme Cloud & Tech Community Program** is for Berlin-based small businesses, cultural venues, and individuals without an IT department. We're a small team from Berlin. We usually work with international tech teams on backend, DevOps, cloud, and security. Here, it's about something else: **everyday digital safety that actually works** — for people running a venue, working nights, keeping culture alive, or simply having no one to "just ask".
+For Berlin. For small businesses and projects without in-house IT. For solo operators, cultural spaces, neighborhood places.
+
+We're a small team from Berlin, and we usually do cloud, DevOps, and security for bigger setups.
+
+Here the goal is simpler: **you should feel safe and know what you're doing.**
 
 ---
 
@@ -122,15 +128,15 @@ Hacked accounts, data loss, "everything is broken." We stay calm and act.
 
 </div>
 
-<div class="service-card">
+</div>
+
+<div class="service-card service-card--full">
 
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> Workshops for Teams
 
 **Security basics for staff**
 
 Practical, no shame, no slide overload — for small operations.
-
-</div>
 
 </div>
 

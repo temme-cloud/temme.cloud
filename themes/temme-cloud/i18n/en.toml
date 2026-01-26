@@ -60,10 +60,10 @@ other = "Contact"
 other = "Privacy Policy"
 
 [footerAssessment]
-other = "Delivery Assessment"
+other = "Start Delivery Check"
 
 # ==========================================================================
-# Delivery Assessment
+# Delivery Check
 # ==========================================================================
 
 [assessmentStep]
@@ -100,7 +100,7 @@ other = "Please fill in all required fields."
 other = "An error occurred. Please try again."
 
 [assessmentRequiresJS]
-other = "This assessment requires JavaScript. Please enable JavaScript in your browser."
+other = "The Delivery Check requires JavaScript. Please enable JavaScript in your browser."
 
 # Contact Form
 [assessmentContactTitle]

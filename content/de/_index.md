@@ -14,11 +14,11 @@ Wir unterstützen internationale Tech-Teams dabei, komplexe Systeme zu bauen –
 
 ---
 
-## Delivery Assessment
+## Delivery-Check
 
-Wie reif ist euer Software-Delivery-Prozess? Unser kostenloses Assessment zeigt euch in 2 Minuten, wo ihr steht und wo Verbesserungspotenzial liegt.
+Wie reif ist euer Software-Delivery-Prozess? Unser Delivery-Check zeigt euch in 2 Minuten, wo ihr steht und wo Verbesserungspotenzial liegt.
 
-<a href="/de/delivery-assessment/" class="btn-filled">Assessment starten →</a>
+<a href="/de/delivery-assessment/" class="btn-filled">Delivery-Check starten</a>
 
 ---
 

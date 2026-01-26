@@ -32,8 +32,8 @@ defaultContentLanguageInSubdir = true
       url = "/de/services/"
       weight = 30
     [[languages.de.menu.main]]
-      identifier = "assessment"
-      name = "Assessment"
+      identifier = "delivery-check"
+      name = "Delivery-Check"
       url = "/de/delivery-assessment/"
       weight = 35
     [[languages.de.menu.main]]
@@ -76,8 +76,8 @@ defaultContentLanguageInSubdir = true
       url = "/en/services/"
       weight = 30
     [[languages.en.menu.main]]
-      identifier = "assessment"
-      name = "Assessment"
+      identifier = "delivery-check"
+      name = "Delivery Check"
       url = "/en/delivery-assessment/"
       weight = 35
     [[languages.en.menu.main]]

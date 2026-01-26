@@ -48,9 +48,9 @@ Sprich uns einfach an – wir denken gern out of the box und technologieoffen.
 
 ### Wo steht ihr?
 
-Unser kostenloses Delivery Assessment zeigt euch in 2 Minuten, wie reif euer CI/CD- und Delivery-Prozess ist – und wo ihr ansetzen könnt.
+Unser Delivery-Check zeigt euch in 2 Minuten, wie reif euer CI/CD- und Delivery-Prozess ist – und wo ihr ansetzen könnt.
 
-<a href="/de/delivery-assessment/" class="btn-filled">Assessment starten →</a>
+<a href="/de/delivery-assessment/" class="btn-filled">Delivery-Check starten</a>
 
 ---
 <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[Kontakt aufnehmen →](/de/contact)

@@ -24,25 +24,28 @@ Du musst Technik nicht mögen, um sicher zu sein. Du brauchst nur jemanden, der 
 </div>
 
 <div class="trust-strip">
-<span>Queer-friendly</span>
-<span>Trans-inklusiv</span>
-<span>Sex Work is Work</span>
-<span>Diskretion first</span>
+<span>🏳️‍🌈 LGBTQIA+ willkommen</span>
+<span>Sex Worker willkommen</span>
+<span>🌍 Berlin & neu in Berlin willkommen</span>
+<span>Diskret & respektvoll</span>
 </div>
 
 Das **Temme Cloud & Tech Community Program** ist für Berliner kleine Betriebe, Kulturorte und Einzelpersonen ohne eigene IT. Wir sind ein kleines Team aus Berlin. Normalerweise arbeiten wir mit internationalen Tech-Teams an Backend, DevOps, Cloud und Security. Hier geht es um etwas anderes: **digitale Sicherheit, die im Alltag funktioniert** – für Menschen, die den Laden am Laufen halten, die nachts arbeiten, die Kultur möglich machen oder einfach niemanden haben, den man "mal eben" fragen kann.
 
 ---
 
+<div class="reason-section">
+
 ## <span class="icon-symbol">◆</span> Warum wir das machen
 
-Weil Sicherheit kein Privileg sein sollte.
+<div class="reason-cards">
+<div class="reason-card">Weil Sicherheit kein Privileg sein sollte.</div>
+<div class="reason-card">Weil Online-Angriffe nicht fair verteilt sind. Phishing, Account-Übernahmen, Stalking, Doxxing, Erpressungs-Mails – für manche ist das "nur nervig", für andere wird es schnell ernst.</div>
+<div class="reason-card">Und weil "frag mal jemanden aus der IT" kein Plan ist.</div>
+<div class="reason-card reason-card--highlight">Wir helfen pragmatisch, geduldig und auf Augenhöhe. Kein Tech-Bro-Vibe. Kein Marketing-Sprech. Keine Panikmache.</div>
+</div>
 
-Weil Online-Angriffe nicht fair verteilt sind. Phishing, Account-Übernahmen, Stalking, Doxxing, Erpressungs-Mails – für manche ist das "nur nervig", für andere wird es schnell ernst.
-
-Und weil "frag mal jemanden aus der IT" kein Plan ist.
-
-Wir helfen pragmatisch, geduldig und auf Augenhöhe. Kein Tech-Bro-Vibe. Kein Marketing-Sprech. Keine Panikmache.
+</div>
 
 ---
 

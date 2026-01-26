@@ -1,55 +1,98 @@
 // ==========================================================================
 // Community Program Page Styles
+// Warm, centered, inviting design
+// Uses high specificity to override .post { text-align: left; } from _single.scss
 // ==========================================================================
 
-// Hero Section for Community Page
+// Override base .post styles for community page
+.post.post--no-hero {
+  text-align: center !important;
+  padding-top: 0;
+
+  .post-content {
+    margin-top: 0;
+    text-align: center !important;
+
+    // Hide markdown hr elements
+    hr {
+      display: none;
+    }
+
+    // All direct paragraphs centered
+    > p {
+      text-align: center !important;
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.75;
+    }
+
+    // All headings centered
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center !important;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 1.375rem;
+    }
+
+    // Paragraphs everywhere
+    p {
+      text-align: center !important;
+    }
+  }
+}
+
+// ==========================================================================
+// Hero Section
+// ==========================================================================
 .hero-section {
-  padding: 80px 24px 60px;
-  text-align: center;
+  padding: 70px 24px 50px;
+  text-align: center !important;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-top: -20px;
 
   @media #{$media-size-phone} {
-    padding: 60px 20px 40px;
+    padding: 50px 20px 36px;
   }
 
   &__inner {
-    max-width: $max-width;
+    max-width: 620px;
     margin: 0 auto;
+    text-align: center !important;
+  }
+
+  h1, h2, h3, h4, p {
+    text-align: center !important;
   }
 
   h1 {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
     font-weight: 700;
-    margin: 0 0 16px;
-    line-height: 1.2;
+    margin: 0 0 12px;
+    line-height: 1.25;
 
     @media #{$media-size-phone} {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.0625rem;
     font-weight: 400;
-    margin: 0 0 24px;
-    opacity: 0.9;
-
-    @media #{$media-size-phone} {
-      font-size: 1.1rem;
-    }
+    margin: 0 0 20px;
+    opacity: 0.85;
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 0.9375rem;
     line-height: 1.7;
-    max-width: 700px;
+    max-width: 520px;
     margin: 0 auto;
-
-    @media #{$media-size-phone} {
-      font-size: 1rem;
-    }
+    opacity: 0.9;
   }
 
   &--green {
@@ -65,280 +108,469 @@
 // Hero CTAs
 .hero-ctas {
   display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 32px;
-
-  @media #{$media-size-phone} {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-// Footer CTAs
-.footer-ctas {
-  display: flex;
-  gap: 16px;
+  gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 24px;
-  margin-bottom: 16px;
 
   @media #{$media-size-phone} {
     flex-direction: column;
     align-items: center;
+    gap: 8px;
+  }
+
+  .btn-filled, .btn-outline {
+    padding: 11px 22px;
+    font-size: 0.875rem;
+    border-radius: 24px;
   }
 }
 
-// Button variants for light backgrounds (on green)
+// Button variants for green background
 .btn-filled--light {
   background: $light-color !important;
   color: $light-background !important;
   border-color: $light-color !important;
 
   &:hover {
-    background: $light-color-variant !important;
-    border-color: $light-color-variant !important;
+    background: darken($light-color, 3%) !important;
   }
 }
 
 .btn-outline--light {
   background: transparent !important;
   color: $light-color !important;
-  border-color: $light-color !important;
+  border-color: rgba($light-color, 0.4) !important;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.15) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba($light-color, 0.6) !important;
   }
 }
 
+// ==========================================================================
 // Trust Strip
+// ==========================================================================
 .trust-strip {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
-  padding: 20px 24px;
-  background: #f8f9fa;
+  gap: 20px;
+  padding: 16px 24px;
+  background: linear-gradient(180deg, #f7f8f9 0%, #fafafa 100%);
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 0.8125rem;
+  font-weight: 500;
   color: $dark-grey;
+  text-align: center !important;
 
   @media #{$media-size-phone} {
-    gap: 12px 20px;
-    padding: 16px 20px;
-    font-size: 0.8rem;
+    gap: 12px 16px;
+    padding: 14px 16px;
+    font-size: 0.75rem;
   }
 
   span {
     display: flex;
     align-items: center;
-
-    &::before {
-      content: '';
-      width: 8px;
-      height: 8px;
-      background: $light-background;
-      border-radius: 50%;
-      margin-right: 8px;
-    }
+    text-align: center !important;
   }
 }
 
-// Tag Cloud
-.tag-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  margin: 24px 0;
-
-  .tag {
-    display: inline-block;
-    padding: 8px 16px;
-    background: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    color: $dark-grey;
-    transition: all 0.2s ease;
-
-    &:hover {
-      border-color: $light-background;
-      color: $light-background;
-    }
-  }
-}
-
-// Service Cards
-.service-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  margin-top: 32px;
+// ==========================================================================
+// Reason Section (Why we do this)
+// ==========================================================================
+.reason-section {
+  padding: 44px 24px;
+  margin: 36px auto;
+  max-width: 700px;
+  text-align: center !important;
 
   @media #{$media-size-phone} {
-    grid-template-columns: 1fr;
-  }
-}
-
-.service-card {
-  background: #f8f9fa;
-  border-radius: 12px;
-  padding: 28px 24px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  }
-
-  h3 {
-    margin: 0 0 8px;
-    font-size: 1.125rem;
-    color: $dark-grey;
-  }
-
-  p {
-    margin: 0;
-    font-size: 0.9375rem;
-    line-height: 1.6;
-    color: lighten($dark-grey, 15%);
-
-    &:first-of-type {
-      font-weight: 600;
-      color: $light-background;
-      margin-bottom: 8px;
-    }
-  }
-}
-
-// Callout Block
-.callout-block {
-  background: #f8f9fa;
-  border-radius: 12px;
-  padding: 32px;
-  margin: 32px 0;
-  text-align: center;
-
-  @media #{$media-size-phone} {
-    padding: 24px 20px;
+    padding: 36px 20px;
+    margin: 28px auto;
   }
 
   h2 {
-    margin: 0 0 16px;
-    font-size: 1.25rem;
-  }
-
-  p {
-    margin: 0;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.7;
-  }
-
-  &--green-tint {
-    background: rgba($light-background, 0.08);
-    border: 1px solid rgba($light-background, 0.15);
+    margin: 0 0 24px;
+    font-size: 1.375rem;
+    text-align: center !important;
   }
 }
 
-// Section variants
+.reason-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.reason-card {
+  background: linear-gradient(135deg, #faf9f7 0%, #f6f5f3 100%);
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 18px 24px;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: $dark-grey;
+  text-align: center !important;
+
+  @media #{$media-size-phone} {
+    padding: 16px 20px;
+  }
+
+  &--highlight {
+    background: linear-gradient(135deg, rgba($light-background, 0.06) 0%, rgba($light-background, 0.1) 100%);
+    border-color: rgba($light-background, 0.15);
+    color: darken($dark-grey, 5%);
+    font-weight: 500;
+  }
+}
+
+// ==========================================================================
+// Content Sections with backgrounds
+// ==========================================================================
 .section-grey {
-  background: #f5f5f5;
-  padding: 40px 24px;
+  background: #f6f7f8;
+  padding: 44px 24px;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 44px;
+  text-align: center !important;
+  border-radius: 0;
 
   @media #{$media-size-phone} {
-    padding: 32px 20px;
+    padding: 36px 20px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  h2, h3, h4, p {
+    text-align: center !important;
   }
 
   h2 {
-    margin-top: 0;
+    margin: 0 0 20px;
   }
 
-  p:last-child {
+  p {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p:last-of-type {
     margin-bottom: 0;
+  }
+
+  strong {
+    display: block;
+    margin-top: 8px;
+  }
+
+  em {
+    display: block;
+    margin-top: 16px;
+    font-size: 0.875rem;
+    opacity: 0.7;
   }
 }
 
 .section-warm {
-  background: #faf8f5;
-  padding: 40px 24px;
+  background: linear-gradient(180deg, #faf9f7 0%, #f8f6f3 100%);
+  padding: 44px 24px;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  margin-top: 40px;
+  margin-top: 44px;
+  margin-bottom: 0;
+  text-align: center !important;
 
   @media #{$media-size-phone} {
-    padding: 32px 20px;
+    padding: 36px 20px;
+    margin-top: 36px;
+  }
+
+  h2, h3, h4, p {
+    text-align: center !important;
   }
 
   h2 {
-    margin-top: 0;
-    text-align: center;
+    margin: 0 0 20px;
+  }
+
+  p {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-// Project Cards
-.project-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  margin-top: 32px;
-  max-width: $max-width;
-  margin-left: auto;
-  margin-right: auto;
+// ==========================================================================
+// Tag Cloud
+// ==========================================================================
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 16px auto 20px;
+  max-width: 600px;
+
+  .tag {
+    display: inline-block;
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    font-size: 0.8125rem;
+    color: $dark-grey;
+    transition: all 0.15s ease;
+
+    &:hover {
+      border-color: $light-background;
+      color: $light-background;
+      background: rgba($light-background, 0.03);
+    }
+  }
 }
 
-.project-card {
-  background: white;
-  border-radius: 12px;
-  padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+// ==========================================================================
+// Service Cards - centered grid
+// ==========================================================================
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 28px auto 0;
+  max-width: 680px;
+
+  @media #{$media-size-phone} {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 400px;
+  }
+}
+
+.service-card {
+  background: linear-gradient(135deg, #f9fafa 0%, #f5f6f7 100%);
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 20px 18px;
+  text-align: center !important;
+  transition: all 0.2s ease;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    border-color: #ddd;
+  }
+
+  h3, p {
+    text-align: center !important;
   }
 
   h3 {
-    margin: 0 0 12px;
-    font-size: 1.125rem;
+    margin: 0 0 6px;
+    font-size: 0.9375rem;
     color: $dark-grey;
   }
 
   p {
     margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: lighten($dark-grey, 25%);
+
+    &:first-of-type {
+      font-weight: 600;
+      color: $light-background;
+      margin-bottom: 4px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  .icon {
+    margin-right: 4px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+// ==========================================================================
+// Callout Blocks
+// ==========================================================================
+.callout-block {
+  background: linear-gradient(135deg, #f9fafa 0%, #f5f6f7 100%);
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin: 36px auto;
+  text-align: center !important;
+  max-width: 620px;
+
+  @media #{$media-size-phone} {
+    padding: 24px 20px;
+    margin: 28px auto;
+    border-radius: 14px;
+  }
+
+  h2, h3, h4, p {
+    text-align: center !important;
+  }
+
+  h2 {
+    margin: 0 0 12px;
+    font-size: 1.125rem;
+  }
+
+  p {
+    margin: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.65;
     font-size: 0.9375rem;
-    line-height: 1.6;
-    color: lighten($dark-grey, 15%);
+    color: lighten($dark-grey, 10%);
+
+    + p {
+      margin-top: 10px;
+    }
+  }
+
+  &--green-tint {
+    background: linear-gradient(135deg, rgba($light-background, 0.04) 0%, rgba($light-background, 0.08) 100%);
+    border-color: rgba($light-background, 0.12);
+  }
+}
+
+// ==========================================================================
+// Project Cards
+// ==========================================================================
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 28px auto 0;
+  max-width: 800px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+  }
+
+  @media #{$media-size-phone} {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 340px;
+  }
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 18px 16px;
+  text-align: center !important;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    border-color: #ddd;
+  }
+
+  h3, p {
+    text-align: center !important;
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 0.9375rem;
+    color: $dark-grey;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: lighten($dark-grey, 20%);
   }
 
   a {
     display: inline-block;
-    margin-top: 12px;
+    margin-top: 8px;
     color: $light-background;
     font-weight: 600;
+    font-size: 0.8125rem;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
     }
   }
+
+  .icon {
+    margin-right: 4px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
 }
 
-// Icon Symbol (for Unicode symbols like ✦ ◆ ⟡)
+// ==========================================================================
+// Footer CTAs
+// ==========================================================================
+.footer-ctas {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  @media #{$media-size-phone} {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-filled, .btn-outline {
+    padding: 11px 22px;
+    font-size: 0.875rem;
+    border-radius: 24px;
+  }
+}
+
+// ==========================================================================
+// Icon Symbol (Unicode decorations)
+// ==========================================================================
 .icon-symbol {
   font-style: normal;
-  margin-right: 8px;
+  margin-right: 4px;
   color: inherit;
+  opacity: 0.8;
+}
+
+// ==========================================================================
+// Intro paragraph spacing
+// ==========================================================================
+.post.post--no-hero .post-content {
+  // First paragraph after trust strip
+  > .hero-section + .trust-strip + p {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 0.9375rem;
+    color: lighten($dark-grey, 5%);
+    text-align: center !important;
+  }
 }

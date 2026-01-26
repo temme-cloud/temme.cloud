@@ -24,25 +24,28 @@ You don't need to love tech to be safe. You just need someone who can show you *
 </div>
 
 <div class="trust-strip">
-<span>Queer-friendly</span>
-<span>Trans-inclusive</span>
-<span>Sex Work is Work</span>
-<span>Discretion first</span>
+<span>🏳️‍🌈 LGBTQIA+ welcome</span>
+<span>Sex workers welcome</span>
+<span>🌍 Berlin & new to Berlin welcome</span>
+<span>Discreet & respectful</span>
 </div>
 
 The **Temme Cloud & Tech Community Program** is for Berlin-based small businesses, cultural venues, and individuals without an IT department. We're a small team from Berlin. We usually work with international tech teams on backend, DevOps, cloud, and security. Here, it's about something else: **everyday digital safety that actually works** — for people running a venue, working nights, keeping culture alive, or simply having no one to "just ask".
 
 ---
 
+<div class="reason-section">
+
 ## <span class="icon-symbol">◆</span> Why we do this
 
-Because security shouldn't be a luxury.
+<div class="reason-cards">
+<div class="reason-card">Because security shouldn't be a luxury.</div>
+<div class="reason-card">Because online attacks aren't evenly distributed. Phishing, account takeovers, stalking, doxxing, extortion emails — for some it's "just annoying", for others it quickly becomes serious.</div>
+<div class="reason-card">And because "ask someone in IT" isn't a strategy.</div>
+<div class="reason-card reason-card--highlight">We help in a practical, patient, respectful way. No tech-bro attitude. No marketing fluff. No fear tactics.</div>
+</div>
 
-Because online attacks aren't evenly distributed. Phishing, account takeovers, stalking, doxxing, extortion emails — for some it's "just annoying", for others it quickly becomes serious.
-
-And because "ask someone in IT" isn't a strategy.
-
-We help in a practical, patient, respectful way. No tech-bro attitude. No marketing fluff. No fear tactics.
+</div>
 
 ---
 

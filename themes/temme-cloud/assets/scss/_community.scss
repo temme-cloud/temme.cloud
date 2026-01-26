@@ -189,6 +189,7 @@
       border-radius: 50%;
       margin-right: 8px;
       flex-shrink: 0;
+      transform: translateY(1px);
     }
   }
 }
@@ -220,7 +221,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 580px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -366,7 +367,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin: 28px auto 0;
-  max-width: 680px;
+  max-width: 800px;
 
   @media #{$media-size-phone} {
     grid-template-columns: 1fr;
@@ -426,7 +427,7 @@
 
   // Full-width variant for standalone cards
   &--full {
-    max-width: 620px;
+    max-width: 800px;
     margin: 28px auto 0;
     padding: 28px 24px;
 
@@ -447,7 +448,7 @@
   padding: 28px 24px;
   margin: 36px auto;
   text-align: center !important;
-  max-width: 620px;
+  max-width: 800px;
 
   @media #{$media-size-phone} {
     padding: 24px 20px;
@@ -494,7 +495,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 28px auto 0;
-  max-width: 680px;
+  max-width: 1210px;  // 3 cards same width as 2-column service cards (800px)
 
   @media #{$media-size-phone} {
     grid-template-columns: 1fr;

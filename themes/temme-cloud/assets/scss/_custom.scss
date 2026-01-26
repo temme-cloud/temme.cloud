@@ -88,7 +88,8 @@
   }
 
   @media #{$media-size-phone} {
-    padding: 24px 20px 30px;
+    // Extra bottom padding to keep content above iOS address bar
+    padding: 24px 20px calc(80px + env(safe-area-inset-bottom, 0px));
     // Mobile: extra buffer for iOS Safari bottom area
     height: calc(100svh + 40px);
 

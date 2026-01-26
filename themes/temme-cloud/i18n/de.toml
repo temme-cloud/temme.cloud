@@ -78,6 +78,9 @@ other = "Weiter"
 [deliveryCheckBack]
 other = "Zurück"
 
+[deliveryCheckRestart]
+other = "Von vorne starten"
+
 [deliveryCheckContinueToContact]
 other = "Weiter zur Kontaktaufnahme"
 

@@ -357,6 +357,22 @@ export function createQuizStore(questionsData, i18n, config) {
     }
   }
 
+  function restart() {
+    // Clear all state and start over
+    clearProgress();
+    setCurrentStep(0);
+    setSubmitError(null);
+    setShowResults(false);
+
+    // Clear responses and scores
+    Object.keys(responses).forEach(key => {
+      setResponses(key, undefined);
+    });
+    Object.keys(scores).forEach(key => {
+      setScores(key, undefined);
+    });
+  }
+
   // Initialize - try to load saved progress
   loadProgress();
 
@@ -384,6 +400,7 @@ export function createQuizStore(questionsData, i18n, config) {
     selectOption,
     goToNext,
     goToPrevious,
+    restart,
     submitForm,
     setSubmitError,
 

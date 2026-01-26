@@ -329,6 +329,35 @@ $delivery-check-transition: 0.2s ease;
     order: 2;
     min-width: 180px;
   }
+
+  // Small arrow buttons for contact step (restart + back)
+  &__mini-buttons {
+    display: flex;
+    gap: 8px;
+    order: 1;
+  }
+
+  &__mini-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background: transparent;
+    color: $dark-grey;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+      border-color: rgba(0, 0, 0, 0.3);
+    }
+
+    &:active {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
 }
 
 // Button states for delivery check

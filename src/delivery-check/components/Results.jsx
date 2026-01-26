@@ -2,7 +2,7 @@ import { For, createMemo } from 'solid-js';
 
 export function Results(props) {
   const { store, contactUrl } = props;
-  const { totalScore, maturityLevel, getLocalizedText, generateRecommendations, i18n } = store;
+  const { totalScore, maturityLevel, getLocalizedText, generateRecommendations, restart, i18n } = store;
 
   const recommendations = createMemo(() => generateRecommendations());
 
@@ -47,6 +47,7 @@ export function Results(props) {
           {i18n.bookConsultation || 'Book Free Consultation'}
         </a>
       </div>
+
     </div>
   );
 }

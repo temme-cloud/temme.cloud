@@ -78,6 +78,9 @@ other = "Continue"
 [deliveryCheckBack]
 other = "Back"
 
+[deliveryCheckRestart]
+other = "Start over"
+
 [deliveryCheckContinueToContact]
 other = "Continue to Contact"
 

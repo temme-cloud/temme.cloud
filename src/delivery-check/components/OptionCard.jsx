@@ -3,14 +3,18 @@ import { createMemo } from 'solid-js';
 export function OptionCard(props) {
   const { option, questionId, isMulti, isSelected, onSelect, getLocalizedText } = props;
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    // Prevent default to avoid native checkbox/radio behavior conflicting with our state
+    e.preventDefault();
+    e.stopPropagation();
     onSelect(option.value);
   };
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      handleClick();
+      e.stopPropagation();
+      onSelect(option.value);
     }
   };
 
@@ -29,7 +33,9 @@ export function OptionCard(props) {
         value={option.value}
         checked={isSelected()}
         class="delivery-check-option__input"
-        onChange={() => {}} // Controlled by parent
+        tabindex="-1"
+        onClick={(e) => e.stopPropagation()}
+        onChange={() => {}}
       />
       <span class="delivery-check-option__card">
         <span class="delivery-check-option__text">

@@ -11,6 +11,7 @@ yarn-error.log*
 
 # Vite
 dist/
+static/js/delivery-check.js
 
 # macOS
 .DS_Store

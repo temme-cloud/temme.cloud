@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:check": "test -f static/js/delivery-check.js || (echo '❌ Run npm run build first!' && exit 1)",
+    "hugo": "npm run build:check && hugo",
+    "hugo:server": "npm run build:check && hugo server",
+    "all": "npm run build && hugo --minify",
     "preview": "vite preview"
   },
   "dependencies": {

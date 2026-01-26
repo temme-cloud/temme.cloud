@@ -1,5 +1,5 @@
 import { createSignal, createMemo } from 'solid-js';
-import { createStore, produce } from 'solid-js/store';
+import { createStore } from 'solid-js/store';
 
 const STORAGE_KEY = 'temme-delivery-check';
 const STORAGE_EXPIRY_DAYS = 7;
@@ -103,21 +103,26 @@ export function createQuizStore(questionsData, i18n, config) {
     const question = getQuestionById(questionId);
     if (!question) return;
 
-    if (isMulti) {
-      // Toggle selection for multi-select
-      setResponses(produce(r => {
-        const current = r[questionId] || [];
-        const idx = current.indexOf(value);
-        if (idx === -1) {
-          r[questionId] = [...current, value];
-        } else {
-          r[questionId] = current.filter(v => v !== value);
-        }
-      }));
+    // Clear any validation error when user makes a selection
+    setSubmitError(null);
 
-      // Recalculate score for multi-select
-      const selected = responses[questionId] || [];
-      const score = selected.reduce((sum, val) => {
+    if (isMulti) {
+      // Toggle selection for multi-select - calculate new value first
+      const current = responses[questionId] || [];
+      const idx = current.indexOf(value);
+      let newSelected;
+
+      if (idx === -1) {
+        newSelected = [...current, value];
+      } else {
+        newSelected = current.filter(v => v !== value);
+      }
+
+      // Update store with new value
+      setResponses(questionId, newSelected);
+
+      // Calculate score with the new value (not from store which might be stale)
+      const score = newSelected.reduce((sum, val) => {
         const opt = question.options.find(o => o.value === val);
         return sum + (opt?.score || 0);
       }, 0);

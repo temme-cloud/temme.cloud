@@ -8,12 +8,4 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "/robin.vcf";
     }, 8000);
   }
-
-  const shouldRedirectKris = window.location.pathname === "/qr-visitenkarte-v2/";
-
-  if (shouldRedirectKris) {
-    setTimeout(function () {
-      window.location.href = "/kris.vcf";
-    }, 8000);
-  }
 });

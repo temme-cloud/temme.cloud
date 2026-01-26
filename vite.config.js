@@ -4,8 +4,9 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [solid()],
+  publicDir: false, // Don't copy public/ folder (that's Hugo's output)
   build: {
-    outDir: 'themes/temme-cloud/static/js',
+    outDir: 'static/js',
     emptyOutDir: false,
     lib: {
       entry: resolve(__dirname, 'src/delivery-check/index.jsx'),

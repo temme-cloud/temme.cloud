@@ -48,6 +48,17 @@ export function Results(props) {
         </a>
       </div>
 
+      <div class="delivery-check-results__restart">
+        <button
+          type="button"
+          class="delivery-check-nav__mini-btn"
+          onClick={restart}
+          aria-label={i18n.restart || 'Start over'}
+          title={i18n.restart || 'Start over'}
+        >
+          ↺
+        </button>
+      </div>
     </div>
   );
 }

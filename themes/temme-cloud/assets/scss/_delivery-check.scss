@@ -457,6 +457,11 @@ $delivery-check-transition: 0.2s ease;
       color: lighten($dark-grey, 20%);
     }
   }
+
+  &__restart {
+    margin-top: 32px;
+    text-align: left;
+  }
 }
 
 // ==========================================================================

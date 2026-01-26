@@ -26,9 +26,8 @@ You don't need to love tech to be safe. You just need someone who can show you *
 
 <div class="trust-strip">
 <span>🏳️‍🌈 LGBTQIA+ welcome</span>
-<span class="with-dot">Sex workers welcome</span>
 <span>🌍 Berlin & new to Berlin welcome</span>
-<span class="with-dot">Discreet & respectful</span>
+<span class="with-dot">Discreet, respectful & no judgment</span>
 </div>
 
 </div>
@@ -73,7 +72,6 @@ Berlin-based projects and small operations without in-house IT:
 <span class="tag">Small studios</span>
 <span class="tag">Queer spaces</span>
 <span class="tag">Queer-run businesses</span>
-<span class="tag">Sex work</span>
 <span class="tag">Support organizations</span>
 <span class="tag">Local retail</span>
 <span class="tag">Spätis</span>

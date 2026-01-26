@@ -32,12 +32,12 @@ Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, 
 
 ## Buchen & Kontakt
 
-Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns herausfinden, wie wir dir oder deinem Team helfen können.
+Wir bieten kostenlose Erstgespräche und Cloud & Tech Consulting an. Lass uns herausfinden, wie wir dir oder deinem Team helfen können.
 
 
-<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>[15 Min Kennenlernen](https://cal.com/robintemme/15min)
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>[15 Min Kennenlernen](https://www.cal.eu/team/temme-cloud-tech-gmbh/quick-chat)
 
-<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>[60 Min Tech-Consulting](https://cal.com/robintemme/tech-consulting)
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>[60 Min Cloud & Tech Consulting](https://www.cal.eu/team/temme-cloud-tech-gmbh/consulting)
 
 <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[info@temme.cloud](mailto:info@temme.cloud)
 

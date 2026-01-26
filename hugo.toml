@@ -28,8 +28,8 @@ defaultContentLanguageInSubdir = true
       name = "Partner"
       url = "/de/partner/"
     [[languages.de.params.footerServices]]
-      name = "Über uns"
-      url = "/de/about/"
+      name = "Community Program"
+      url = "/de/community-program/"
     [[languages.de.menu.main]]
       identifier = "services"
       name = "Leistungen"
@@ -73,8 +73,8 @@ defaultContentLanguageInSubdir = true
       name = "Partners"
       url = "/en/partners/"
     [[languages.en.params.footerServices]]
-      name = "About"
-      url = "/en/about/"
+      name = "Community Program"
+      url = "/en/community-program/"
     [[languages.en.menu.main]]
       identifier = "services"
       name = "Services"

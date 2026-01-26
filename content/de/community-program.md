@@ -26,9 +26,8 @@ Du musst Technik nicht mögen, um sicher zu sein. Du brauchst nur jemanden, der 
 
 <div class="trust-strip">
 <span>🏳️‍🌈 LGBTQIA+ willkommen</span>
-<span class="with-dot">Sex Worker willkommen</span>
 <span>🌍 Berlin & neu in Berlin willkommen</span>
-<span class="with-dot">Diskret & respektvoll</span>
+<span class="with-dot">Diskret, respektvoll & ohne Urteil</span>
 </div>
 
 </div>
@@ -73,7 +72,6 @@ Für Berliner Projekte und kleine Businesses ohne IT-Abteilung:
 <span class="tag">Kleine Studios</span>
 <span class="tag">Queere Spaces</span>
 <span class="tag">Queere Businesses</span>
-<span class="tag">Sex Work</span>
 <span class="tag">Support-Organisationen</span>
 <span class="tag">Einzelhandel</span>
 <span class="tag">Spätis</span>

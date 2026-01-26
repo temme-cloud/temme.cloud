@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <!-- Left side: Logo and Address -->
+            <!-- Left side: Logo, Address, and CTA -->
             <div class="footer__left">
                 {{ if .Site.Params.footer.logoPath }}
                 <div class="footer__logo">
@@ -9,22 +9,27 @@
                          {{ with .Site.Params.footer.logoMaxWidth }}style="max-width: {{ . }};"{{ end }}>
                 </div>
                 {{ end }}
-                <div class="footer__address">
-                    {{ if .Site.Params.footer.companyAddress }}
-                    {{ range .Site.Params.footer.companyAddress }}
-                    <p>{{ . }}</p>
-                    {{ end }}
-                    {{ end }}
-                    {{ if .Site.Params.footer.companyRegister }}
-                    <p>{{ .Site.Params.footer.companyRegister }}</p>
-                    {{ end }}
+                <div class="footer__info">
+                    <div class="footer__address">
+                        {{ if .Site.Params.footer.companyAddress }}
+                        {{ range .Site.Params.footer.companyAddress }}
+                        <p>{{ . }}</p>
+                        {{ end }}
+                        {{ end }}
+                        {{ if .Site.Params.footer.companyRegister }}
+                        <p>{{ .Site.Params.footer.companyRegister }}</p>
+                        {{ end }}
+                    </div>
+                    <div class="footer__cta">
+                        <a href="{{ .Language.Lang | printf "/%s/delivery-assessment/" }}" class="footer__cta-link">{{ i18n "footerAssessment" }} →</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Right side: Link columns -->
             <div class="footer__right">
                 {{ if .Site.Params.footer.services }}
-                <div class="footer__column">
+                <div class="footer__column footer__column--services">
                     <h4>{{ i18n "footerServices" }}</h4>
                     {{ range .Site.Params.footer.services }}
                     <p><a href="{{ .url | relLangURL }}">{{ .name }}</a></p>
@@ -32,9 +37,8 @@
                 </div>
                 {{ end }}
 
-                <div class="footer__column">
+                <div class="footer__column footer__column--legal">
                     <h4>{{ i18n "footerCompany" }}</h4>
-                    <p><a href="{{ .Language.Lang | printf "/%s/delivery-assessment/" }}">{{ i18n "footerAssessment" }}</a></p>
                     {{ with .Site.Language.Params.impressumLink }}
                     <p><a href="{{ . }}">{{ i18n "footerImprint" }}</a></p>
                     {{ end }}

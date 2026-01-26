@@ -6,8 +6,8 @@
 
   &__inner {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     width: 100%;
     max-width: $max-width;
@@ -54,6 +54,16 @@
     }
   }
 
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media #{$media-size-phone} {
+      align-items: center;
+    }
+  }
+
   &__address {
     font-size: 0.875rem;
     line-height: 1.7;
@@ -67,6 +77,33 @@
     }
   }
 
+  &__cta {
+    margin-top: 4px;
+
+    @media #{$media-size-phone} {
+      margin-top: 8px;
+      order: 2; // Will come after services on mobile
+    }
+  }
+
+  &__cta-link {
+    display: inline-block;
+    padding: 10px 24px;
+    background: rgba($light-color, 0.1);
+    color: $light-color;
+    border: 1px solid rgba($light-color, 0.3);
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: rgba($light-color, 0.2);
+      border-color: rgba($light-color, 0.5);
+    }
+  }
+
   &__right {
     display: flex;
     flex-direction: row;
@@ -74,10 +111,10 @@
     flex-shrink: 0;
 
     @media #{$media-size-phone} {
-      flex-direction: row;
-      gap: 40px;
+      flex-direction: column;
+      gap: 32px;
       width: 100%;
-      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -86,6 +123,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media #{$media-size-phone} {
+      &--services {
+        order: 1;
+      }
+
+      &--legal {
+        order: 3; // Legal links come last on mobile
+      }
+    }
 
     h4 {
       font-size: 0.875rem;

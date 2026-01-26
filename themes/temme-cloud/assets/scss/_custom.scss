@@ -138,6 +138,14 @@
     }
   }
 
+  &__cta {
+    margin-top: 40px;
+
+    @media #{$media-size-phone} {
+      margin-top: 32px;
+    }
+  }
+
   // Smaller variant for subpages
   &--page {
     height: auto;

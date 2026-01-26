@@ -369,9 +369,46 @@
 .section-green {
   background: $light-background;
   color: $light-color;
-  padding: 60px 20px;
+  padding: 40px 20px;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
+  margin-top: 40px;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $light-color;
+  }
+
+  // Remove top margin from first heading
+  > h1:first-child, > h2:first-child, > h3:first-child,
+  &__inner > h1:first-child, &__inner > h2:first-child, &__inner > h3:first-child {
+    margin-top: 0;
+  }
+
+  a {
+    color: $light-color;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  ul, ol {
+    li {
+      color: $light-color;
+    }
+  }
+
+  // Button on green background
+  .btn-filled {
+    background: $light-color;
+    color: $light-background;
+    border-color: $light-color;
+
+    &:hover {
+      background: $light-color-variant;
+      border-color: $light-color-variant;
+    }
+  }
 
   &__inner {
     max-width: $max-width;

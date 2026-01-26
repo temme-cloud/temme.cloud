@@ -69,6 +69,18 @@
   }
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
+.show-on-phone {
+  display: none;
+
+  @media #{$media-size-phone} {
+    display: inline;
+  }
+}
+
 // Hero Section (Green)
 .hero {
   background: $light-background;

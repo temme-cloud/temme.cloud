@@ -11,7 +11,7 @@ layout: "community-program"
 
 # <span class="icon-symbol">✦</span> IT-Hilfe auf Augenhöhe.
 
-## Temme Cloud & Tech Community Program
+## <span class="no-break">Temme Cloud & Tech</span><span class="show-on-phone"><br></span><span class="hide-on-phone">&nbsp;</span>Community Program
 
 ### Für Berlin und den Kiez.
 

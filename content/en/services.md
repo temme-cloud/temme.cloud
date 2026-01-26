@@ -82,29 +82,11 @@ Just reach out – we like to think outside the box and stay technology-agnostic
 </div>
 </div>
 
-## <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> Community Projects
+## <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> Community Program
 
-Besides client work, we also support non-profit projects and cultural venues with our expertise:
+With our Community Program we support Berlin-based cultural venues, small businesses, and non-profits with approachable IT help – from security coaching to open tech office hours.
 
-### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></span> 800A Bar & Cabaret
-
-Tech partnership for a Berlin cultural venue: event technology (sound & lighting), in-house IT (WiFi, backup solutions) and web development – currently in progress.
-
-### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span> Saitengenie
-
-A practice tool for string instruments. Saitengenie offers interactive exercises for guitar, bass, and ukulele – ideal for beginners and anyone who wants to improve their fretboard knowledge.
-
-[saitengenie.de →](https://saitengenie.de)
-
-### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span> Buchstab
-
-A simple tool for spelling out texts. Buchstab converts inputs into various spelling alphabets – German alphabet, NATO alphabet, or Ukrainian alphabet.
-
-[buchstab.cloud24.dev →](https://buchstab.cloud24.dev)
-
-Do you have a cool idea for a non-profit project or a cultural venue that needs technical support? Reach out – we're happy to support community projects with our expertise and time.
-
-[Propose a project →](/en/contact)
+[Go to the Community Program →](/en/community-program/)
 
 ---
 

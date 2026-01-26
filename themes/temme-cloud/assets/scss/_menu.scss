@@ -112,7 +112,7 @@
       text-decoration: none !important;
     }
 
-    // When header is green, invert the button colors
+    // When header is green, invert the button colors (desktop only)
     .header--green & {
       background: $light-color;
       color: $light-background !important;
@@ -120,12 +120,30 @@
       &:hover {
         background: rgba($light-color, 0.9);
       }
+
+      // Mobile: override back to green button (menu dropdown is always white)
+      @media #{$media-size-phone} {
+        background: $light-background !important;
+        color: $light-color !important;
+
+        &:hover {
+          background: $light-background-secondary !important;
+        }
+      }
     }
 
     @media #{$media-size-phone} {
       width: 100%;
       padding: 12px 20px;
       font-size: 1rem;
+
+      // Mobile menu has white background, so button always stays green
+      background: $light-background !important;
+      color: $light-color !important;
+
+      &:hover {
+        background: $light-background-secondary !important;
+      }
     }
   }
 }

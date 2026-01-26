@@ -62,6 +62,9 @@ other = "Privacy Policy"
 [footerDeliveryCheck]
 other = "Start Delivery Check"
 
+[footerTechSprechstunde]
+other = "Book Tech Office Hours"
+
 # ==========================================================================
 # Delivery Check
 # ==========================================================================

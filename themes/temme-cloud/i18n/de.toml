@@ -62,6 +62,9 @@ other = "Datenschutz"
 [footerDeliveryCheck]
 other = "Delivery-Check starten"
 
+[footerTechSprechstunde]
+other = "Tech-Sprechstunde buchen"
+
 # ==========================================================================
 # Delivery-Check
 # ==========================================================================

@@ -22,7 +22,11 @@
                     </div>
                 </div>
                 <div class="footer__cta">
+                    {{ if eq .Params.translationKey "community-program" }}
+                    <a href="https://cal.com/robintemme/community-sprechstunde" class="footer__cta-link">{{ i18n "footerTechSprechstunde" }}</a>
+                    {{ else }}
                     <a href="{{ .Language.Lang | printf "/%s/delivery-check/" }}" class="footer__cta-link">{{ i18n "footerDeliveryCheck" }}</a>
+                    {{ end }}
                 </div>
             </div>
 

@@ -25,3 +25,26 @@
   from = "/en/delivery-check/*"
   to = "/en/delivery-check/"
   status = 200
+
+# Community Program - language-based redirects for QR codes
+[[redirects]]
+  from = "/community-program"
+  to = "/de/community-program/"
+  status = 302
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/community-program/"
+  to = "/de/community-program/"
+  status = 302
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/community-program"
+  to = "/en/community-program/"
+  status = 302
+
+[[redirects]]
+  from = "/community-program/"
+  to = "/en/community-program/"
+  status = 302

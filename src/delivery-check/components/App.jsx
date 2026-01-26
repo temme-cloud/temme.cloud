@@ -1,4 +1,4 @@
-import { Show, createEffect } from 'solid-js';
+import { Show } from 'solid-js';
 import { Progress } from './Progress.jsx';
 import { Question } from './Question.jsx';
 import { ContactForm } from './ContactForm.jsx';
@@ -6,18 +6,8 @@ import { Results } from './Results.jsx';
 import { Navigation } from './Navigation.jsx';
 
 export function App(props) {
-  const { store, privacyUrl, contactUrl, containerRef } = props;
-  const { isContactStep, showResults, submitError, currentStep } = store;
-
-  // Scroll to top when step changes
-  createEffect(() => {
-    // Track currentStep to trigger effect
-    currentStep();
-
-    if (containerRef) {
-      containerRef.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  });
+  const { store, privacyUrl, contactUrl } = props;
+  const { isContactStep, showResults, submitError } = store;
 
   return (
     <>

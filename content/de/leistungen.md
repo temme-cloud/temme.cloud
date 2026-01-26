@@ -90,8 +90,6 @@ Neben Kundenprojekten unterstützen wir auch gemeinnützige Projekte und Kulturo
 
 Technik-Partnerschaft für einen Berliner Kulturort: Veranstaltungstechnik (Sound & Licht), In-House IT (Wifi, Backup-Lösungen) und Webentwicklung – aktuell in Arbeit.
 
-[800A auf Linktree →](https://linktr.ee/800aberlin)
-
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span> Saitengenie
 
 Ein Übungstool für Saiteninstrumente. Saitengenie bietet interaktive Übungen für Gitarre, Bass und Ukulele – ideal für Einsteiger und alle, die ihre Griffbrett-Kenntnisse verbessern wollen.

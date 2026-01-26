@@ -90,8 +90,6 @@ Besides client work, we also support non-profit projects and cultural venues wit
 
 Tech partnership for a Berlin cultural venue: event technology (sound & lighting), in-house IT (WiFi, backup solutions) and web development – currently in progress.
 
-[800A on Linktree →](https://linktr.ee/800aberlin)
-
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span> Saitengenie
 
 A practice tool for string instruments. Saitengenie offers interactive exercises for guitar, bass, and ukulele – ideal for beginners and anyone who wants to improve their fretboard knowledge.

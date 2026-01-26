@@ -30,15 +30,24 @@
 
   &__left {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    @media #{$media-size-phone} {
+      text-align: center;
+    }
+  }
+
+  &__left-top {
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 24px;
-    flex: 1;
 
     @media #{$media-size-phone} {
       flex-direction: column;
       align-items: center;
-      text-align: center;
       gap: 20px;
     }
   }
@@ -51,16 +60,6 @@
       display: block;
       width: 180px;
       height: auto;
-    }
-  }
-
-  &__info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    @media #{$media-size-phone} {
-      align-items: center;
     }
   }
 
@@ -82,7 +81,6 @@
 
     @media #{$media-size-phone} {
       margin-top: 8px;
-      order: 2; // Will come after services on mobile
     }
   }
 

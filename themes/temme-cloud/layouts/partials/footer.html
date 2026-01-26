@@ -3,13 +3,13 @@
         <div class="footer__content">
             <!-- Left side: Logo, Address, and CTA -->
             <div class="footer__left">
-                {{ if .Site.Params.footer.logoPath }}
-                <div class="footer__logo">
-                    <img src="{{ .Site.Params.footer.logoPath }}" alt="Company Logo"
-                         {{ with .Site.Params.footer.logoMaxWidth }}style="max-width: {{ . }};"{{ end }}>
-                </div>
-                {{ end }}
-                <div class="footer__info">
+                <div class="footer__left-top">
+                    {{ if .Site.Params.footer.logoPath }}
+                    <div class="footer__logo">
+                        <img src="{{ .Site.Params.footer.logoPath }}" alt="Company Logo"
+                             {{ with .Site.Params.footer.logoMaxWidth }}style="max-width: {{ . }};"{{ end }}>
+                    </div>
+                    {{ end }}
                     <div class="footer__address">
                         {{ if .Site.Params.footer.companyAddress }}
                         {{ range .Site.Params.footer.companyAddress }}
@@ -20,9 +20,9 @@
                         <p>{{ .Site.Params.footer.companyRegister }}</p>
                         {{ end }}
                     </div>
-                    <div class="footer__cta">
-                        <a href="{{ .Language.Lang | printf "/%s/delivery-assessment/" }}" class="footer__cta-link">{{ i18n "footerAssessment" }} →</a>
-                    </div>
+                </div>
+                <div class="footer__cta">
+                    <a href="{{ .Language.Lang | printf "/%s/delivery-assessment/" }}" class="footer__cta-link">{{ i18n "footerAssessment" }} →</a>
                 </div>
             </div>
 

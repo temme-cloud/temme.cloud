@@ -785,15 +785,36 @@
         return false;
       }
 
+      // Validate questionPath exists and has valid questions
+      if (!data.questionPath || !Array.isArray(data.questionPath) || data.questionPath.length === 0) {
+        clearSavedProgress();
+        return false;
+      }
+
+      // Verify all questions in the path still exist
+      var allQuestionsValid = data.questionPath.every(function(qId) {
+        return getQuestionById(qId) !== undefined;
+      });
+
+      if (!allQuestionsValid) {
+        clearSavedProgress();
+        return false;
+      }
+
       // Restore state
-      state.currentStep = data.currentStep;
-      state.responses = data.responses;
-      state.scores = data.scores;
+      state.responses = data.responses || {};
+      state.scores = data.scores || {};
       state.questionPath = data.questionPath;
+      state.totalSteps = state.questionPath.length + 1; // +1 for contact form
+
+      // Validate currentStep is within bounds
+      var maxStep = state.totalSteps; // Can go up to totalSteps (contact form)
+      state.currentStep = Math.min(data.currentStep || 0, maxStep);
 
       return true;
     } catch (e) {
       console.warn('Could not load saved progress:', e);
+      clearSavedProgress();
       return false;
     }
   }

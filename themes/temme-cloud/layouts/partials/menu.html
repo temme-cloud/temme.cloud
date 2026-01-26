@@ -6,18 +6,11 @@
         {{- end }}
 
         {{- if .Site.Params.EnableGlobalLanguageMenu }}
-        <div class="submenu">
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">{{ .Language.LanguageName }}</a>
-                <div class="dropdown-content">
-                    {{ if hugo.IsMultilingual }}
-                        {{ range $.Translations }}
-                            <a title="{{ .Language.LanguageName }}" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-                        {{ end }}
-                    {{ end }}
-                </div>
-            </li>
-        </div>
+        {{ if hugo.IsMultilingual }}
+            {{ range $.Translations }}
+            <li><a href="{{ .RelPermalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+        {{ end }}
         {{- end }}
     </ul>
 </nav>

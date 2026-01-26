@@ -34,22 +34,27 @@ if(logo){
 // Header color switching based on background
 const header = document.querySelector(".header");
 let ticking = false;
+let greenSections = [];
+let headerHeight = 0;
+let lastIsOverGreen = null;
+
+function cacheElements() {
+  greenSections = [...document.querySelectorAll(".hero, .section-green")];
+  headerHeight = header?.offsetHeight || 0;
+}
 
 function updateHeaderColor() {
   if (!header) return;
 
-  const headerHeight = header.offsetHeight;
-  const greenSections = document.querySelectorAll(".hero, .section-green");
-
   let isOverGreen = false;
 
   // At scroll position 0 or negative (overscroll), check if hero exists at top
-  if (window.scrollY <= 0 && document.querySelector(".hero")) {
+  if (window.scrollY <= 0 && greenSections.some(s => s.classList.contains("hero"))) {
     isOverGreen = true;
   } else {
+    const threshold = headerHeight * 0.6;
     for (const section of greenSections) {
       const rect = section.getBoundingClientRect();
-      const threshold = headerHeight * 0.6;
       if (rect.top < headerHeight + 5 && rect.bottom > threshold) {
         isOverGreen = true;
         break;
@@ -57,10 +62,14 @@ function updateHeaderColor() {
     }
   }
 
-  if (isOverGreen) {
-    header.classList.remove("header--green");
-  } else {
-    header.classList.add("header--green");
+  // Only toggle if state actually changed
+  if (isOverGreen !== lastIsOverGreen) {
+    if (isOverGreen) {
+      header.classList.remove("header--green");
+    } else {
+      header.classList.add("header--green");
+    }
+    lastIsOverGreen = isOverGreen;
   }
 }
 
@@ -74,7 +83,16 @@ function onScroll() {
   }
 }
 
-window.addEventListener("scroll", onScroll, { passive: true });
-window.addEventListener("load", updateHeaderColor);
-window.addEventListener("resize", updateHeaderColor);
+// Initialize
+cacheElements();
 updateHeaderColor();
+
+window.addEventListener("scroll", onScroll, { passive: true });
+window.addEventListener("load", () => {
+  cacheElements();
+  updateHeaderColor();
+});
+window.addEventListener("resize", () => {
+  cacheElements();
+  updateHeaderColor();
+});

@@ -101,7 +101,7 @@ keywords = "Temme Cloud & Tech GmbH, IT-Consulting, Softwareentwicklung, DevOps,
 # Set the default image for the og:image meta tag
 images = ["logo.svg"]
 
-customJS = ["/js/redirect-vcard.js", "/js/header-scroll.js"]
+customJS = ["/js/redirect-vcard.js"]
 
 [params.logo]
 path = "/logo.svg"

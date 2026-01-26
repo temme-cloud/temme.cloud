@@ -11,7 +11,8 @@
   background: #ffffff;
   color: $dark-grey;
   border-bottom: 3px solid $light-background;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: background-color 0.15s ease-out, color 0.15s ease-out, border-color 0.15s ease-out;
+  will-change: background-color, color;
 
   // When scrolled into white content area
   &.header--green {

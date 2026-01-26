@@ -76,7 +76,7 @@ We work closely with selected partners who share our values and complement our e
       <img src="/partners/lor-mental-health.svg" alt="LOR Mental Health GmbH">
     </div>
     <h3>LOR Mental Health GmbH</h3>
-    <p>Mental Health & Wellbeing</p>
+    <p>Mental Health & Performance</p>
   </a>
 </div>
 

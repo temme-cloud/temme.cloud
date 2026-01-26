@@ -26,7 +26,7 @@ How mature is your software delivery process? Our Delivery Check shows you in 2 
 
 We work with enterprises and mid-sized companies on highly scalable platforms, data-driven backends, and resilient infrastructure.
 
-[View references →](/en/projects)
+[View references →](/en/services#current-projects)
 
 ---
 

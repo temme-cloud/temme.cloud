@@ -82,6 +82,52 @@
       color: $light-background;
     }
   }
+
+  // Delivery-Check button in navigation
+  &__item--button {
+    margin-left: 8px;
+
+    @media #{$media-size-phone} {
+      margin: 12px 0 0 0;
+      width: 100%;
+    }
+  }
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background: $light-background;
+    color: $light-color !important;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+      background: $light-background-secondary;
+      text-decoration: none !important;
+    }
+
+    // When header is green, invert the button colors
+    .header--green & {
+      background: $light-color;
+      color: $light-background !important;
+
+      &:hover {
+        background: rgba($light-color, 0.9);
+      }
+    }
+
+    @media #{$media-size-phone} {
+      width: 100%;
+      padding: 12px 20px;
+      font-size: 1rem;
+    }
+  }
 }
 
 

@@ -26,7 +26,7 @@ Wie reif ist euer Software-Delivery-Prozess? Unser Delivery-Check zeigt euch in 
 
 Wir arbeiten für Konzerne und Mittelständler an hochskalierbaren Plattformen, datengetriebenen Backends und resilienter Infrastruktur.
 
-[Referenzen ansehen →](/de/projects)
+[Referenzen ansehen →](/de/leistungen#aktuelle-projekte)
 
 ---
 

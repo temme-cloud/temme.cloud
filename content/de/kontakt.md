@@ -4,6 +4,7 @@ description: "Lass uns sprechen – wir freuen uns auf deine Nachricht."
 date: 2025-03-03
 translationKey: "contact"
 aliases:
+  - "/kontakt"
   - "/contact"
 ---
 

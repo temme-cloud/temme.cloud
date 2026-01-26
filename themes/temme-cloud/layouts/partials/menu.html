@@ -1,8 +1,14 @@
 <nav class="menu">
     <ul class="menu__inner">
         {{- $currentPage := . -}}
-        {{ range sort .Site.Menus.main ".Identifier" -}}
+        {{ range .Site.Menus.main -}}
+            {{ if .Params.isButton }}
+            <li class="menu__item--button">
+                <a href="{{ .URL | relLangURL }}" class="menu__button">{{ .Name }}</a>
+            </li>
+            {{ else }}
             <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
         {{- end }}
 
         {{- if .Site.Params.EnableGlobalLanguageMenu }}

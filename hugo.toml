@@ -22,35 +22,27 @@ defaultContentLanguageInSubdir = true
       privacyPolicyLink = "/de/datenschutz/"
       contactLink = "/de/contact/"
     [[languages.de.menu.main]]
+      identifier = "services"
+      name = "Leistungen"
+      url = "/de/leistungen/"
+      weight = 20
+    [[languages.de.menu.main]]
       identifier = "about"
       name = "Über uns"
       url = "/de/about/"
-      weight = 20
-    [[languages.de.menu.main]]
-      identifier = "services"
-      name = "Leistungen"
-      url = "/de/services/"
       weight = 30
+    [[languages.de.menu.main]]
+      identifier = "contact"
+      name = "Kontakt"
+      url = "/de/kontakt/"
+      weight = 40
     [[languages.de.menu.main]]
       identifier = "delivery-check"
       name = "Delivery-Check"
       url = "/de/delivery-check/"
-      weight = 35
-    [[languages.de.menu.main]]
-      identifier = "projects"
-      name = "Projekte"
-      url = "/de/projects/"
-      weight = 40
-    [[languages.de.menu.main]]
-      identifier = "partners"
-      name = "Partner"
-      url = "/de/partners/"
-      weight = 45
-    [[languages.de.menu.main]]
-      identifier = "contact"
-      name = "Kontakt"
-      url = "/de/contact/"
-      weight = 50
+      weight = 100
+      [languages.de.menu.main.params]
+        isButton = true
 
   [languages.en]
     languageCode = 'en-US'
@@ -66,35 +58,27 @@ defaultContentLanguageInSubdir = true
       privacyPolicyLink = "/en/privacy-policy/"
       contactLink = "/en/contact/"
     [[languages.en.menu.main]]
-      identifier = "about"
-      name = "About"
-      url = "/en/about/"
-      weight = 20
-    [[languages.en.menu.main]]
       identifier = "services"
       name = "Services"
       url = "/en/services/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
       weight = 30
-    [[languages.en.menu.main]]
-      identifier = "delivery-check"
-      name = "Delivery Check"
-      url = "/en/delivery-check/"
-      weight = 35
-    [[languages.en.menu.main]]
-      identifier = "projects"
-      name = "Projects"
-      url = "/en/projects/"
-      weight = 40
-    [[languages.en.menu.main]]
-      identifier = "partners"
-      name = "Partners"
-      url = "/en/partners/"
-      weight = 45
     [[languages.en.menu.main]]
       identifier = "contact"
       name = "Contact"
       url = "/en/contact/"
-      weight = 50
+      weight = 40
+    [[languages.en.menu.main]]
+      identifier = "delivery-check"
+      name = "Delivery Check"
+      url = "/en/delivery-check/"
+      weight = 100
+      [languages.en.menu.main.params]
+        isButton = true
 
 [params]
 author = "Temme Cloud & Tech GmbH"

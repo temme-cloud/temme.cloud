@@ -45,10 +45,10 @@ olderPosts = "Ältere Beiträge"
 
 # Footer
 [footerServices]
-other = "Dienstleistungen"
+other = "Entdecken"
 
 [footerCompany]
-other = "Unternehmen"
+other = "Rechtliches"
 
 [footerImprint]
 other = "Impressum"

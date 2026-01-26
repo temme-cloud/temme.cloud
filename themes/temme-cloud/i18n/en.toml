@@ -45,10 +45,10 @@ olderPosts = "Older Posts"
 
 # Footer
 [footerServices]
-other = "Services"
+other = "Explore"
 
 [footerCompany]
-other = "Company"
+other = "Legal"
 
 [footerImprint]
 other = "Legal Notice"

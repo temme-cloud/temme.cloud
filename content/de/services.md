@@ -1,10 +1,10 @@
 ---
 title: "Leistungen"
 description: "Backend-Engineering, DevOps, Security – wir liefern technische Exzellenz."
-menu:
-  main:
-    weight: 30
 date: 2025-03-03
+translationKey: "services"
+aliases:
+  - "/services"
 ---
 
 Wir helfen internationalen Tech-Teams dabei, komplexe Herausforderungen in funktionierende Systeme zu verwandeln – mit klarem Fokus auf Qualität, Wartbarkeit und Developer Experience.
@@ -37,7 +37,7 @@ Wir helfen internationalen Tech-Teams dabei, komplexe Herausforderungen in funkt
 - Skalierbar und schnell: Von punktueller Unterstützung bis zu kompletten Projektteams.
 - Sicher und compliant: NDA, klare Zugriffsmodelle, saubere Dokumentation.
 
-[Unsere Partner ansehen →](/partners)
+[Unsere Partner ansehen →](/de/partners)
 
 ---
 
@@ -45,4 +45,4 @@ Du brauchst ein Thema, das hier nicht steht?
 Sprich uns einfach an – wir denken gern out of the box und technologieoffen.
 
 ---
-<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[Kontakt aufnehmen →](/contact)
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[Kontakt aufnehmen →](/de/contact)

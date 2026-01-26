@@ -42,3 +42,19 @@ other = "Letzte Aktualisierung"
 [pagination]
 newerPosts = "Neuere Beiträge"
 olderPosts = "Ältere Beiträge"
+
+# Footer
+[footerServices]
+other = "Dienstleistungen"
+
+[footerCompany]
+other = "Unternehmen"
+
+[footerImprint]
+other = "Impressum"
+
+[footerContact]
+other = "Kontakt"
+
+[footerPrivacy]
+other = "Datenschutz"

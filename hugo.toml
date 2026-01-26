@@ -1,26 +1,92 @@
 baseURL = 'https://temme.cloud/'
-language = 'de'
-languageCode = 'de-DE'
-title = 'Temme Cloud & Tech GmbH'
-subtitle = 'Skalierbare Software, stabile Infrastruktur, echte Lösungen.'
+title = 'Temme Cloud & Tech GmbH'
 theme = 'temme-cloud'
-contentDir = "content"
 safeMode = 'unsafe'
 
+# Multilingual configuration
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = 'Deutsch'
+    weight = 1
+    contentDir = 'content/de'
+    [languages.de.params]
+      subtitle = 'Skalierbare Software, stabile Infrastruktur, echte Lösungen.'
+      homeTitle = "Komplexe Systeme. Klare Lösungen."
+      homeSubtitle = "Temme Cloud & Tech GmbH ist ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen."
+      description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
+    [[languages.de.menu.main]]
+      identifier = "about"
+      name = "Über uns"
+      url = "/de/about/"
+      weight = 20
+    [[languages.de.menu.main]]
+      identifier = "services"
+      name = "Leistungen"
+      url = "/de/services/"
+      weight = 30
+    [[languages.de.menu.main]]
+      identifier = "projects"
+      name = "Projekte"
+      url = "/de/projects/"
+      weight = 40
+    [[languages.de.menu.main]]
+      identifier = "partners"
+      name = "Partner"
+      url = "/de/partners/"
+      weight = 45
+    [[languages.de.menu.main]]
+      identifier = "contact"
+      name = "Kontakt"
+      url = "/de/contact/"
+      weight = 50
+
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 2
+    contentDir = 'content/en'
+    [languages.en.params]
+      subtitle = 'Scalable software, stable infrastructure, real solutions.'
+      homeTitle = "Complex Systems. Clear Solutions."
+      homeSubtitle = "Temme Cloud & Tech GmbH is a specialized IT service provider focused on scalable software architecture, reliable infrastructure, and technical excellence. Whether backend development, DevOps, or cloud migration – we bring modern technologies where they create real value."
+      description = "Technical excellence for Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH supports teams with stable, maintainable software solutions."
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "services"
+      name = "Services"
+      url = "/en/services/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      url = "/en/projects/"
+      weight = 40
+    [[languages.en.menu.main]]
+      identifier = "partners"
+      name = "Partners"
+      url = "/en/partners/"
+      weight = 45
+    [[languages.en.menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/en/contact/"
+      weight = 50
+
 [params]
-author = "Temme Cloud & Tech GmbH"
+author = "Temme Cloud & Tech GmbH"
 dateform = "2. Jan 2006"
 dateformShort = "2. Jan"
 dateformNum = "02.01.2006"
 dateformNumTime = "02.01.2006 15:04"
 themeColor = "#007163"
-# enableThemeToggle = true
-
-# title for home
-homeTitle = "Komplexe Systeme. Klare Lösungen."
-
-# Subtitle for home
-homeSubtitle = "Temme Cloud & Tech GmbH ist ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen."
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
@@ -29,30 +95,23 @@ disableReadOtherPosts = true
 enableSharingButtons = false
 
 # Show a global language switcher in the navigation bar
-enableGlobalLanguageMenu = false
+enableGlobalLanguageMenu = true
 
-# Metadata mostly used in document's head
-description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
 keywords = "Temme Cloud & Tech GmbH, IT-Consulting, Softwareentwicklung, DevOps, Backend, Cloud-Infrastruktur, Golang, Python, Kubernetes, Docker, Terraform, GitLab CI, GitHub, REST, GraphQL, Microservices, CI/CD, Agile, Scrum, IT-Sicherheit, OAuth2, DSGVO, IT-Architektur, Infrastructure as Code, SRE, Platform Engineering, IT Berlin, Tech Berlin, Temme Berlin, Cloud Berlin, GCP, AWS, Azure, IT-Dienstleister Berlin, IT-Beratung Berlin"
 # Set the default image for the og:image meta tag
 images = ["logo.svg"]
-
-defaultContentLanguage = 'de'
 
 customJS = ["/js/redirect-vcard.js", "/js/header-scroll.js"]
 
 [params.logo]
 path = "/logo.svg"
 alt = "Logo"
-# logoText = "in development :)"
-# logoHomeLink = "/"
-
 
 [params.portrait]
 path = "/logo-white.svg"
 
 [params.footer]
-companyName = "Temme Cloud & Tech GmbH"
+companyName = "Temme Cloud & Tech GmbH"
 companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
 companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"
@@ -78,4 +137,4 @@ url = "/services"
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.parser.attribute]
-    block = true  # Erforderlich für Block-Elemente wie Bilder und Absätze
+    block = true

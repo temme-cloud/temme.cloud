@@ -1,9 +1,10 @@
 ---
 title: "Partner"
 description: "Unsere vertrauenswürdigen Partner, mit denen wir gemeinsam Projekte umsetzen."
-menu:
-  main:
-    weight: 45
+date: 2025-03-03
+translationKey: "partners"
+aliases:
+  - "/partners"
 ---
 
 <div class="intro-text">

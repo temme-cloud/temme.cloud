@@ -25,23 +25,23 @@
             <div class="footer__right">
                 {{ if .Site.Params.footer.services }}
                 <div class="footer__column">
-                    <h4>Dienstleistungen</h4>
+                    <h4>{{ i18n "footerServices" }}</h4>
                     {{ range .Site.Params.footer.services }}
-                    <p><a href="{{ .url }}">{{ .name }}</a></p>
+                    <p><a href="{{ .url | relLangURL }}">{{ .name }}</a></p>
                     {{ end }}
                 </div>
                 {{ end }}
 
                 <div class="footer__column">
-                    <h4>Unternehmen</h4>
+                    <h4>{{ i18n "footerCompany" }}</h4>
                     {{ if .Site.Params.footer.impressumLink }}
-                    <p><a href="{{ .Site.Params.footer.impressumLink }}">Impressum</a></p>
+                    <p><a href="{{ .Site.Params.footer.impressumLink | relLangURL }}">{{ i18n "footerImprint" }}</a></p>
                     {{ end }}
                     {{ if .Site.Params.footer.contactLink }}
-                    <p><a href="{{ .Site.Params.footer.contactLink }}">Kontakt</a></p>
+                    <p><a href="{{ .Site.Params.footer.contactLink | relLangURL }}">{{ i18n "footerContact" }}</a></p>
                     {{ end }}
                     {{ if .Site.Params.footer.privacyPolicyLink }}
-                    <p><a href="{{ .Site.Params.footer.privacyPolicyLink }}">Datenschutz</a></p>
+                    <p><a href="{{ .Site.Params.footer.privacyPolicyLink | relLangURL }}">{{ i18n "footerPrivacy" }}</a></p>
                     {{ end }}
                 </div>
             </div>

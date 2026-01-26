@@ -2,6 +2,9 @@
 title: "Datenschutzerklärung"
 date: 2025-03-03
 robots: noindex
+translationKey: "privacy"
+aliases:
+  - "/datenschutz"
 ---
 
 ## Datenschutz auf einen Blick

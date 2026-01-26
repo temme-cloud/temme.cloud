@@ -2,6 +2,9 @@
 title: "Impressum"
 date: 2025-03-03
 robots: noindex
+translationKey: "legal"
+aliases:
+  - "/impressum"
 ---
 
 ## Angaben gemäß § 5 DDG (ehemals §5 TMG)

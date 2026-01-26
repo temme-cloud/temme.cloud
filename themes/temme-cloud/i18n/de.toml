@@ -145,3 +145,55 @@ other = "Kostenloses Erstgespräch buchen"
 
 [deliveryCheckRecommendationsTitle]
 other = "Empfehlungen für euch"
+
+# ==========================================================================
+# Contact Form
+# ==========================================================================
+
+[contactFormTitle]
+other = "Nachricht senden"
+
+[contactFormDescription]
+other = "Wir melden uns in der Regel innerhalb von 1-3 Werktagen."
+
+[contactFormFieldName]
+other = "Name"
+
+[contactFormFieldEmail]
+other = "E-Mail"
+
+[contactFormFieldCompany]
+other = "Unternehmen (optional)"
+
+[contactFormFieldPhone]
+other = "Telefon (optional)"
+
+[contactFormFieldMessage]
+other = "Nachricht"
+
+[contactFormGDPRConsent]
+other = "Ich stimme der"
+
+[contactFormGDPRLink]
+other = "Datenschutzerklärung"
+
+[contactFormSubmit]
+other = "Nachricht senden"
+
+[contactFormSubmitting]
+other = "Wird gesendet..."
+
+[contactFormSuccess]
+other = "Vielen Dank! Wir melden uns bald bei dir."
+
+[contactFormError]
+other = "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+
+[contactFormEmailAlt]
+other = "Oder schreib uns direkt an"
+
+[contactFormGDPRConsentAfter]
+other = " zu."
+
+[contactFormEmailSubject]
+other = "Anfrage über temme.cloud"

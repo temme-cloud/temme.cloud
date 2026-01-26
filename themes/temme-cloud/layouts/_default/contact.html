@@ -1,0 +1,201 @@
+{{ define "main" }}
+    <!-- Hero Section (Green) -->
+    <section class="hero hero--page">
+        <div class="hero__inner">
+            <h1 class="hero__title">{{ .Title | markdownify }}</h1>
+            {{ with .Params.description }}
+            <p class="hero__subtitle">{{ . }}</p>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Hidden form for Netlify Forms detection (must be in static HTML, not JS-rendered) -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="bot-field" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="company" />
+        <input type="tel" name="phone" />
+        <textarea name="message"></textarea>
+        <input type="checkbox" name="gdpr-consent" />
+    </form>
+
+    <!-- Content Section (White) -->
+    <main class="post post--white">
+        <article>
+            <!-- Existing markdown content -->
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+
+            <!-- Contact Form Section -->
+            <section class="contact-form-section">
+                <div class="contact-form-card">
+                    <h3 class="contact-form__title">{{ i18n "contactFormTitle" }}</h3>
+                    <p class="contact-form__description">
+                        {{ i18n "contactFormDescription" }}<br>
+                        {{ i18n "contactFormEmailAlt" }} <a href="mailto:info@temme.cloud?subject={{ i18n "contactFormEmailSubject" | urlquery }}">info@temme.cloud</a>.
+                    </p>
+
+                    <!-- Visible Form -->
+                    <form class="contact-form" id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <input type="hidden" name="bot-field" />
+
+                        <!-- Name + Email Row -->
+                        <div class="contact-form__row">
+                            <div class="contact-form__field">
+                                <label class="contact-form__label" for="contact-name">
+                                    {{ i18n "contactFormFieldName" }} <span>*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="contact-name"
+                                    name="name"
+                                    class="contact-form__input"
+                                    required
+                                />
+                            </div>
+                            <div class="contact-form__field">
+                                <label class="contact-form__label" for="contact-email">
+                                    {{ i18n "contactFormFieldEmail" }} <span>*</span>
+                                </label>
+                                <input
+                                    type="email"
+                                    id="contact-email"
+                                    name="email"
+                                    class="contact-form__input"
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Company + Phone Row -->
+                        <div class="contact-form__row">
+                            <div class="contact-form__field">
+                                <label class="contact-form__label" for="contact-company">
+                                    {{ i18n "contactFormFieldCompany" }}
+                                </label>
+                                <input
+                                    type="text"
+                                    id="contact-company"
+                                    name="company"
+                                    class="contact-form__input"
+                                />
+                            </div>
+                            <div class="contact-form__field">
+                                <label class="contact-form__label" for="contact-phone">
+                                    {{ i18n "contactFormFieldPhone" }}
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="contact-phone"
+                                    name="phone"
+                                    class="contact-form__input"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="contact-message">
+                                {{ i18n "contactFormFieldMessage" }} <span>*</span>
+                            </label>
+                            <textarea
+                                id="contact-message"
+                                name="message"
+                                class="contact-form__input contact-form__textarea"
+                                rows="5"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <!-- GDPR Consent -->
+                        <div class="contact-form__field contact-form__field--checkbox">
+                            <label class="contact-form__checkbox">
+                                <input type="checkbox" name="gdpr-consent" required />
+                                <span class="contact-form__checkbox-mark"></span>
+                                <span class="contact-form__checkbox-label">
+                                    {{ i18n "contactFormGDPRConsent" }}
+                                    <a href="{{ .Params.privacyUrl | default (cond (eq .Language.Lang "de") "/de/datenschutz/" "/en/privacy-policy/") }}" target="_blank" rel="noopener">{{ i18n "contactFormGDPRLink" }}</a>{{ i18n "contactFormGDPRConsentAfter" }}
+                                </span>
+                            </label>
+                        </div>
+
+                        <!-- Error Message -->
+                        <div class="contact-form__error" id="contact-form-error" hidden>
+                            {{ i18n "contactFormError" }}
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="contact-form__submit">
+                            <button type="submit" class="btn-filled" id="contact-submit-btn">
+                                <span class="contact-form__submit-text">{{ i18n "contactFormSubmit" }}</span>
+                                <span class="contact-form__submit-loading" hidden>{{ i18n "contactFormSubmitting" }}</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div class="contact-form__success" id="contact-form-success" hidden>
+                        <div class="contact-form__success-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3>{{ i18n "contactFormSuccess" }}</h3>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Form Submit JavaScript -->
+    <script>
+    (function() {
+        const form = document.getElementById('contact-form');
+        const submitBtn = document.getElementById('contact-submit-btn');
+        const submitText = submitBtn.querySelector('.contact-form__submit-text');
+        const submitLoading = submitBtn.querySelector('.contact-form__submit-loading');
+        const errorEl = document.getElementById('contact-form-error');
+        const successEl = document.getElementById('contact-form-success');
+        const formCard = form.closest('.contact-form-card');
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            // Reset states
+            errorEl.hidden = true;
+            submitBtn.disabled = true;
+            submitText.hidden = true;
+            submitLoading.hidden = false;
+
+            try {
+                const formData = new FormData(form);
+                const response = await fetch('/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams(formData).toString()
+                });
+
+                if (response.ok) {
+                    // Success - hide form, show success message
+                    form.hidden = true;
+                    successEl.hidden = false;
+                    // Scroll to success message
+                    formCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            } catch (error) {
+                // Show error
+                errorEl.hidden = false;
+                submitBtn.disabled = false;
+                submitText.hidden = false;
+                submitLoading.hidden = true;
+            }
+        });
+    })();
+    </script>
+{{ end }}

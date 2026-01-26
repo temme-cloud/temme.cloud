@@ -5,6 +5,7 @@ date: 2025-03-03
 translationKey: "partners"
 aliases:
   - "/partners"
+  - "/de/partners"
 ---
 
 <div class="intro-text">

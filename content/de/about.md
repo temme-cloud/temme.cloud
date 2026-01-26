@@ -56,7 +56,7 @@ Wir arbeiten eng mit ausgewählten Partnern zusammen, die unsere Werte teilen un
   </a>
 </div>
 
-[Alle Partner ansehen →](/de/partners)
+[Alle Partner ansehen →](/de/partner/)
 
 ---
 

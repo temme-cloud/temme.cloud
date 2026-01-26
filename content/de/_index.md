@@ -10,7 +10,7 @@ translationKey: "home"
 
 Wir unterstützen internationale Tech-Teams dabei, komplexe Systeme zu bauen – mit Fokus auf Wartbarkeit, Automatisierung und Developer Experience.
 
-[Mehr erfahren →](/de/services)
+[Mehr erfahren →](/de/leistungen/)
 
 ---
 
@@ -41,7 +41,7 @@ Wir bieten kostenlose Erstgespräche und technisches Consulting an. Lass uns her
 
 <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[info@temme.cloud](mailto:info@temme.cloud)
 
-[Zur Kontaktseite →](/de/contact)
+[Zur Kontaktseite →](/de/kontakt/)
 
 ---
 
@@ -80,4 +80,4 @@ Wir arbeiten eng mit ausgewählten Partnern zusammen, die unsere Werte teilen un
   </a>
 </div>
 
-[Alle Partner ansehen →](/de/partners)
+[Alle Partner ansehen →](/de/partner/)

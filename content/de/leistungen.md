@@ -74,7 +74,7 @@ Vertraulichkeit ist uns wichtig – konkrete Namen nennen wir nur auf Anfrage od
 - Skalierbar und schnell: Von punktueller Unterstützung bis zu kompletten Projektteams.
 - Sicher und compliant: NDA, klare Zugriffsmodelle, saubere Dokumentation.
 
-[Unsere Partner ansehen →](/de/partners)
+[Unsere Partner ansehen →](/de/partner/)
 
 Du brauchst ein Thema, das hier nicht steht?
 Sprich uns einfach an – wir denken gern out of the box und technologieoffen.

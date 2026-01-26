@@ -26,7 +26,7 @@ defaultContentLanguageInSubdir = true
       url = "/de/leistungen/"
     [[languages.de.params.footerServices]]
       name = "Partner"
-      url = "/de/partners/"
+      url = "/de/partner/"
     [[languages.de.params.footerServices]]
       name = "Über uns"
       url = "/de/about/"

@@ -1,0 +1,27 @@
+[build]
+  command = "npm install && npm run build && hugo --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.154.5"
+  NODE_VERSION = "20"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "npm install && npm run build && hugo --buildDrafts --buildFuture --minify"
+
+[context.branch-deploy]
+  command = "npm install && npm run build && hugo --buildDrafts --buildFuture --minify"
+
+# Redirects for SPA-style routing (if needed)
+[[redirects]]
+  from = "/de/delivery-check/*"
+  to = "/de/delivery-check/"
+  status = 200
+
+[[redirects]]
+  from = "/en/delivery-check/*"
+  to = "/en/delivery-check/"
+  status = 200

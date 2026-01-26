@@ -17,9 +17,16 @@
                  data-lang="{{ .Language.Lang }}"
                  data-variant="{{ .Params.variant | default "default" }}"
                  data-privacy-url="{{ .Params.privacyUrl | default (printf "/%s/datenschutz/" .Language.Lang) }}"
-                 data-contact-url="{{ .Params.contactUrl | default (printf "/%s/kontakt/" .Language.Lang) }}">
+                 data-contact-url="{{ .Params.contactUrl | default (printf "/%s/contact/" .Language.Lang) }}">
 
-                {{ partial "delivery-check/form.html" . }}
+                <!-- Loading state (replaced by SolidJS app) -->
+                <div class="delivery-check-loading" id="delivery-check-loading">
+                    <div class="delivery-check-loading__spinner"></div>
+                    <span>Loading...</span>
+                </div>
+                <noscript>
+                    <p>{{ i18n "deliveryCheckRequiresJS" }}</p>
+                </noscript>
 
             </div>
         </article>
@@ -56,8 +63,6 @@
         };
     </script>
 
-    <!-- Delivery Check JavaScript -->
-    {{ $deliveryCheck := resources.Get "js/delivery-check.js" }}
-    {{ $secureJS := $deliveryCheck | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" defer></script>
+    <!-- Delivery Check JavaScript (pre-built with Vite) -->
+    <script type="text/javascript" src="/js/delivery-check.js" defer></script>
 {{ end }}

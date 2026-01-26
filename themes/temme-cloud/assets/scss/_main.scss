@@ -3,6 +3,30 @@ html {
   line-height: 1.6;
   letter-spacing: 0.06em;
   scroll-behavior: smooth;
+
+  // Custom scrollbar - Firefox
+  scrollbar-width: thin;
+  scrollbar-color: #fff transparent;
+}
+
+// Custom scrollbar - WebKit (Chrome, Safari, Edge)
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+
+  &:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  }
 }
 
 *,

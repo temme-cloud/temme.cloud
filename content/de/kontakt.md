@@ -3,9 +3,6 @@ title: "Kontakt"
 description: "Lass uns sprechen – wir freuen uns auf deine Nachricht."
 date: 2025-03-03
 translationKey: "contact"
-aliases:
-  - "/kontakt"
-  - "/contact"
 ---
 
 Du oder dein Team möchte ein Projekt starten, braucht technische Unterstützung oder will einfach mal kurz brainstormen?

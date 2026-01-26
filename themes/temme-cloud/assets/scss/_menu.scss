@@ -86,22 +86,11 @@
 
 
 .submenu {
-  background: $light-background-header;
+  background: transparent;
 
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-header;
-  }
-
-  @media (prefers-color-scheme: light) {
-    background: $light-background-header;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-background-header;
-  }
-
-  [data-theme=light] & {
-    background: $light-background-header;
+  // When header is green, submenu should also be transparent (green shows through)
+  .header--green & {
+    background: transparent;
   }
 
   ul {
@@ -114,6 +103,11 @@
   li a, .dropbtn {
     display: inline-block;
     text-decoration: none;
+  }
+
+  // When header is green, dropdown button should be white (on green/transparent bg)
+  .header--green & .dropbtn {
+    color: $light-color;
   }
 
   li.dropdown {
@@ -143,6 +137,12 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    color: $light-background; // Green text on white dropdown background
+  }
+
+  // Keep dropdown links green when header is green (white dropdown bg)
+  .header--green & .dropdown-content a {
+    color: $light-background;
   }
 
   .dropdown-content a:hover {

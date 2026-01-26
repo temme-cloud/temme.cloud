@@ -18,6 +18,9 @@ defaultContentLanguageInSubdir = true
       homeTitle = "Komplexe Systeme. Klare Lösungen."
       homeSubtitle = "Temme Cloud & Tech GmbH ist ein spezialisierter IT-Dienstleister mit Fokus auf skalierbare Softwarearchitektur, zuverlässige Infrastruktur und technische Exzellenz. Ob Backend-Entwicklung, DevOps oder Cloud-Migration – wir bringen moderne Technologien dorthin, wo sie echten Mehrwert schaffen."
       description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
+      impressumLink = "/de/impressum/"
+      privacyPolicyLink = "/de/datenschutz/"
+      contactLink = "/de/contact/"
     [[languages.de.menu.main]]
       identifier = "about"
       name = "Über uns"
@@ -54,6 +57,9 @@ defaultContentLanguageInSubdir = true
       homeTitle = "Complex Systems. Clear Solutions."
       homeSubtitle = "Temme Cloud & Tech GmbH is a specialized IT service provider focused on scalable software architecture, reliable infrastructure, and technical excellence. Whether backend development, DevOps, or cloud migration – we bring modern technologies where they create real value."
       description = "Technical excellence for Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH supports teams with stable, maintainable software solutions."
+      impressumLink = "/en/legal-notice/"
+      privacyPolicyLink = "/en/privacy-policy/"
+      contactLink = "/en/contact/"
     [[languages.en.menu.main]]
       identifier = "about"
       name = "About"

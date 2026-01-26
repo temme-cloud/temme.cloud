@@ -34,14 +34,14 @@
 
                 <div class="footer__column">
                     <h4>{{ i18n "footerCompany" }}</h4>
-                    {{ if .Site.Params.footer.impressumLink }}
-                    <p><a href="{{ .Site.Params.footer.impressumLink | relLangURL }}">{{ i18n "footerImprint" }}</a></p>
+                    {{ with .Site.Language.Params.impressumLink }}
+                    <p><a href="{{ . }}">{{ i18n "footerImprint" }}</a></p>
                     {{ end }}
-                    {{ if .Site.Params.footer.contactLink }}
-                    <p><a href="{{ .Site.Params.footer.contactLink | relLangURL }}">{{ i18n "footerContact" }}</a></p>
+                    {{ with .Site.Language.Params.contactLink }}
+                    <p><a href="{{ . }}">{{ i18n "footerContact" }}</a></p>
                     {{ end }}
-                    {{ if .Site.Params.footer.privacyPolicyLink }}
-                    <p><a href="{{ .Site.Params.footer.privacyPolicyLink | relLangURL }}">{{ i18n "footerPrivacy" }}</a></p>
+                    {{ with .Site.Language.Params.privacyPolicyLink }}
+                    <p><a href="{{ . }}">{{ i18n "footerPrivacy" }}</a></p>
                     {{ end }}
                 </div>
             </div>

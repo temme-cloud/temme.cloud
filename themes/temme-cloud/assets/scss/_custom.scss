@@ -73,22 +73,23 @@
 .hero {
   background: $light-background;
   color: $light-color;
-  padding: 40px 24px 60px;
+  // Bottom padding includes iOS safe area for home indicator
+  padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
   text-align: center;
   width: 100%;
-  // Full viewport height - body padding positions it below header
-  height: 100svh;
+  // Full viewport height plus safe area
+  height: calc(100svh + env(safe-area-inset-bottom, 0px));
   display: flex;
   align-items: center;
   justify-content: center;
 
   // Fallback for browsers without svh support
   @supports not (height: 100svh) {
-    height: 100vh;
+    height: calc(100vh + env(safe-area-inset-bottom, 0px));
   }
 
   @media #{$media-size-phone} {
-    padding: 24px 20px 30px;
+    padding: 24px 20px calc(30px + env(safe-area-inset-bottom, 0px));
   }
 
   &__inner {

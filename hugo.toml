@@ -20,7 +20,16 @@ defaultContentLanguageInSubdir = true
       description = "Technische Exzellenz für Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH unterstützt Teams bei stabilen, wartbaren Softwarelösungen."
       impressumLink = "/de/impressum/"
       privacyPolicyLink = "/de/datenschutz/"
-      contactLink = "/de/contact/"
+      contactLink = "/de/kontakt/"
+    [[languages.de.params.footerServices]]
+      name = "Leistungen"
+      url = "/de/leistungen/"
+    [[languages.de.params.footerServices]]
+      name = "Partner"
+      url = "/de/partners/"
+    [[languages.de.params.footerServices]]
+      name = "Über uns"
+      url = "/de/about/"
     [[languages.de.menu.main]]
       identifier = "services"
       name = "Leistungen"
@@ -57,6 +66,15 @@ defaultContentLanguageInSubdir = true
       impressumLink = "/en/legal-notice/"
       privacyPolicyLink = "/en/privacy-policy/"
       contactLink = "/en/contact/"
+    [[languages.en.params.footerServices]]
+      name = "Services"
+      url = "/en/services/"
+    [[languages.en.params.footerServices]]
+      name = "Partners"
+      url = "/en/partners/"
+    [[languages.en.params.footerServices]]
+      name = "About"
+      url = "/en/about/"
     [[languages.en.menu.main]]
       identifier = "services"
       name = "Services"
@@ -116,21 +134,6 @@ companyAddress = ["Grüntaler Str. 32", "13357 Berlin"]
 companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"
 logoMaxWidth = "180px"
-impressumLink = "/impressum"
-privacyPolicyLink = "/datenschutz"
-contactLink = "/contact"
-
-[[params.footer.services]]
-name = "Backend-Engineering"
-url = "/services"
-
-[[params.footer.services]]
-name = "DevOps"
-url = "/services"
-
-[[params.footer.services]]
-name = "Security"
-url = "/services"
 
 [markup]
   [markup.goldmark]

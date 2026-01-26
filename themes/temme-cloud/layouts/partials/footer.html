@@ -28,11 +28,11 @@
 
             <!-- Right side: Link columns -->
             <div class="footer__right">
-                {{ if .Site.Params.footer.services }}
+                {{ if .Site.Language.Params.footerServices }}
                 <div class="footer__column footer__column--services">
                     <h4>{{ i18n "footerServices" }}</h4>
-                    {{ range .Site.Params.footer.services }}
-                    <p><a href="{{ .url | relLangURL }}">{{ .name }}</a></p>
+                    {{ range .Site.Language.Params.footerServices }}
+                    <p><a href="{{ .url }}">{{ .name }}</a></p>
                     {{ end }}
                 </div>
                 {{ end }}

@@ -1,0 +1,64 @@
+<form id="delivery-check-form"
+      name="delivery-check"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      class="delivery-check-form"
+      novalidate>
+
+    <!-- Netlify required fields -->
+    <input type="hidden" name="form-name" value="delivery-check">
+    <input type="hidden" name="bot-field">
+
+    <!-- Hidden fields for data collection -->
+    <input type="hidden" name="delivery-check-version" value="1.0">
+    <input type="hidden" name="delivery-check-variant" id="delivery-check-variant">
+    <input type="hidden" name="delivery-check-language" value="{{ .Language.Lang }}">
+    <input type="hidden" name="delivery-check-score" id="delivery-check-score">
+    <input type="hidden" name="delivery-check-maturity" id="delivery-check-maturity">
+    <input type="hidden" name="delivery-check-responses" id="delivery-check-responses">
+    <input type="hidden" name="delivery-check-timestamp" id="delivery-check-timestamp">
+
+    <!-- Progress indicator -->
+    {{ partial "delivery-check/progress.html" . }}
+
+    <!-- Questions container (JS populated) -->
+    <div id="delivery-check-questions" class="delivery-check-questions" aria-live="polite">
+        <!-- Loading state -->
+        <div class="delivery-check-loading" id="delivery-check-loading">
+            <div class="delivery-check-loading__spinner"></div>
+            <span>Loading...</span>
+        </div>
+        <noscript>
+            <p>{{ i18n "deliveryCheckRequiresJS" }}</p>
+        </noscript>
+    </div>
+
+    <!-- Contact form (final step, hidden initially) -->
+    {{ partial "delivery-check/contact-form.html" . }}
+
+    <!-- Results container (hidden initially) -->
+    {{ partial "delivery-check/results.html" . }}
+
+    <!-- Navigation -->
+    <div class="delivery-check-nav" id="delivery-check-nav" style="display: none;">
+        <button type="button"
+                class="btn-outline delivery-check-nav__back"
+                id="delivery-check-back"
+                aria-label="{{ i18n "deliveryCheckBack" }}">
+            {{ i18n "deliveryCheckBack" }}
+        </button>
+        <button type="button"
+                class="btn-filled delivery-check-nav__next"
+                id="delivery-check-next"
+                aria-label="{{ i18n "deliveryCheckNext" }}">
+            {{ i18n "deliveryCheckNext" }}
+        </button>
+        <button type="submit"
+                class="btn-filled delivery-check-nav__submit"
+                id="delivery-check-submit"
+                style="display: none;">
+            {{ i18n "deliveryCheckSubmit" }}
+        </button>
+    </div>
+</form>

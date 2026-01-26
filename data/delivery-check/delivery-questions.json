@@ -4,8 +4,8 @@
   "meta": {
     "consentVersion": "2025-03",
     "title": {
-      "de": "Delivery Assessment",
-      "en": "Delivery Assessment"
+      "de": "Delivery-Check",
+      "en": "Delivery-Check"
     },
     "subtitle": {
       "de": "Wie reif ist euer Software-Delivery-Prozess? Findet es in 2 Minuten heraus.",

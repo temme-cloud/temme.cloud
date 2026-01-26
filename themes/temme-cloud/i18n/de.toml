@@ -59,86 +59,86 @@ other = "Kontakt"
 [footerPrivacy]
 other = "Datenschutz"
 
-[footerAssessment]
+[footerDeliveryCheck]
 other = "Delivery-Check starten"
 
 # ==========================================================================
 # Delivery-Check
 # ==========================================================================
 
-[assessmentStep]
+[deliveryCheckStep]
 other = "Schritt"
 
-[assessmentOf]
+[deliveryCheckOf]
 other = "von"
 
-[assessmentNext]
+[deliveryCheckNext]
 other = "Weiter"
 
-[assessmentBack]
+[deliveryCheckBack]
 other = "Zurück"
 
-[assessmentContinueToContact]
+[deliveryCheckContinueToContact]
 other = "Weiter zur Kontaktaufnahme"
 
-[assessmentSubmit]
+[deliveryCheckSubmit]
 other = "Absenden & Ergebnis anzeigen"
 
-[assessmentSubmitting]
+[deliveryCheckSubmitting]
 other = "Wird gesendet..."
 
-[assessmentSelectRequired]
+[deliveryCheckSelectRequired]
 other = "Bitte wähle eine Option aus."
 
-[assessmentSelectMultiple]
+[deliveryCheckSelectMultiple]
 other = "Mehrfachauswahl möglich"
 
-[assessmentFillRequired]
+[deliveryCheckFillRequired]
 other = "Bitte fülle alle Pflichtfelder aus."
 
-[assessmentSubmitError]
+[deliveryCheckSubmitError]
 other = "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
 
-[assessmentRequiresJS]
+[deliveryCheckRequiresJS]
 other = "Der Delivery-Check erfordert JavaScript. Bitte aktiviere JavaScript in deinem Browser."
 
 # Contact Form
-[assessmentContactTitle]
+[deliveryCheckContactTitle]
 other = "Fast geschafft!"
 
-[assessmentContactDescription]
+[deliveryCheckContactDescription]
 other = "Gib deine Kontaktdaten ein, um dein persönliches Ergebnis zu erhalten."
 
-[assessmentFieldName]
+[deliveryCheckFieldName]
 other = "Name"
 
-[assessmentFieldEmail]
+[deliveryCheckFieldEmail]
 other = "E-Mail"
 
-[assessmentFieldCompany]
+[deliveryCheckFieldCompany]
 other = "Unternehmen"
 
-[assessmentFieldPhone]
+[deliveryCheckFieldPhone]
 other = "Telefon (optional)"
 
-[assessmentGDPRConsent]
+[deliveryCheckGDPRConsent]
 other = "Ich stimme der Datenschutzerklärung zu und bin einverstanden, kontaktiert zu werden."
 
-[assessmentGDPRLink]
+[deliveryCheckGDPRLink]
 other = "Datenschutzerklärung"
 
 # Results
-[assessmentResultsTitle]
+[deliveryCheckResultsTitle]
 other = "Dein Ergebnis"
 
-[assessmentPoints]
+[deliveryCheckPoints]
 other = "Punkte"
 
-[assessmentResultsCTA]
+[deliveryCheckResultsCTA]
 other = "Möchtest du mehr erfahren? Wir helfen dir gerne, euren Delivery-Prozess zu verbessern."
 
-[assessmentBookConsultation]
+[deliveryCheckBookConsultation]
 other = "Kostenloses Erstgespräch buchen"
 
-[assessmentRecommendationsTitle]
+[deliveryCheckRecommendationsTitle]
 other = "Empfehlungen für euch"

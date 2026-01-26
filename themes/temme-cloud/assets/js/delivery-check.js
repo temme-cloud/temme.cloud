@@ -1,5 +1,5 @@
 /**
- * Delivery Assessment Form Module
+ * Delivery Check Form Module
  * Multi-step quiz with conditional branching, scoring, and Netlify Forms integration
  *
  * @version 1.0.0
@@ -12,8 +12,8 @@
   // ==========================================================================
 
   var CONFIG = {
-    storageKey: 'temme-delivery-assessment',
-    formName: 'delivery-assessment',
+    storageKey: 'temme-delivery-check',
+    formName: 'delivery-check',
     autoAdvanceDelay: 250
   };
 
@@ -43,25 +43,25 @@
 
   function cacheElements() {
     elements = {
-      container: document.getElementById('assessment-container'),
-      form: document.getElementById('delivery-assessment-form'),
-      questionsContainer: document.getElementById('assessment-questions'),
+      container: document.getElementById('delivery-check-container'),
+      form: document.getElementById('delivery-delivery-check-form'),
+      questionsContainer: document.getElementById('delivery-check-questions'),
       contactStep: document.getElementById('contact-step'),
       resultsStep: document.getElementById('results-step'),
       progressFill: document.getElementById('progress-fill'),
       currentStepSpan: document.getElementById('current-step'),
       totalStepsSpan: document.getElementById('total-steps'),
-      nav: document.getElementById('assessment-nav'),
-      backBtn: document.getElementById('assessment-back'),
-      nextBtn: document.getElementById('assessment-next'),
-      submitBtn: document.getElementById('assessment-submit'),
-      loading: document.getElementById('assessment-loading'),
+      nav: document.getElementById('delivery-check-nav'),
+      backBtn: document.getElementById('delivery-check-back'),
+      nextBtn: document.getElementById('delivery-check-next'),
+      submitBtn: document.getElementById('delivery-check-submit'),
+      loading: document.getElementById('delivery-check-loading'),
       // Hidden fields
-      variantInput: document.getElementById('assessment-variant'),
-      scoreInput: document.getElementById('assessment-score'),
-      maturityInput: document.getElementById('assessment-maturity'),
-      responsesInput: document.getElementById('assessment-responses'),
-      timestampInput: document.getElementById('assessment-timestamp')
+      variantInput: document.getElementById('delivery-check-variant'),
+      scoreInput: document.getElementById('delivery-check-score'),
+      maturityInput: document.getElementById('delivery-check-maturity'),
+      responsesInput: document.getElementById('delivery-check-responses'),
+      timestampInput: document.getElementById('delivery-check-timestamp')
     };
   }
 
@@ -70,11 +70,11 @@
   // ==========================================================================
 
   function loadQuestions() {
-    state.questionsData = window.ASSESSMENT_QUESTIONS;
-    state.i18n = window.ASSESSMENT_I18N || {};
+    state.questionsData = window.DELIVERY_CHECK_QUESTIONS;
+    state.i18n = window.DELIVERY_CHECK_I18N || {};
 
     if (!state.questionsData || !state.questionsData.questions) {
-      console.error('Assessment questions data not found');
+      console.error('Delivery Check questions data not found');
       return;
     }
 
@@ -226,23 +226,23 @@
 
     // Create step container
     var stepDiv = createElement('div', {
-      'class': 'assessment-step',
+      'class': 'delivery-check-step',
       'data-question-id': question.id
     });
 
     // Title
-    var title = createElement('h2', { 'class': 'assessment-step__title' }, getLocalizedText(question.title));
+    var title = createElement('h2', { 'class': 'delivery-check-step__title' }, getLocalizedText(question.title));
     stepDiv.appendChild(title);
 
     // Description
     if (question.text) {
-      var desc = createElement('p', { 'class': 'assessment-step__description' }, getLocalizedText(question.text));
+      var desc = createElement('p', { 'class': 'delivery-check-step__description' }, getLocalizedText(question.text));
       stepDiv.appendChild(desc);
     }
 
     // Options container
     var optionsDiv = createElement('div', {
-      'class': 'assessment-options' + (isMultiSelect ? ' assessment-options--multi' : ''),
+      'class': 'delivery-check-options' + (isMultiSelect ? ' delivery-check-options--multi' : ''),
       'role': isMultiSelect ? 'group' : 'radiogroup',
       'aria-label': getLocalizedText(question.title)
     });
@@ -258,14 +258,14 @@
     // Hint for multi-select
     if (isMultiSelect) {
       var hintText = question.helper ? getLocalizedText(question.helper) : (state.i18n.selectMultiple || 'Multiple selections allowed');
-      var hint = createElement('p', { 'class': 'assessment-hint' }, hintText);
+      var hint = createElement('p', { 'class': 'delivery-check-hint' }, hintText);
       stepDiv.appendChild(hint);
     }
 
     elements.questionsContainer.appendChild(stepDiv);
 
     // Add event listeners
-    var options = elements.questionsContainer.querySelectorAll('.assessment-option');
+    var options = elements.questionsContainer.querySelectorAll('.delivery-check-option');
     options.forEach(function(option) {
       option.addEventListener('click', handleOptionClick);
       option.addEventListener('keydown', handleOptionKeydown);
@@ -290,7 +290,7 @@
 
     // Create label (acts as option card)
     var label = createElement('label', {
-      'class': 'assessment-option' + (isSelected ? ' assessment-option--selected' : ''),
+      'class': 'delivery-check-option' + (isSelected ? ' delivery-check-option--selected' : ''),
       'tabindex': '0',
       'role': isMultiSelect ? 'checkbox' : 'radio',
       'aria-checked': String(isSelected),
@@ -303,7 +303,7 @@
       'type': inputType,
       'name': inputName,
       'value': option.value,
-      'class': 'assessment-option__input'
+      'class': 'delivery-check-option__input'
     });
     if (isSelected) {
       input.checked = true;
@@ -311,13 +311,13 @@
     label.appendChild(input);
 
     // Card content
-    var card = createElement('span', { 'class': 'assessment-option__card' });
-    var text = createElement('span', { 'class': 'assessment-option__text' }, getLocalizedText(option.label));
+    var card = createElement('span', { 'class': 'delivery-check-option__card' });
+    var text = createElement('span', { 'class': 'delivery-check-option__text' }, getLocalizedText(option.label));
     card.appendChild(text);
     label.appendChild(card);
 
     // Checkmark
-    var check = createElement('span', { 'class': 'assessment-option__check', 'aria-hidden': 'true' });
+    var check = createElement('span', { 'class': 'delivery-check-option__check', 'aria-hidden': 'true' });
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('viewBox', '0 0 24 24');
     svg.setAttribute('fill', 'none');
@@ -394,7 +394,7 @@
    */
   function goToNextStepSilent() {
     // Check if there's a selection without showing error
-    var container = elements.questionsContainer.querySelector('.assessment-options');
+    var container = elements.questionsContainer.querySelector('.delivery-check-options');
     var selectedInputs = container ? container.querySelectorAll('input:checked') : [];
 
     if (!selectedInputs || selectedInputs.length === 0) {
@@ -430,22 +430,22 @@
   function handleOptionClick(event) {
     var option = event.currentTarget;
     var input = option.querySelector('input');
-    var container = option.closest('.assessment-options');
-    var isMultiSelect = container.classList.contains('assessment-options--multi');
+    var container = option.closest('.delivery-check-options');
+    var isMultiSelect = container.classList.contains('delivery-check-options--multi');
 
     if (isMultiSelect) {
       input.checked = !input.checked;
-      option.classList.toggle('assessment-option--selected', input.checked);
+      option.classList.toggle('delivery-check-option--selected', input.checked);
       option.setAttribute('aria-checked', input.checked);
     } else {
       // Single select - deselect others
-      container.querySelectorAll('.assessment-option').forEach(function(opt) {
-        opt.classList.remove('assessment-option--selected');
+      container.querySelectorAll('.delivery-check-option').forEach(function(opt) {
+        opt.classList.remove('delivery-check-option--selected');
         opt.setAttribute('aria-checked', 'false');
         opt.querySelector('input').checked = false;
       });
       input.checked = true;
-      option.classList.add('assessment-option--selected');
+      option.classList.add('delivery-check-option--selected');
       option.setAttribute('aria-checked', 'true');
 
       // Auto-advance on single select (skip validation error display)
@@ -467,7 +467,7 @@
 
     var questionId = state.questionPath[state.currentStep];
     var question = getQuestionById(questionId);
-    var container = elements.questionsContainer.querySelector('.assessment-options');
+    var container = elements.questionsContainer.querySelector('.delivery-check-options');
 
     if (!container) return;
 
@@ -499,7 +499,7 @@
       return validateContactForm();
     }
 
-    var container = elements.questionsContainer.querySelector('.assessment-options');
+    var container = elements.questionsContainer.querySelector('.delivery-check-options');
     var selectedInputs = container ? container.querySelectorAll('input:checked') : [];
 
     if (!selectedInputs || selectedInputs.length === 0) {
@@ -521,8 +521,8 @@
     var isValid = true;
 
     // Clear previous errors
-    form.querySelectorAll('.assessment-field--error').forEach(function(f) {
-      f.classList.remove('assessment-field--error');
+    form.querySelectorAll('.delivery-check-field--error').forEach(function(f) {
+      f.classList.remove('delivery-check-field--error');
     });
 
     if (!name.value.trim()) {
@@ -555,8 +555,8 @@
   }
 
   function markFieldError(input) {
-    var field = input.closest('.assessment-field');
-    if (field) field.classList.add('assessment-field--error');
+    var field = input.closest('.delivery-check-field');
+    if (field) field.classList.add('delivery-check-field--error');
   }
 
   function isValidEmail(email) {
@@ -567,8 +567,8 @@
     clearValidationError();
 
     var errorEl = createElement('div', {
-      'class': 'assessment-error',
-      'id': 'assessment-error',
+      'class': 'delivery-check-error',
+      'id': 'delivery-check-error',
       'role': 'alert'
     }, message);
 
@@ -576,7 +576,7 @@
   }
 
   function clearValidationError() {
-    var existingError = document.getElementById('assessment-error');
+    var existingError = document.getElementById('delivery-check-error');
     if (existingError) existingError.remove();
   }
 
@@ -620,7 +620,7 @@
     var levelEl = document.getElementById('results-level');
     levelEl.textContent = '';
     var badge = createElement('span', {
-      'class': 'assessment-results__badge',
+      'class': 'delivery-check-results__badge',
       'style': 'background-color: ' + maturityLevel.color
     }, getLocalizedText(maturityLevel.label));
     levelEl.appendChild(badge);
@@ -832,7 +832,7 @@
   // ==========================================================================
 
   function init() {
-    var container = document.getElementById('assessment-container');
+    var container = document.getElementById('delivery-check-container');
     if (!container) return;
 
     cacheElements();

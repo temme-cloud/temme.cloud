@@ -1,0 +1,63 @@
+{{ define "main" }}
+    <!-- Hero Section -->
+    <section class="hero hero--page">
+        <div class="hero__inner">
+            <h1 class="hero__title">{{ .Title | markdownify }}</h1>
+            {{ with .Params.description }}
+            <p class="hero__subtitle">{{ . }}</p>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Delivery Check Section -->
+    <main class="post post--white">
+        <article>
+            <div class="delivery-check-container"
+                 id="delivery-check-container"
+                 data-lang="{{ .Language.Lang }}"
+                 data-variant="{{ .Params.variant | default "default" }}"
+                 data-privacy-url="{{ .Params.privacyUrl | default (printf "/%s/datenschutz/" .Language.Lang) }}"
+                 data-contact-url="{{ .Params.contactUrl | default (printf "/%s/kontakt/" .Language.Lang) }}">
+
+                {{ partial "delivery-check/form.html" . }}
+
+            </div>
+        </article>
+    </main>
+
+    <!-- Embed questions data and i18n strings for JavaScript -->
+    <script>
+        window.DELIVERY_CHECK_QUESTIONS = {{ (index .Site.Data "delivery-check" "delivery-questions") | jsonify | safeJS }};
+        window.DELIVERY_CHECK_I18N = {
+            step: "{{ i18n "deliveryCheckStep" }}",
+            of: "{{ i18n "deliveryCheckOf" }}",
+            next: "{{ i18n "deliveryCheckNext" }}",
+            back: "{{ i18n "deliveryCheckBack" }}",
+            continueToContact: "{{ i18n "deliveryCheckContinueToContact" }}",
+            submit: "{{ i18n "deliveryCheckSubmit" }}",
+            submitting: "{{ i18n "deliveryCheckSubmitting" }}",
+            selectRequired: "{{ i18n "deliveryCheckSelectRequired" }}",
+            selectMultiple: "{{ i18n "deliveryCheckSelectMultiple" }}",
+            fillRequired: "{{ i18n "deliveryCheckFillRequired" }}",
+            submitError: "{{ i18n "deliveryCheckSubmitError" }}",
+            contactTitle: "{{ i18n "deliveryCheckContactTitle" }}",
+            contactDescription: "{{ i18n "deliveryCheckContactDescription" }}",
+            fieldName: "{{ i18n "deliveryCheckFieldName" }}",
+            fieldEmail: "{{ i18n "deliveryCheckFieldEmail" }}",
+            fieldCompany: "{{ i18n "deliveryCheckFieldCompany" }}",
+            fieldPhone: "{{ i18n "deliveryCheckFieldPhone" }}",
+            gdprConsent: "{{ i18n "deliveryCheckGDPRConsent" }}",
+            gdprLink: "{{ i18n "deliveryCheckGDPRLink" }}",
+            resultsTitle: "{{ i18n "deliveryCheckResultsTitle" }}",
+            points: "{{ i18n "deliveryCheckPoints" }}",
+            resultsCTA: "{{ i18n "deliveryCheckResultsCTA" }}",
+            bookConsultation: "{{ i18n "deliveryCheckBookConsultation" }}",
+            recommendationsTitle: "{{ i18n "deliveryCheckRecommendationsTitle" }}"
+        };
+    </script>
+
+    <!-- Delivery Check JavaScript -->
+    {{ $deliveryCheck := resources.Get "js/delivery-check.js" }}
+    {{ $secureJS := $deliveryCheck | resources.Minify | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" defer></script>
+{{ end }}

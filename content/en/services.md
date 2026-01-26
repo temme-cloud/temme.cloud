@@ -48,7 +48,7 @@ Just reach out – we like to think outside the box and stay technology-agnostic
 
 Our Delivery Check shows you in 2 minutes how mature your CI/CD and delivery process is – and where you can improve.
 
-<a href="/en/delivery-assessment/" class="btn-filled">Start Delivery Check</a>
+<a href="/en/delivery-check/" class="btn-filled">Start Delivery Check</a>
 
 ---
 <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>[Get in touch →](/en/contact)

@@ -1,22 +1,22 @@
 // ==========================================================================
-// Delivery Assessment Form Styles
+// Delivery Check Form Styles
 // ==========================================================================
 
 // Variables
-$assessment-card-bg: #f8f9fa;
-$assessment-card-border: #e0e0e0;
-$assessment-card-selected: $light-background;
-$assessment-error: #e74c3c;
-$assessment-transition: 0.2s ease;
+$delivery-check-card-bg: #f8f9fa;
+$delivery-check-card-border: #e0e0e0;
+$delivery-check-card-selected: $light-background;
+$delivery-check-error: #e74c3c;
+$delivery-check-transition: 0.2s ease;
 
 // Container
-.assessment-container {
+.delivery-check-container {
   max-width: $max-width;
   margin: 0 auto;
   padding: 0 20px 60px;
 }
 
-.assessment-form {
+.delivery-check-form {
   position: relative;
 }
 
@@ -24,7 +24,7 @@ $assessment-transition: 0.2s ease;
 // Progress Bar
 // ==========================================================================
 
-.assessment-progress {
+.delivery-check-progress {
   margin-bottom: 40px;
 
   &__bar {
@@ -55,8 +55,8 @@ $assessment-transition: 0.2s ease;
 // Step Content
 // ==========================================================================
 
-.assessment-step {
-  animation: assessmentFadeIn 0.3s ease;
+.delivery-check-step {
+  animation: deliveryCheckFadeIn 0.3s ease;
 
   &__title {
     font-size: 1.5rem;
@@ -81,27 +81,27 @@ $assessment-transition: 0.2s ease;
 // Option Cards
 // ==========================================================================
 
-.assessment-options {
+.delivery-check-options {
   display: flex;
   flex-direction: column;
   gap: 12px;
 
   &--multi {
-    .assessment-option__check {
+    .delivery-check-option__check {
       border-radius: 4px;
     }
   }
 }
 
-.assessment-option {
+.delivery-check-option {
   display: flex;
   align-items: flex-start;
   padding: 20px;
-  background: $assessment-card-bg;
+  background: $delivery-check-card-bg;
   border: 2px solid transparent;
   border-radius: 12px;
   cursor: pointer;
-  transition: all $assessment-transition;
+  transition: all $delivery-check-transition;
 
   &:hover {
     border-color: $light-background-secondary;
@@ -118,7 +118,7 @@ $assessment-transition: 0.2s ease;
     border-color: $light-background;
     background: rgba($light-background, 0.08);
 
-    .assessment-option__check {
+    .delivery-check-option__check {
       background: $light-background;
       border-color: $light-background;
 
@@ -156,7 +156,7 @@ $assessment-transition: 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all $assessment-transition;
+    transition: all $delivery-check-transition;
 
     svg {
       width: 14px;
@@ -164,12 +164,12 @@ $assessment-transition: 0.2s ease;
       stroke: white;
       opacity: 0;
       transform: scale(0.5);
-      transition: all $assessment-transition;
+      transition: all $delivery-check-transition;
     }
   }
 }
 
-.assessment-hint {
+.delivery-check-hint {
   font-size: 0.875rem;
   color: lighten($dark-grey, 30%);
   margin-top: 16px;
@@ -180,18 +180,18 @@ $assessment-transition: 0.2s ease;
 // Contact Form Fields
 // ==========================================================================
 
-.assessment-contact {
-  animation: assessmentFadeIn 0.3s ease;
+.delivery-check-contact {
+  animation: deliveryCheckFadeIn 0.3s ease;
 }
 
-.assessment-fields {
+.delivery-check-fields {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 24px;
 }
 
-.assessment-field {
+.delivery-check-field {
   &__label {
     display: block;
     font-size: 0.875rem;
@@ -200,7 +200,7 @@ $assessment-transition: 0.2s ease;
     margin-bottom: 8px;
 
     span {
-      color: $assessment-error;
+      color: $delivery-check-error;
     }
   }
 
@@ -212,7 +212,7 @@ $assessment-transition: 0.2s ease;
     border: 2px solid #e0e0e0;
     border-radius: 8px;
     background: white;
-    transition: border-color $assessment-transition;
+    transition: border-color $delivery-check-transition;
     box-sizing: border-box;
 
     &:focus {
@@ -230,18 +230,18 @@ $assessment-transition: 0.2s ease;
   }
 
   &--error {
-    .assessment-field__input {
-      border-color: $assessment-error;
+    .delivery-check-field__input {
+      border-color: $delivery-check-error;
     }
 
-    .assessment-checkbox__mark {
-      border-color: $assessment-error;
+    .delivery-check-checkbox__mark {
+      border-color: $delivery-check-error;
     }
   }
 }
 
 // Custom checkbox
-.assessment-checkbox {
+.delivery-check-checkbox {
   display: flex;
   align-items: flex-start;
   cursor: pointer;
@@ -250,7 +250,7 @@ $assessment-transition: 0.2s ease;
     position: absolute;
     opacity: 0;
 
-    &:checked + .assessment-checkbox__mark {
+    &:checked + .delivery-check-checkbox__mark {
       background: $light-background;
       border-color: $light-background;
 
@@ -260,7 +260,7 @@ $assessment-transition: 0.2s ease;
       }
     }
 
-    &:focus + .assessment-checkbox__mark {
+    &:focus + .delivery-check-checkbox__mark {
       box-shadow: 0 0 0 3px rgba($light-background, 0.2);
     }
   }
@@ -274,7 +274,7 @@ $assessment-transition: 0.2s ease;
     margin-right: 12px;
     margin-top: 2px;
     position: relative;
-    transition: all $assessment-transition;
+    transition: all $delivery-check-transition;
 
     &::after {
       content: '';
@@ -287,7 +287,7 @@ $assessment-transition: 0.2s ease;
       border-width: 0 2px 2px 0;
       opacity: 0;
       transform: rotate(45deg) scale(0.5);
-      transition: all $assessment-transition;
+      transition: all $delivery-check-transition;
     }
   }
 
@@ -311,7 +311,7 @@ $assessment-transition: 0.2s ease;
 // Navigation
 // ==========================================================================
 
-.assessment-nav {
+.delivery-check-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -331,9 +331,9 @@ $assessment-transition: 0.2s ease;
   }
 }
 
-// Button states for assessment
-.assessment-nav .btn-filled,
-.assessment-nav .btn-outline {
+// Button states for delivery check
+.delivery-check-nav .btn-filled,
+.delivery-check-nav .btn-outline {
   &:disabled {
     opacity: 0.6;
     cursor: not-allowed;
@@ -344,10 +344,10 @@ $assessment-transition: 0.2s ease;
 // Results
 // ==========================================================================
 
-.assessment-results {
+.delivery-check-results {
   text-align: center;
   padding: 40px 0;
-  animation: assessmentFadeIn 0.5s ease;
+  animation: deliveryCheckFadeIn 0.5s ease;
 
   &__header {
     margin-bottom: 32px;
@@ -391,7 +391,7 @@ $assessment-transition: 0.2s ease;
   }
 
   &__recommendations {
-    background: $assessment-card-bg;
+    background: $delivery-check-card-bg;
     border-radius: 12px;
     padding: 24px 32px;
     margin-bottom: 32px;
@@ -434,23 +434,23 @@ $assessment-transition: 0.2s ease;
 // Error Message
 // ==========================================================================
 
-.assessment-error {
-  background: lighten($assessment-error, 40%);
-  border: 1px solid lighten($assessment-error, 20%);
-  color: darken($assessment-error, 10%);
+.delivery-check-error {
+  background: lighten($delivery-check-error, 40%);
+  border: 1px solid lighten($delivery-check-error, 20%);
+  color: darken($delivery-check-error, 10%);
   padding: 12px 16px;
   border-radius: 8px;
   margin-top: 32px;
   margin-bottom: 20px;
   font-size: 0.875rem;
-  animation: assessmentFadeIn 0.2s ease;
+  animation: deliveryCheckFadeIn 0.2s ease;
 }
 
 // ==========================================================================
 // Loading State
 // ==========================================================================
 
-.assessment-loading {
+.delivery-check-loading {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -463,7 +463,7 @@ $assessment-transition: 0.2s ease;
     border: 3px solid #e0e0e0;
     border-top-color: $light-background;
     border-radius: 50%;
-    animation: assessmentSpin 0.8s linear infinite;
+    animation: deliveryCheckSpin 0.8s linear infinite;
     margin-right: 12px;
   }
 }
@@ -472,7 +472,7 @@ $assessment-transition: 0.2s ease;
 // Animations
 // ==========================================================================
 
-@keyframes assessmentFadeIn {
+@keyframes deliveryCheckFadeIn {
   from {
     opacity: 0;
     transform: translateY(10px);
@@ -483,7 +483,7 @@ $assessment-transition: 0.2s ease;
   }
 }
 
-@keyframes assessmentSpin {
+@keyframes deliveryCheckSpin {
   to {
     transform: rotate(360deg);
   }
@@ -494,14 +494,14 @@ $assessment-transition: 0.2s ease;
 // ==========================================================================
 
 @media (prefers-reduced-motion: reduce) {
-  .assessment-progress__fill,
-  .assessment-option,
-  .assessment-option__check svg,
-  .assessment-step,
-  .assessment-contact,
-  .assessment-results,
-  .assessment-error,
-  .assessment-loading__spinner {
+  .delivery-check-progress__fill,
+  .delivery-check-option,
+  .delivery-check-option__check svg,
+  .delivery-check-step,
+  .delivery-check-contact,
+  .delivery-check-results,
+  .delivery-check-error,
+  .delivery-check-loading__spinner {
     transition: none;
     animation: none;
   }
@@ -512,11 +512,11 @@ $assessment-transition: 0.2s ease;
 // ==========================================================================
 
 @media #{$media-size-phone} {
-  .assessment-container {
+  .delivery-check-container {
     padding: 0 16px 40px;
   }
 
-  .assessment-option {
+  .delivery-check-option {
     padding: 16px;
 
     &__text {
@@ -529,7 +529,7 @@ $assessment-transition: 0.2s ease;
     }
   }
 
-  .assessment-nav {
+  .delivery-check-nav {
     flex-direction: column;
 
     &__back {
@@ -544,7 +544,7 @@ $assessment-transition: 0.2s ease;
     }
   }
 
-  .assessment-results {
+  .delivery-check-results {
     padding: 24px 0;
 
     &__recommendations {

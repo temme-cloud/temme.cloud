@@ -59,86 +59,86 @@ other = "Contact"
 [footerPrivacy]
 other = "Privacy Policy"
 
-[footerAssessment]
+[footerDeliveryCheck]
 other = "Start Delivery Check"
 
 # ==========================================================================
 # Delivery Check
 # ==========================================================================
 
-[assessmentStep]
+[deliveryCheckStep]
 other = "Step"
 
-[assessmentOf]
+[deliveryCheckOf]
 other = "of"
 
-[assessmentNext]
+[deliveryCheckNext]
 other = "Continue"
 
-[assessmentBack]
+[deliveryCheckBack]
 other = "Back"
 
-[assessmentContinueToContact]
+[deliveryCheckContinueToContact]
 other = "Continue to Contact"
 
-[assessmentSubmit]
+[deliveryCheckSubmit]
 other = "Submit & View Results"
 
-[assessmentSubmitting]
+[deliveryCheckSubmitting]
 other = "Submitting..."
 
-[assessmentSelectRequired]
+[deliveryCheckSelectRequired]
 other = "Please select an option."
 
-[assessmentSelectMultiple]
+[deliveryCheckSelectMultiple]
 other = "Multiple selections allowed"
 
-[assessmentFillRequired]
+[deliveryCheckFillRequired]
 other = "Please fill in all required fields."
 
-[assessmentSubmitError]
+[deliveryCheckSubmitError]
 other = "An error occurred. Please try again."
 
-[assessmentRequiresJS]
+[deliveryCheckRequiresJS]
 other = "The Delivery Check requires JavaScript. Please enable JavaScript in your browser."
 
 # Contact Form
-[assessmentContactTitle]
+[deliveryCheckContactTitle]
 other = "Almost there!"
 
-[assessmentContactDescription]
+[deliveryCheckContactDescription]
 other = "Enter your contact details to receive your personalized results."
 
-[assessmentFieldName]
+[deliveryCheckFieldName]
 other = "Name"
 
-[assessmentFieldEmail]
+[deliveryCheckFieldEmail]
 other = "Email"
 
-[assessmentFieldCompany]
+[deliveryCheckFieldCompany]
 other = "Company"
 
-[assessmentFieldPhone]
+[deliveryCheckFieldPhone]
 other = "Phone (optional)"
 
-[assessmentGDPRConsent]
+[deliveryCheckGDPRConsent]
 other = "I agree to the Privacy Policy and consent to being contacted."
 
-[assessmentGDPRLink]
+[deliveryCheckGDPRLink]
 other = "Privacy Policy"
 
 # Results
-[assessmentResultsTitle]
+[deliveryCheckResultsTitle]
 other = "Your Results"
 
-[assessmentPoints]
+[deliveryCheckPoints]
 other = "Points"
 
-[assessmentResultsCTA]
+[deliveryCheckResultsCTA]
 other = "Want to learn more? We'd be happy to help improve your delivery process."
 
-[assessmentBookConsultation]
+[deliveryCheckBookConsultation]
 other = "Book Free Consultation"
 
-[assessmentRecommendationsTitle]
+[deliveryCheckRecommendationsTitle]
 other = "Recommendations for You"

@@ -18,7 +18,7 @@ We support international tech teams in building complex systems – with a focus
 
 How mature is your software delivery process? Our Delivery Check shows you in 2 minutes where you stand and where there's room for improvement.
 
-<a href="/en/delivery-assessment/" class="btn-filled">Start Delivery Check</a>
+<a href="/en/delivery-check/" class="btn-filled">Start Delivery Check</a>
 
 ---
 

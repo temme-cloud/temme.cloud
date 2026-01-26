@@ -388,6 +388,29 @@
     scrollToTop();
   }
 
+  /**
+   * Silent version of goToNextStep - used for auto-advance
+   * Does not show validation error if no selection (just does nothing)
+   */
+  function goToNextStepSilent() {
+    // Check if there's a selection without showing error
+    var container = elements.questionsContainer.querySelector('.assessment-options');
+    var selectedInputs = container ? container.querySelectorAll('input:checked') : [];
+
+    if (!selectedInputs || selectedInputs.length === 0) {
+      return; // Silently do nothing
+    }
+
+    clearValidationError();
+    captureCurrentResponse();
+    recalculatePathFromStep(state.currentStep);
+
+    state.currentStep++;
+    renderCurrentStep();
+
+    scrollToTop();
+  }
+
   function goToPreviousStep() {
     if (state.currentStep > 0) {
       state.currentStep--;
@@ -425,9 +448,9 @@
       option.classList.add('assessment-option--selected');
       option.setAttribute('aria-checked', 'true');
 
-      // Auto-advance on single select
+      // Auto-advance on single select (skip validation error display)
       setTimeout(function() {
-        goToNextStep();
+        goToNextStepSilent();
       }, CONFIG.autoAdvanceDelay);
     }
   }

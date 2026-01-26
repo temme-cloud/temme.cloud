@@ -400,11 +400,24 @@
     border-color: $light-background-secondary;
   }
 
-  // On white background
-  .section-white & {
+  // On white background (default for content sections)
+  .section-white &,
+  .post--white & {
     background: $light-background;
     color: $light-color;
     border-color: $light-background;
+  }
+
+  // On green background (hero sections)
+  .hero & {
+    background: $light-color;
+    color: $light-background;
+    border-color: $light-color;
+
+    &:hover {
+      background: $light-color-variant;
+      border-color: $light-color-variant;
+    }
   }
 }
 

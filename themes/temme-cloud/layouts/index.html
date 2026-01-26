@@ -11,6 +11,11 @@
             {{ with .Site.Params.homeSubtitle }}
             <p class="hero__subtitle">{{ . }}</p>
             {{ end }}
+            <div class="hero__cta">
+                <a href="{{ .Language.Lang | printf "/%s/delivery-assessment/" }}" class="btn-filled">
+                    {{ if eq .Language.Lang "de" }}Delivery Assessment starten{{ else }}Start Delivery Assessment{{ end }}
+                </a>
+            </div>
         </div>
     </section>
 

@@ -59,6 +59,8 @@ other = "Kontakt"
 [footerPrivacy]
 other = "Datenschutz"
 
+[footerAssessment]
+other = "Delivery Assessment"
 
 # ==========================================================================
 # Delivery Assessment

@@ -12,7 +12,7 @@
                 <div class="dropdown-content">
                     {{ if hugo.IsMultilingual }}
                         {{ range $.Translations }}
-                            <a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                            <a title="{{ .Language.LanguageName }}" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
                         {{ end }}
                     {{ end }}
                 </div>

@@ -5,7 +5,7 @@ date: 2025-03-03
 translationKey: "about"
 ---
 
-<img src="../robin.png" alt="Robin Temme – Founder" class="about-portrait"/>
+<img src="/robin.png" alt="Robin Temme – Founder" class="about-portrait"/>
 <br>
 
 We are a cross-functional team of currently three employees – founded by **Robin Temme** – and work with a growing network of experts. Together, we help tech teams untangle complex systems, make software maintainable, and get infrastructure under control – without drama, but with clear structure, clean documentation, and modern tools.
@@ -15,7 +15,7 @@ What we don't do: half-baked workarounds, blind hype, or code that no one unders
 
 Whether in a corporation or mid-sized company – we're often called when projects are technically stuck or when things get serious. We bring structure, build trust, and are not just the techies, but also the social glue in the team.
 
-If you need a solution that still runs stable in a year – [**let's talk.**](../contact)
+If you need a solution that still runs stable in a year – [**let's talk.**](/en/contact)
 
 ---
 

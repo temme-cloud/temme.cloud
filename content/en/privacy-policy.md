@@ -3,6 +3,8 @@ title: "Privacy Policy"
 date: 2025-03-03
 robots: noindex
 translationKey: "privacy"
+aliases:
+  - "/privacy"
 ---
 
 ## 1. Controller

@@ -223,6 +223,9 @@ export function createQuizStore(questionsData, i18n, config) {
     if (responses.delivery === 'manual' && recommendations.manual) {
       recs.push(getLocalizedText(recommendations.manual));
     }
+    if (responses.delivery === 'none-delivery' && recommendations['none-delivery']) {
+      recs.push(getLocalizedText(recommendations['none-delivery']));
+    }
     if (responses.risk === 'regulated' && recommendations.regulated) {
       recs.push(getLocalizedText(recommendations.regulated));
     }
@@ -232,11 +235,23 @@ export function createQuizStore(questionsData, i18n, config) {
     if (responses.handover === 'throw-over' && recommendations['throw-over']) {
       recs.push(getLocalizedText(recommendations['throw-over']));
     }
+    if (responses.handover === 'none-handover' && recommendations['none-handover']) {
+      recs.push(getLocalizedText(recommendations['none-handover']));
+    }
+    if (responses.team === 'none-team' && recommendations['none-team']) {
+      recs.push(getLocalizedText(recommendations['none-team']));
+    }
+    if (responses.security === 'none-security' && recommendations['none-security']) {
+      recs.push(getLocalizedText(recommendations['none-security']));
+    }
 
     // Check blockers (multi-select)
     const blockers = responses.blockers || [];
     if (blockers.includes('flaky-tests') && recommendations['flaky-tests']) {
       recs.push(getLocalizedText(recommendations['flaky-tests']));
+    }
+    if (blockers.includes('unsure-blockers') && recommendations['unsure-blockers']) {
+      recs.push(getLocalizedText(recommendations['unsure-blockers']));
     }
 
     // Add level-specific recommendation

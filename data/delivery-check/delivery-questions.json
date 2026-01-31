@@ -98,6 +98,14 @@
             "en": "Cross-functional with shared responsibilities"
           },
           "score": 16
+        },
+        {
+          "value": "none-team",
+          "label": {
+            "de": "Noch kein festes Entwicklungsteam",
+            "en": "No dedicated development team yet"
+          },
+          "score": 6
         }
       ]
     },
@@ -140,6 +148,15 @@
           },
           "score": 24,
           "next": "risk"
+        },
+        {
+          "value": "none-delivery",
+          "label": {
+            "de": "Wir haben noch keinen definierten Prozess",
+            "en": "We don't have a defined process yet"
+          },
+          "score": 4,
+          "next": "blockers"
         }
       ]
     },
@@ -192,6 +209,14 @@
             "en": "Unclear processes or responsibilities"
           },
           "score": 6
+        },
+        {
+          "value": "unsure-blockers",
+          "label": {
+            "de": "Wir sind nicht sicher, was uns aufhält",
+            "en": "We're not sure what's holding us back"
+          },
+          "score": 4
         }
       ]
     },
@@ -274,6 +299,14 @@
             "en": "Threat modeling, Zero Trust, continuous scanning"
           },
           "score": 26
+        },
+        {
+          "value": "none-security",
+          "label": {
+            "de": "Noch keine gezielten Security-Maßnahmen",
+            "en": "No dedicated security measures yet"
+          },
+          "score": 6
         }
       ]
     },
@@ -354,6 +387,14 @@
             "en": "Teams run their services end-to-end (You build it, you run it)"
           },
           "score": 22
+        },
+        {
+          "value": "none-handover",
+          "label": {
+            "de": "Kein formaler Wissenstransfer-Prozess",
+            "en": "No formal knowledge transfer process"
+          },
+          "score": 4
         }
       ]
     }
@@ -363,7 +404,7 @@
       {
         "key": "beginner",
         "min": 0,
-        "max": 40,
+        "max": 65,
         "color": "#e74c3c",
         "label": {
           "de": "Einsteiger",
@@ -376,8 +417,8 @@
       },
       {
         "key": "developing",
-        "min": 41,
-        "max": 65,
+        "min": 66,
+        "max": 90,
         "color": "#f39c12",
         "label": {
           "de": "In Entwicklung",
@@ -390,8 +431,8 @@
       },
       {
         "key": "established",
-        "min": 66,
-        "max": 85,
+        "min": 91,
+        "max": 120,
         "color": "#3498db",
         "label": {
           "de": "Etabliert",
@@ -404,8 +445,8 @@
       },
       {
         "key": "advanced",
-        "min": 86,
-        "max": 150,
+        "min": 121,
+        "max": 200,
         "color": "#007163",
         "label": {
           "de": "Fortgeschritten",
@@ -453,6 +494,26 @@
       "advanced": {
         "de": "Experimentiert mit fortgeschrittenen Techniken wie Progressive Delivery und Chaos Engineering.",
         "en": "Experiment with advanced techniques like Progressive Delivery and Chaos Engineering."
+      },
+      "none-team": {
+        "de": "Baut ein dediziertes Kernteam auf – klare Ownership ist die Basis für nachhaltiges Delivery.",
+        "en": "Build a dedicated core team - clear ownership is the foundation for sustainable delivery."
+      },
+      "none-delivery": {
+        "de": "Definiert einen Basis-Deployment-Prozess: Versionskontrolle, einfache Pipeline, reproduzierbare Builds.",
+        "en": "Define a basic deployment process: version control, simple pipeline, reproducible builds."
+      },
+      "unsure-blockers": {
+        "de": "Ein Discovery-Workshop kann helfen, versteckte Engpässe sichtbar zu machen und zu priorisieren.",
+        "en": "A discovery workshop can help uncover hidden bottlenecks and prioritize them."
+      },
+      "none-security": {
+        "de": "Startet mit den Grundlagen: Secrets-Management, Dependency-Scanning und sichere Defaults.",
+        "en": "Start with the basics: secrets management, dependency scanning, and secure defaults."
+      },
+      "none-handover": {
+        "de": "Dokumentiert kritisches Wissen und führt regelmäßige Knowledge-Sharing-Sessions ein.",
+        "en": "Document critical knowledge and establish regular knowledge-sharing sessions."
       }
     }
   }

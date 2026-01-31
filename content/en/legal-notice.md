@@ -5,11 +5,11 @@ robots: noindex
 translationKey: "legal"
 ---
 
-## Information according to § 5 DDG (formerly §5 TMG)
+## Information according to § 5 DDG
 
 ### Temme Cloud & Tech GmbH
 
-Grüntaler Str. 32
+Grüntaler Straße 32
 
 13357 Berlin
 
@@ -27,24 +27,23 @@ Phone: +49 30 91698770
 
 ### Commercial Register
 
-Entry in the commercial register.
-
-Registry Court: Amtsgericht Berlin (Charlottenburg)
+Registry Court: Amtsgericht Berlin-Charlottenburg
 
 Commercial Register Number: HRB 273232 B
 
 ### VAT ID
 
-VAT identification number according to §27a of the German VAT Act:
+VAT identification number according to § 27a of the German VAT Act:
 
 DE453870189
 
 ---
 
-## Responsible for Content according to § 55 para. 2 RStV
+## Responsible for Content according to § 18 para. 2 MStV
 
-### Temme Cloud & Tech GmbH
-Grüntaler Str. 32
+Temme Cloud & Tech GmbH
+
+Grüntaler Straße 32
 
 13357 Berlin
 
@@ -60,7 +59,7 @@ The contents of our pages were created with the greatest care. However, we canno
 
 ### Liability for Links
 
-Our offer contains links to external websites of third parties, over whose content we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, permanent content control of the linked pages is not reasonable without concrete evidence of a legal violation. Upon becoming aware of legal violations, we will remove such links immediately.
+Our offer contains links to external websites of third parties, over whose content we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognisable at the time of linking. However, permanent content control of the linked pages is not reasonable without concrete evidence of a legal violation. Upon becoming aware of legal violations, we will remove such links immediately.
 
 ### Copyright
 

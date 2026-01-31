@@ -7,11 +7,11 @@ aliases:
   - "/impressum"
 ---
 
-## Angaben gemäß § 5 DDG (ehemals §5 TMG)
+## Angaben gemäß § 5 DDG
 
 ### Temme Cloud & Tech GmbH
 
-Grüntaler Str. 32
+Grüntaler Straße 32
 
 13357 Berlin
 
@@ -29,24 +29,23 @@ Telefon: +49 30 91698770
 
 ### Handelsregister
 
-Eintragung im Handelsregister.
-
-Registergericht: Amtsgericht Berlin (Charlottenburg)
+Registergericht: Amtsgericht Berlin-Charlottenburg
 
 Handelsregisternummer: HRB 273232 B
 
 ### Umsatzsteuer-ID
 
-Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:
+Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
 
 DE453870189
 
 ---
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
-### Temme Cloud & Tech GmbH
-Grüntaler Str. 32
+Temme Cloud & Tech GmbH
+
+Grüntaler Straße 32
 
 13357 Berlin
 

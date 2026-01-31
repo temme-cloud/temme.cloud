@@ -118,7 +118,7 @@
                                 <span class="contact-form__checkbox-mark"></span>
                                 <span class="contact-form__checkbox-label">
                                     {{ i18n "contactFormGDPRConsent" }}
-                                    <a href="{{ .Params.privacyUrl | default (cond (eq .Language.Lang "de") "/de/datenschutz/" "/en/privacy-policy/") }}" target="_blank" rel="noopener">{{ i18n "contactFormGDPRLink" }}</a>{{ i18n "contactFormGDPRConsentAfter" }}
+                                    <a href="{{ .Params.privacyUrl | default (cond (eq .Language.Lang "de") "/de/datenschutz/" "/en/privacy/") }}" target="_blank" rel="noopener">{{ i18n "contactFormGDPRLink" }}</a>{{ i18n "contactFormGDPRConsentAfter" }}
                                 </span>
                             </label>
                         </div>

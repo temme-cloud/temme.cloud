@@ -3,6 +3,8 @@ title: "Legal Notice"
 date: 2025-03-03
 robots: noindex
 translationKey: "legal"
+aliases:
+  - "/en/legal-notice"
 ---
 
 ## Information according to § 5 DDG

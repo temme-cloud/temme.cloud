@@ -63,8 +63,8 @@ defaultContentLanguageInSubdir = true
       homeTitle = "Complex Systems. Clear Solutions."
       homeSubtitle = "Temme Cloud & Tech GmbH is a specialized IT service provider focused on scalable software architecture, reliable infrastructure, and technical excellence. Whether backend development, DevOps, or cloud migration – we bring modern technologies where they create real value."
       description = "Technical excellence for Cloud, Backend & CI/CD – Temme Cloud & Tech GmbH supports teams with stable, maintainable software solutions."
-      impressumLink = "/en/legal-notice/"
-      privacyPolicyLink = "/en/privacy-policy/"
+      impressumLink = "/en/legal/"
+      privacyPolicyLink = "/en/privacy/"
       contactLink = "/en/contact/"
     [[languages.en.params.footerServices]]
       name = "Services"

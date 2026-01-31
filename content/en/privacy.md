@@ -5,6 +5,7 @@ robots: noindex
 translationKey: "privacy"
 aliases:
   - "/privacy"
+  - "/en/privacy-policy"
 ---
 
 ## 1. Controller

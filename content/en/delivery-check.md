@@ -5,6 +5,6 @@ date: 2025-01-26
 layout: "delivery-check"
 translationKey: "delivery-check"
 variant: "default"
-privacyUrl: "/en/privacy-policy/"
+privacyUrl: "/en/privacy/"
 contactUrl: "/en/contact/"
 ---

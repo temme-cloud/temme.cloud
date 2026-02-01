@@ -41,15 +41,9 @@ DE453870189
 
 ---
 
-## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+## Verbraucherstreitbeilegung
 
-Temme Cloud & Tech GmbH
-
-Grüntaler Straße 32
-
-13357 Berlin
-
-Deutschland
+Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ---
 

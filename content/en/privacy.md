@@ -68,7 +68,7 @@ The form submission is handled via Netlify Forms. Netlify may store form submiss
 
 - Internal recipients (responsible staff)
 - Netlify (technical processing/storage)
-- Fastmail Pty Ltd. (email hosting, see Section 6)
+- Fastmail Pty Ltd. (email hosting, see Section 7)
 
 **Legal basis:** Art. 6(1)(b) GDPR (pre-contractual measures/contract performance) and Art. 6(1)(f) GDPR (efficient communication).
 
@@ -78,7 +78,30 @@ The form submission is handled via Netlify Forms. Netlify may store form submiss
 
 ---
 
-## 5. Delivery Check (Netlify Forms → GitLab Service Desk)
+## 5. Appointment Booking (Cal.eu / Cal.com)
+
+When you book an appointment via our website, we process the data you provide (name, email address, preferred appointment time, and any notes) to schedule and manage the appointment.
+
+Appointment booking is handled via Cal.com / Cal.eu (Cal.com, Inc., 660 4th Street #405, San Francisco, CA 94107, USA; European instance Cal.eu).
+
+**Data processed:**
+
+- Name
+- Email address
+- Preferred appointment date/time
+- Notes/message (if provided)
+
+**Legal basis:** Art. 6(1)(b) GDPR (pre-contractual measures/contract performance) and Art. 6(1)(f) GDPR (legitimate interest in efficient appointment management).
+
+**Data Processing Agreement:** We have concluded a DPA with Cal.com.
+
+**International transfers:** We use the European instance Cal.eu, which processes data within the European Economic Area (EEA). No transfer to third countries takes place in regular operation.
+
+**Retention period:** Appointment data is deleted after the appointment has taken place, unless statutory retention obligations apply.
+
+---
+
+## 6. Delivery Check (Netlify Forms → GitLab Service Desk)
 
 When you use the Delivery Check, we process the data you provide as well as the generated result data (answers to the questionnaire, result score, timestamp) to provide you with the result and, where applicable, to clarify follow-up questions or prepare a proposal.
 
@@ -100,23 +123,23 @@ For structured handling of requests, the email is automatically forwarded to Git
 
 ---
 
-## 6. Email Hosting (Fastmail)
+## 7. Email Hosting (Fastmail)
 
 Our email traffic is handled via Fastmail (Fastmail Pty Ltd., Level 2, 114 William Street, Melbourne VIC 3000, Australia).
 
 **Data Processing Agreement:** We have concluded a DPA with Fastmail.
 
-**International transfers:** Fastmail processes data in Australia. An adequacy decision of the European Commission pursuant to Art. 45 GDPR is in place.
+**International transfers:** Fastmail processes data in Australia. The transfer is based on appropriate safeguards, in particular the EU Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR, which form part of the Fastmail Data Processing Addendum.
 
 ---
 
-## 7. Processing in Additional Systems
+## 8. Processing in Additional Systems
 
 We reserve the right to transfer inquiries received via info@temme.cloud to a CRM system for structured processing. In such a case, the provider will be contractually engaged as a data processor and this privacy policy will be updated accordingly.
 
 ---
 
-## 8. Spam Protection (Akismet)
+## 9. Spam Protection (Akismet)
 
 To protect against spam, form submissions received via Netlify Forms are automatically filtered by Akismet. Netlify states that all form submissions are spam-filtered using Akismet.
 
@@ -126,7 +149,7 @@ Content data of form submissions (e.g., message text and metadata) may be proces
 
 ---
 
-## 9. Recipients and Categories of Recipients
+## 10. Recipients and Categories of Recipients
 
 Personal data is transmitted to the following recipients or categories of recipients:
 
@@ -135,24 +158,25 @@ Personal data is transmitted to the following recipients or categories of recipi
 | Netlify Inc. | Data processor | Hosting, form data processing | USA |
 | Akismet (Automattic Inc.) | Sub-processor (via Netlify) | Spam filtering | USA |
 | Fastmail Pty Ltd. | Data processor | Email hosting | Australia |
+| Cal.com, Inc. (Cal.eu) | Data processor | Appointment booking | EEA (European instance) |
 | GitLab Inc. | Data processor | Inquiry handling (Service Desk) | USA |
 
 Data is not disclosed to any other third parties unless we are legally obliged to do so or you have given your express consent.
 
 ---
 
-## 10. International Data Transfers
+## 11. International Data Transfers
 
 Some of the service providers we use process data outside the European Economic Area (EEA):
 
-- **USA (Netlify, Akismet/Automattic, GitLab):** Netlify describes its safeguards in its [Privacy Policy](https://www.netlify.com/privacy/). For GitLab, the transfer is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR.
-- **Australia (Fastmail):** An adequacy decision of the European Commission pursuant to Art. 45 GDPR is in place.
+- **USA (Netlify, Akismet/Automattic, GitLab):** For Netlify, the transfer is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR and the EU-U.S. Data Privacy Framework (DPF) pursuant to Art. 45 GDPR. For Akismet (Automattic), the transfer is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR. For GitLab, the transfer is also based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR.
+- **Australia (Fastmail):** The transfer is based on the EU Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR, which form part of the Fastmail Data Processing Addendum.
 
 Data processing agreements pursuant to Art. 28 GDPR are in place with all named service providers.
 
 ---
 
-## 11. Retention Periods
+## 12. Retention Periods
 
 - **Server log files (Netlify):** Automatically deleted after no more than 30 days.
 - **Netlify form submissions:** Actively managed by us; deleted after export or conclusive processing.
@@ -162,13 +186,13 @@ Data processing agreements pursuant to Art. 28 GDPR are in place with all named 
 
 ---
 
-## 12. No Tracking or Analytics Tools
+## 13. No Tracking or Analytics Tools
 
 This website does not set cookies for tracking or analytics purposes. No analytics, advertising, or social media plugins are used.
 
 ---
 
-## 13. Your Rights as a Data Subject
+## 14. Your Rights as a Data Subject
 
 You have the following rights regarding your personal data:
 
@@ -183,7 +207,7 @@ To exercise your rights, please contact: [privacy@temme.cloud](mailto:privacy@te
 
 ---
 
-## 14. Right to Lodge a Complaint with a Supervisory Authority
+## 15. Right to Lodge a Complaint with a Supervisory Authority
 
 Without prejudice to any other administrative or judicial remedy, you have the right to lodge a complaint with a supervisory authority if you believe that the processing of your personal data infringes the GDPR.
 
@@ -203,13 +227,13 @@ Website: [https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)
 
 ---
 
-## 15. Objection to Promotional Emails
+## 16. Objection to Promotional Emails
 
 The use of contact data published as part of the legal notice obligation for sending unsolicited advertising and information materials is hereby objected to. The site operators expressly reserve the right to take legal action in the event of the unsolicited sending of advertising information.
 
 ---
 
-## 16. Currency and Changes to this Privacy Policy
+## 17. Currency and Changes to this Privacy Policy
 
 This privacy policy is currently valid as of January 2026.
 

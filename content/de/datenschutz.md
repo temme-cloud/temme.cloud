@@ -67,7 +67,7 @@ Die Formularübermittlung erfolgt über Netlify Forms. Netlify kann Formulareins
 
 - Interne Empfänger (zuständige Mitarbeitende)
 - Netlify (technische Verarbeitung/Speicherung)
-- Fastmail Pty Ltd. (E-Mail-Hosting, siehe Abschnitt 6)
+- Fastmail Pty Ltd. (E-Mail-Hosting, siehe Abschnitt 7)
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen/Vertragserfüllung) und Art. 6 Abs. 1 lit. f DSGVO (effiziente Kommunikation).
 
@@ -77,7 +77,30 @@ Die Formularübermittlung erfolgt über Netlify Forms. Netlify kann Formulareins
 
 ---
 
-## 5. Delivery Check (Netlify Forms → GitLab Service Desk)
+## 5. Terminbuchung (Cal.eu / Cal.com)
+
+Wenn Sie über unsere Website einen Termin buchen, verarbeiten wir die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse, Terminwunsch, ggf. Notizen) zur Durchführung und Verwaltung des Termins.
+
+Die Terminbuchung erfolgt über den Dienst Cal.com bzw. Cal.eu (Cal.com, Inc., 660 4th Street #405, San Francisco, CA 94107, USA; europäische Instanz Cal.eu).
+
+**Verarbeitete Daten:**
+
+- Name
+- E-Mail-Adresse
+- Gewünschter Termin (Datum/Uhrzeit)
+- Ggf. Notizen/Nachricht
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen/Vertragserfüllung) und Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an effizienter Terminverwaltung).
+
+**Auftragsverarbeitung:** Wir haben mit Cal.com einen Auftragsverarbeitungsvertrag (DPA) geschlossen.
+
+**Drittlandtransfer:** Wir nutzen die europäische Instanz Cal.eu, die Daten innerhalb des Europäischen Wirtschaftsraums (EWR) verarbeitet. Eine Übermittlung in Drittländer findet im Regelbetrieb nicht statt.
+
+**Speicherdauer:** Die Termindaten werden nach Durchführung des Termins gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+
+---
+
+## 6. Delivery Check (Netlify Forms → GitLab Service Desk)
 
 Wenn Sie den Delivery Check nutzen, verarbeiten wir die von Ihnen eingegebenen Daten sowie die erzeugten Ergebnisdaten (Antworten auf die Fragen des Fragebogens, Ergebnis-Score, Zeitstempel), um Ihnen das Ergebnis bereitzustellen und gegebenenfalls Rückfragen zu klären bzw. ein Angebot zu erstellen.
 
@@ -99,23 +122,23 @@ Zur strukturierten Bearbeitung wird die E-Mail automatisiert an GitLab Service D
 
 ---
 
-## 6. E-Mail-Hosting (Fastmail)
+## 7. E-Mail-Hosting (Fastmail)
 
 Unser E-Mail-Verkehr wird über Fastmail (Fastmail Pty Ltd., Level 2, 114 William Street, Melbourne VIC 3000, Australien) abgewickelt.
 
 **Auftragsverarbeitung:** Wir haben mit Fastmail einen Auftragsverarbeitungsvertrag (DPA) geschlossen.
 
-**Drittlandtransfer:** Fastmail verarbeitet Daten in Australien. Es liegt ein Angemessenheitsbeschluss der Europäischen Kommission gemäß Art. 45 DSGVO vor.
+**Drittlandtransfer:** Fastmail verarbeitet Daten in Australien. Die Übermittlung erfolgt auf Grundlage geeigneter Garantien, insbesondere der EU-Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO, die Bestandteil des Fastmail Data Processing Addendum sind.
 
 ---
 
-## 7. Weiterverarbeitung in weiteren Systemen
+## 8. Weiterverarbeitung in weiteren Systemen
 
 Wir behalten uns vor, Anfragen, die über info@temme.cloud eingehen, zur strukturierten Bearbeitung in ein CRM-System zu überführen. In einem solchen Fall wird der eingesetzte Anbieter als Auftragsverarbeiter vertraglich gebunden und diese Datenschutzerklärung entsprechend aktualisiert.
 
 ---
 
-## 8. Spam-Erkennung (Akismet)
+## 9. Spam-Erkennung (Akismet)
 
 Zum Schutz vor Spam werden über Netlify Forms eingehende Formulareinsendungen automatisiert durch Akismet gefiltert. Netlify weist darauf hin, dass alle Formulareinsendungen auf Spam über Akismet geprüft werden.
 
@@ -125,7 +148,7 @@ Dabei können Inhaltsdaten der Formulareinsendung (z. B. Nachrichtentext und Met
 
 ---
 
-## 9. Empfänger und Kategorien von Empfängern
+## 10. Empfänger und Kategorien von Empfängern
 
 Personenbezogene Daten werden an folgende Empfänger bzw. Kategorien von Empfängern übermittelt:
 
@@ -134,24 +157,25 @@ Personenbezogene Daten werden an folgende Empfänger bzw. Kategorien von Empfän
 | Netlify Inc. | Auftragsverarbeiter | Hosting, Formulardatenverarbeitung | USA |
 | Akismet (Automattic Inc.) | Unterauftragsverarbeiter (über Netlify) | Spam-Filterung | USA |
 | Fastmail Pty Ltd. | Auftragsverarbeiter | E-Mail-Hosting | Australien |
+| Cal.com, Inc. (Cal.eu) | Auftragsverarbeiter | Terminbuchung | EWR (europäische Instanz) |
 | GitLab Inc. | Auftragsverarbeiter | Anfragenbearbeitung (Service Desk) | USA |
 
 Eine Weitergabe an sonstige Dritte erfolgt nicht, es sei denn, wir sind gesetzlich dazu verpflichtet oder Sie haben ausdrücklich eingewilligt.
 
 ---
 
-## 10. Drittlandübermittlungen
+## 11. Drittlandübermittlungen
 
 Einige der von uns eingesetzten Dienstleister verarbeiten Daten außerhalb des Europäischen Wirtschaftsraums (EWR):
 
-- **USA (Netlify, Akismet/Automattic, GitLab):** Netlify beschreibt seine Schutzmechanismen in seinem [Privacy Statement](https://www.netlify.com/privacy/). Für GitLab erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln (SCCs) gemäß Art. 46 Abs. 2 lit. c DSGVO.
-- **Australien (Fastmail):** Es liegt ein Angemessenheitsbeschluss der Europäischen Kommission gemäß Art. 45 DSGVO vor.
+- **USA (Netlify, Akismet/Automattic, GitLab):** Für Netlify erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO sowie des EU-U.S. Data Privacy Framework (DPF) gemäß Art. 45 DSGVO. Für Akismet (Automattic) erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO. Für GitLab erfolgt die Übermittlung ebenfalls auf Grundlage von Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO.
+- **Australien (Fastmail):** Die Übermittlung erfolgt auf Grundlage der EU-Standardvertragsklauseln (SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO, die Bestandteil des Fastmail Data Processing Addendum sind.
 
 Mit allen genannten Dienstleistern bestehen Auftragsverarbeitungsverträge gemäß Art. 28 DSGVO.
 
 ---
 
-## 11. Speicherdauer
+## 12. Speicherdauer
 
 - **Server-Logfiles (Netlify):** Spätestens nach 30 Tagen automatisch gelöscht.
 - **Netlify-Form-Submissions:** Aktive Verwaltung durch uns; Löschung nach Export bzw. abschließender Bearbeitung.
@@ -161,13 +185,13 @@ Mit allen genannten Dienstleistern bestehen Auftragsverarbeitungsverträge gemä
 
 ---
 
-## 12. Keine Tracking- oder Analysetools
+## 13. Keine Tracking- oder Analysetools
 
 Auf dieser Website werden keine Cookies zu Tracking- oder Analysezwecken gesetzt. Es kommen keine Analyse-, Werbe- oder Social-Media-Plugins zum Einsatz.
 
 ---
 
-## 13. Ihre Rechte als betroffene Person
+## 14. Ihre Rechte als betroffene Person
 
 Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:
 
@@ -182,7 +206,7 @@ Zur Ausübung Ihrer Rechte wenden Sie sich an: [privacy@temme.cloud](mailto:priv
 
 ---
 
-## 14. Beschwerderecht bei einer Aufsichtsbehörde
+## 15. Beschwerderecht bei einer Aufsichtsbehörde
 
 Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 
@@ -202,13 +226,13 @@ Website: [https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)
 
 ---
 
-## 15. Widerspruch gegen Werbe-E-Mails
+## 16. Widerspruch gegen Werbe-E-Mails
 
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen vor.
 
 ---
 
-## 16. Aktualität und Änderung dieser Datenschutzerklärung
+## 17. Aktualität und Änderung dieser Datenschutzerklärung
 
 Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Januar 2026.
 

@@ -128,7 +128,7 @@ other = "Unternehmen"
 other = "Telefon (optional)"
 
 [deliveryCheckGDPRConsent]
-other = "Ich stimme der Datenschutzerklärung zu und bin einverstanden, kontaktiert zu werden."
+other = "Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin einverstanden, kontaktiert zu werden."
 
 [deliveryCheckGDPRLink]
 other = "Datenschutzerklärung"
@@ -175,7 +175,7 @@ other = "Telefon (optional)"
 other = "Nachricht"
 
 [contactFormGDPRConsent]
-other = "Ich stimme der"
+other = "Ich habe die"
 
 [contactFormGDPRLink]
 other = "Datenschutzerklärung"
@@ -196,7 +196,7 @@ other = "Etwas ist schiefgelaufen. Bitte versuche es erneut."
 other = "Oder schreib uns direkt an"
 
 [contactFormGDPRConsentAfter]
-other = " zu."
+other = " zur Kenntnis genommen."
 
 [contactFormEmailSubject]
 other = "Anfrage über temme.cloud"

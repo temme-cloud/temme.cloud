@@ -128,7 +128,7 @@ other = "Company"
 other = "Phone (optional)"
 
 [deliveryCheckGDPRConsent]
-other = "I agree to the Privacy Policy and consent to being contacted."
+other = "I have read the Privacy Policy and consent to being contacted."
 
 [deliveryCheckGDPRLink]
 other = "Privacy Policy"
@@ -175,7 +175,7 @@ other = "Phone (optional)"
 other = "Message"
 
 [contactFormGDPRConsent]
-other = "I agree to the"
+other = "I have read the"
 
 [contactFormGDPRLink]
 other = "Privacy Policy"

@@ -1,11 +1,11 @@
 ---
 title: "Services"
-description: "Backend Engineering, DevOps, Security – we deliver technical excellence."
+description: "Backend engineering, DevOps, AI engineering & security – from microservices to MCP servers."
 date: 2025-03-03
 translationKey: "services"
 ---
 
-We help international tech teams turn complex challenges into working systems – with a clear focus on quality, maintainability, and developer experience.
+We help tech teams build resilient systems and adopt modern tooling safely – from backend and infrastructure to AI-assisted development.
 
 ## <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span> Current Projects
 
@@ -48,24 +48,34 @@ Confidentiality is important to us – we only name specific clients upon reques
 
 ## <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span> Services
 
+Our core competencies – individually or as a complete package.
+
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span> Backend Engineering
 - Microservices in Go & Python
 - REST, GraphQL, event-driven systems
 - Database design & API security
 
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span> DevOps & Infrastructure
-- GitLab CI/CD, Kubernetes, Docker, Terraform, Puppet, Ansible
-- Automation & platform operations (AWS, GCP, On-Prem)
-- Monitoring, logging & secrets management
+- GitLab CI/CD, Kubernetes, Docker, Terraform, Ansible
+- Platform operations & automation (AWS, GCP, on-prem)
+- Observability, logging & secrets management
 
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span> Developer Enablement
-- CI/CD optimization & tooling
-- Internal documentation & platform support
-- Workshops & training (GitLab, k8s, Go, etc.)
+- CI/CD optimization & developer tooling
+- Internal platforms, documentation & self-service
+- Workshops & training (GitLab, Kubernetes, Go, AI tools)
+
+### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></span> AI Engineering & Tooling
+- MCP server development & integration (Model Context Protocol)
+- AI-assisted development workflows (Claude Code, Codex, Kilo Code)
+- Local AI models & self-hosting (Ollama, LM Studio)
+- Custom tool integration & agent architectures
 
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span> Security & Compliance
 - Authentication, authorization, API security
 - Least privilege, auditing, secrets management
+- AI tool governance: policies, access control & secure adoption of AI tools
+- Supply chain security: SBOM, container signing, dependency review
 - Consulting on GDPR & technical security measures
 
 ### <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> Our Network
@@ -76,8 +86,7 @@ Confidentiality is important to us – we only name specific clients upon reques
 
 [View our partners →](/en/partners)
 
-Need something that's not listed here?
-Just reach out – we like to think outside the box and stay technology-agnostic.
+Don't see your topic? Get in touch – we're technology-agnostic and happy to find a solution.
 
 </div>
 </div>

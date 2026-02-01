@@ -2,5 +2,5 @@ User-agent: *
 Disallow: /qr-visitenkarte-v1
 Disallow: /qr-visitenkarte-v2
 Disallow: /robin.vcf
-Disallow: /robin.png
+Disallow: /robin.webp
 Disallow: /community-program

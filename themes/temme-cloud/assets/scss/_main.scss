@@ -39,7 +39,7 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 80px;
-  font-family: "nunito-sans", "houschka-rounded", -apple-system, BlinkMacSystemFont, "Roboto",
+  font-family: "nunito-sans", -apple-system, BlinkMacSystemFont, "Roboto",
     "Segoe UI", Helvetica, Arial, sans-serif;
   font-display: auto;
   font-size: 1rem;
@@ -245,7 +245,7 @@ em, i, strong {
 }
 
 code {
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-family: "ubuntu-mono", Consolas, Monaco, Andale Mono, monospace;
   font-display: auto;
   font-feature-settings: normal;
   padding: 2px 8px;

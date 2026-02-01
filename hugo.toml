@@ -135,6 +135,12 @@ companyContact = "info@temme.cloud"
 logoPath = "/logo-full-white.svg"
 logoMaxWidth = "180px"
 
+[minify]
+  minifyOutput = true
+  [minify.tdewolff.html]
+    keepEndTags = false
+    keepWhitespace = false
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

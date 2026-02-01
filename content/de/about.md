@@ -7,7 +7,7 @@ aliases:
   - "/about"
 ---
 
-<img src="/robin.png" alt="Robin Temme – Gründer" class="about-portrait"/>
+<img src="/robin.webp" alt="Robin Temme – Gründer" class="about-portrait"/>
 <br>
 
 Wir sind ein cross-funktionales Team aus aktuell drei Mitarbeitenden – gegründet von **Robin Temme** – und arbeiten mit einem wachsenden Netzwerk aus Expert:innen zusammen. Gemeinsam helfen wir Tech-Teams dabei, komplexe Systeme zu entwirren, Software wartbar zu machen und Infrastruktur in den Griff zu bekommen – ohne Drama, aber mit klarer Struktur, sauberer Doku und modernen Tools.

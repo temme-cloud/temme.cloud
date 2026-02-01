@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm run build && hugo --minify"
+  command = "npm install && npm run build && hugo --gc --minify"
   publish = "public"
 
 [build.environment]
@@ -10,10 +10,10 @@
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "npm install && npm run build && hugo --buildDrafts --buildFuture --minify"
+  command = "npm install && npm run build && hugo --gc --buildDrafts --buildFuture --minify"
 
 [context.branch-deploy]
-  command = "npm install && npm run build && hugo --buildDrafts --buildFuture --minify"
+  command = "npm install && npm run build && hugo --gc --buildDrafts --buildFuture --minify"
 
 # Redirects for SPA-style routing (if needed)
 [[redirects]]
@@ -48,3 +48,27 @@
   from = "/community-program/"
   to = "/en/community-program/"
   status = 302
+
+# Cache headers for fingerprinted/static assets
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"

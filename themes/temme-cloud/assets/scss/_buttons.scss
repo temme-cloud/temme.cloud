@@ -20,9 +20,13 @@ a.button {
   border: 1px solid transparent;
   appearance: none;
   cursor: pointer;
-  outline: none;
   // Default
   background: $light-background-header;
+
+  &:focus-visible {
+    outline: 2px solid $light-background;
+    outline-offset: 2px;
+  }
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
@@ -114,9 +118,13 @@ a.button {
     border: 1px solid transparent;
     appearance: none;
     cursor: pointer;
-    outline: none;
     // Default
     background: $light-background-secondary;
+
+    &:focus-visible {
+      outline: 2px solid $light-background;
+      outline-offset: 2px;
+    }
 
     @media (prefers-color-scheme: dark) {
       background: $dark-background-secondary;

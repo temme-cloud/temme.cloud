@@ -487,6 +487,11 @@
   cursor: pointer;
   transition: all 0.2s ease;
 
+  &:focus-visible {
+    outline: 2px solid $light-background;
+    outline-offset: 3px;
+  }
+
   &:hover {
     background: $light-background-secondary;
     border-color: $light-background-secondary;
@@ -501,7 +506,8 @@
   }
 
   // On green background (hero sections)
-  .hero & {
+  .hero &,
+  .section-green & {
     background: $light-color;
     color: $light-background;
     border-color: $light-color;
@@ -509,6 +515,10 @@
     &:hover {
       background: $light-color-variant;
       border-color: $light-color-variant;
+    }
+
+    &:focus-visible {
+      outline-color: $light-color;
     }
   }
 }
@@ -528,6 +538,11 @@
   cursor: pointer;
   transition: all 0.2s ease;
 
+  &:focus-visible {
+    outline: 2px solid $light-color;
+    outline-offset: 3px;
+  }
+
   &:hover {
     background: rgba(255, 255, 255, 0.1);
   }
@@ -539,6 +554,10 @@
 
     &:hover {
       background: rgba(0, 113, 99, 0.1);
+    }
+
+    &:focus-visible {
+      outline-color: $light-background;
     }
   }
 }

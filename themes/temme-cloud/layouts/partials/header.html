@@ -5,17 +5,17 @@
         <span class="header__right">
             {{- if len .Site.Menus }}
                 {{ partial "menu.html" . }}
-                <span class="menu-trigger">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <button class="menu-trigger" aria-label="Menu" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
                         <line x1="3" y1="6" x2="21" y2="6"/>
                         <line x1="3" y1="12" x2="21" y2="12"/>
                         <line x1="3" y1="18" x2="21" y2="18"/>
                     </svg>
-                </span>
+                </button>
             {{- end }}
 
             {{- if .Site.Params.EnableThemeToggle }}
-                <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+                <button class="theme-toggle not-selectable" aria-label="{{ i18n "themeToggle" | default "Toggle dark mode" }}">{{ partial "theme-toggle-icon.html" . }}</button>
             {{- end}}
         </span>
     </span>

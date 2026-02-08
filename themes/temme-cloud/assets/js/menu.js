@@ -16,7 +16,12 @@ isMobileMenu();
 menuTrigger &&
   menuTrigger.addEventListener(
     "click",
-    () => menu && menu.classList.toggle("hidden")
+    () => {
+      if (menu) {
+        menu.classList.toggle("hidden");
+        menuTrigger.setAttribute("aria-expanded", !menu.classList.contains("hidden"));
+      }
+    }
   );
 
 window.addEventListener("resize", isMobileMenu);

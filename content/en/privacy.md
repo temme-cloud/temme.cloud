@@ -103,23 +103,17 @@ Appointment booking is handled via Cal.com / Cal.eu (Cal.com, Inc., 660 4th Stre
 
 ## 6. Delivery Check (Netlify Forms → GitLab Service Desk)
 
-When you use the Delivery Check, we process the data you provide as well as the generated result data (answers to the questionnaire, result score, timestamp) to provide you with the result and, where applicable, to clarify follow-up questions or prepare a proposal.
+When you use the Delivery Check, we process the data you provide as well as the generated result data (answers, result score, timestamp) to provide you with the result and, where applicable, to prepare a proposal.
 
-The submission is handled via Netlify Forms and delivered as an email notification to our internal address sales@temme.cloud.
+The submission is handled via Netlify Forms. For structured processing, the data is forwarded to GitLab Service Desk (GitLab.com), where a confidential ticket is created. Access is restrictively assigned.
 
-### Ticketing via GitLab Service Desk
-
-For structured handling of requests, the email is automatically forwarded to GitLab Service Desk (GitLab.com), where a confidential ticket/issue is created with the content of the inquiry.
-
-**Confidentiality:** Service Desk tickets are confidential by default. We ensure organisationally that tickets are not inadvertently made public and that access rights are restrictively assigned.
-
-**Provider:** GitLab Inc., 268 Bush Street #350, San Francisco, CA 94104, USA. We use GitLab.com under the GitLab Ultimate Startup Program.
+**Provider:** GitLab Inc., 268 Bush Street #350, San Francisco, CA 94104, USA.
 
 **Legal basis:** Art. 6(1)(b) GDPR (pre-contractual measures) and Art. 6(1)(f) GDPR (efficient handling of inquiries).
 
-**Data Processing Agreement:** GitLab provides data protection terms/DPA for customers. A GitLab Data Processing Addendum pursuant to Art. 28 GDPR is in place.
+**Data Processing Agreement:** A GitLab Data Processing Addendum pursuant to Art. 28 GDPR is in place.
 
-**International transfers:** GitLab processes data in the USA. The transfer is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR, which form part of the GitLab DPA.
+**International transfers:** The transfer to the USA is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR.
 
 ---
 
@@ -186,13 +180,34 @@ Data processing agreements pursuant to Art. 28 GDPR are in place with all named 
 
 ---
 
-## 13. No Tracking or Analytics Tools
+## 13. Fonts (Self-Hosted)
 
-This website does not set cookies for tracking or analytics purposes. No analytics, advertising, or social media plugins are used.
+This website uses the typefaces Houschka Rounded, Nunito Sans, and Ubuntu Mono. All fonts are hosted locally on our own server (self-hosting). No connections to external servers are established when loading fonts, and no data is transmitted to third parties.
 
 ---
 
-## 14. Your Rights as a Data Subject
+## 14. Local Storage (localStorage)
+
+This website uses your browser's localStorage feature for the following purposes:
+
+- **Theme preference (dark/light mode):** Your chosen display preference is stored in localStorage so that it persists across visits. The entry remains until you manually clear it.
+- **Delivery Check progress:** When you use the Delivery Check, your progress is stored in localStorage so that you can resume the questionnaire on a later visit. This entry is automatically deleted after 7 days.
+
+No cookies are set. The stored data is not transmitted to third parties and is processed exclusively locally in your browser.
+
+**Legal basis:** § 25(2) TTDSG (technically necessary storage for the provision of the service expressly requested by the user).
+
+---
+
+## 15. No Tracking or Analytics Tools
+
+This website does not set cookies for tracking or analytics purposes. No analytics, advertising, or social media plugins are used.
+
+This website contains links to our profiles on LinkedIn and Instagram. These are plain hyperlinks — no data is transmitted to these platforms when you visit our website. Only when you click such a link and visit the respective platform do their privacy policies apply. No social media plugins, tracking pixels, or embedded content from these platforms are used.
+
+---
+
+## 16. Your Rights as a Data Subject
 
 You have the following rights regarding your personal data:
 
@@ -207,7 +222,7 @@ To exercise your rights, please contact: [privacy@temme.cloud](mailto:privacy@te
 
 ---
 
-## 15. Right to Lodge a Complaint with a Supervisory Authority
+## 17. Right to Lodge a Complaint with a Supervisory Authority
 
 Without prejudice to any other administrative or judicial remedy, you have the right to lodge a complaint with a supervisory authority if you believe that the processing of your personal data infringes the GDPR.
 
@@ -227,14 +242,14 @@ Website: [https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)
 
 ---
 
-## 16. Objection to Promotional Emails
+## 18. Objection to Promotional Emails
 
 The use of contact data published as part of the legal notice obligation for sending unsolicited advertising and information materials is hereby objected to. The site operators expressly reserve the right to take legal action in the event of the unsolicited sending of advertising information.
 
 ---
 
-## 17. Currency and Changes to this Privacy Policy
+## 19. Currency and Changes to this Privacy Policy
 
-This privacy policy is currently valid as of January 2026.
+This privacy policy is currently valid as of February 2026.
 
 Due to the further development of our website or changes in legal or regulatory requirements, it may become necessary to amend this privacy policy. The current version can be accessed at any time on this page.

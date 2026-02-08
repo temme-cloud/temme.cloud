@@ -102,23 +102,17 @@ Die Terminbuchung erfolgt über den Dienst Cal.com bzw. Cal.eu (Cal.com, Inc., 6
 
 ## 6. Delivery Check (Netlify Forms → GitLab Service Desk)
 
-Wenn Sie den Delivery Check nutzen, verarbeiten wir die von Ihnen eingegebenen Daten sowie die erzeugten Ergebnisdaten (Antworten auf die Fragen des Fragebogens, Ergebnis-Score, Zeitstempel), um Ihnen das Ergebnis bereitzustellen und gegebenenfalls Rückfragen zu klären bzw. ein Angebot zu erstellen.
+Wenn Sie den Delivery Check nutzen, verarbeiten wir die von Ihnen eingegebenen Daten sowie die erzeugten Ergebnisdaten (Antworten, Ergebnis-Score, Zeitstempel), um Ihnen das Ergebnis bereitzustellen und ggf. ein Angebot zu erstellen.
 
-Die Übermittlung erfolgt über Netlify Forms und wird als E-Mail-Benachrichtigung an unsere interne Adresse sales@temme.cloud zugestellt.
+Die Übermittlung erfolgt über Netlify Forms. Zur strukturierten Bearbeitung werden die Daten an GitLab Service Desk (GitLab.com) weitergeleitet, wo ein vertrauliches Ticket erstellt wird. Der Zugriff ist restriktiv vergeben.
 
-### Ticketing über GitLab Service Desk
-
-Zur strukturierten Bearbeitung wird die E-Mail automatisiert an GitLab Service Desk (GitLab.com) weitergeleitet, wo ein vertrauliches Ticket/Issue mit dem Inhalt der Anfrage erstellt wird.
-
-**Vertraulichkeit:** Service-Desk-Tickets sind standardmäßig vertraulich. Organisatorisch stellen wir sicher, dass Tickets nicht versehentlich öffentlich gemacht werden und Zugriffsrechte restriktiv vergeben sind.
-
-**Anbieter:** GitLab Inc., 268 Bush Street #350, San Francisco, CA 94104, USA. Wir nutzen GitLab.com im Rahmen des GitLab Ultimate Startup Program.
+**Anbieter:** GitLab Inc., 268 Bush Street #350, San Francisco, CA 94104, USA.
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) und Art. 6 Abs. 1 lit. f DSGVO (effiziente Bearbeitung von Anfragen).
 
-**Auftragsverarbeitung:** GitLab stellt Datenschutzbedingungen/DPA für Kunden bereit. Es besteht ein GitLab Data Processing Addendum gemäß Art. 28 DSGVO.
+**Auftragsverarbeitung:** Es besteht ein GitLab Data Processing Addendum gemäß Art. 28 DSGVO.
 
-**Drittlandtransfer:** GitLab verarbeitet Daten in den USA. Die Übermittlung erfolgt auf Grundlage von Standardvertragsklauseln (SCCs) gemäß Art. 46 Abs. 2 lit. c DSGVO, die Bestandteil des GitLab DPA sind.
+**Drittlandtransfer:** Die Übermittlung in die USA erfolgt auf Grundlage von Standardvertragsklauseln (SCCs) gemäß Art. 46 Abs. 2 lit. c DSGVO.
 
 ---
 
@@ -185,13 +179,34 @@ Mit allen genannten Dienstleistern bestehen Auftragsverarbeitungsverträge gemä
 
 ---
 
-## 13. Keine Tracking- oder Analysetools
+## 13. Schriftarten (Self-Hosted)
 
-Auf dieser Website werden keine Cookies zu Tracking- oder Analysezwecken gesetzt. Es kommen keine Analyse-, Werbe- oder Social-Media-Plugins zum Einsatz.
+Diese Website verwendet die Schriftarten Houschka Rounded, Nunito Sans und Ubuntu Mono. Alle Schriftarten werden lokal auf unserem eigenen Server gehostet (Self-Hosting). Beim Laden der Schriftarten werden keine Verbindungen zu externen Servern hergestellt und keine Daten an Dritte übermittelt.
 
 ---
 
-## 14. Ihre Rechte als betroffene Person
+## 14. Lokale Speicherung (localStorage)
+
+Diese Website nutzt die localStorage-Funktion Ihres Browsers für folgende Zwecke:
+
+- **Theme-Präferenz (Dark/Light Mode):** Ihre gewählte Darstellungspräferenz wird im localStorage gespeichert, damit diese bei erneuten Besuchen erhalten bleibt. Der Eintrag verbleibt bis zur manuellen Löschung durch Sie.
+- **Delivery Check Fortschritt:** Wenn Sie den Delivery Check nutzen, wird Ihr Fortschritt im localStorage gespeichert, damit Sie den Fragebogen bei einem späteren Besuch fortsetzen können. Dieser Eintrag wird nach 7 Tagen automatisch gelöscht.
+
+Es werden keine Cookies gesetzt. Die gespeicherten Daten werden nicht an Dritte übermittelt und ausschließlich lokal in Ihrem Browser verarbeitet.
+
+**Rechtsgrundlage:** § 25 Abs. 2 TTDSG (technisch notwendige Speicherung zur Erbringung des vom Nutzer ausdrücklich gewünschten Dienstes).
+
+---
+
+## 15. Keine Tracking- oder Analysetools
+
+Auf dieser Website werden keine Cookies zu Tracking- oder Analysezwecken gesetzt. Es kommen keine Analyse-, Werbe- oder Social-Media-Plugins zum Einsatz.
+
+Diese Website enthält Links zu unseren Profilen auf LinkedIn und Instagram. Es handelt sich dabei um einfache Hyperlinks — beim Besuch unserer Website werden keine Daten an diese Plattformen übermittelt. Erst wenn Sie einen solchen Link anklicken und die jeweilige Plattform besuchen, gelten deren Datenschutzbestimmungen. Es werden keine Social-Media-Plugins, Tracking-Pixel oder eingebetteten Inhalte dieser Plattformen verwendet.
+
+---
+
+## 16. Ihre Rechte als betroffene Person
 
 Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:
 
@@ -206,7 +221,7 @@ Zur Ausübung Ihrer Rechte wenden Sie sich an: [privacy@temme.cloud](mailto:priv
 
 ---
 
-## 15. Beschwerderecht bei einer Aufsichtsbehörde
+## 17. Beschwerderecht bei einer Aufsichtsbehörde
 
 Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 
@@ -226,14 +241,14 @@ Website: [https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)
 
 ---
 
-## 16. Widerspruch gegen Werbe-E-Mails
+## 18. Widerspruch gegen Werbe-E-Mails
 
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen vor.
 
 ---
 
-## 17. Aktualität und Änderung dieser Datenschutzerklärung
+## 19. Aktualität und Änderung dieser Datenschutzerklärung
 
-Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Januar 2026.
+Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Februar 2026.
 
 Durch die Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf dieser Seite abgerufen werden.

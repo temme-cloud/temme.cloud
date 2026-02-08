@@ -188,12 +188,7 @@ This website uses the typefaces Houschka Rounded, Nunito Sans, and Ubuntu Mono. 
 
 ## 14. Local Storage (localStorage)
 
-This website uses your browser's localStorage feature for the following purposes:
-
-- **Theme preference (dark/light mode):** Your chosen display preference is stored in localStorage so that it persists across visits. The entry remains until you manually clear it.
-- **Delivery Check progress:** When you use the Delivery Check, your progress is stored in localStorage so that you can resume the questionnaire on a later visit. This entry is automatically deleted after 7 days.
-
-No cookies are set. The stored data is not transmitted to third parties and is processed exclusively locally in your browser.
+When you use the Delivery Check, your progress is stored in your browser's localStorage so that you can resume the questionnaire on a later visit. This entry is automatically deleted after 7 days. No cookies are set. The stored data is not transmitted to third parties and is processed exclusively locally in your browser.
 
 **Legal basis:** § 25(2) TTDSG (technically necessary storage for the provision of the service expressly requested by the user).
 

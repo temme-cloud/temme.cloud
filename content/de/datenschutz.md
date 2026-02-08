@@ -187,12 +187,7 @@ Diese Website verwendet die Schriftarten Houschka Rounded, Nunito Sans und Ubunt
 
 ## 14. Lokale Speicherung (localStorage)
 
-Diese Website nutzt die localStorage-Funktion Ihres Browsers für folgende Zwecke:
-
-- **Theme-Präferenz (Dark/Light Mode):** Ihre gewählte Darstellungspräferenz wird im localStorage gespeichert, damit diese bei erneuten Besuchen erhalten bleibt. Der Eintrag verbleibt bis zur manuellen Löschung durch Sie.
-- **Delivery Check Fortschritt:** Wenn Sie den Delivery Check nutzen, wird Ihr Fortschritt im localStorage gespeichert, damit Sie den Fragebogen bei einem späteren Besuch fortsetzen können. Dieser Eintrag wird nach 7 Tagen automatisch gelöscht.
-
-Es werden keine Cookies gesetzt. Die gespeicherten Daten werden nicht an Dritte übermittelt und ausschließlich lokal in Ihrem Browser verarbeitet.
+Wenn Sie den Delivery Check nutzen, wird Ihr Fortschritt im localStorage Ihres Browsers gespeichert, damit Sie den Fragebogen bei einem späteren Besuch fortsetzen können. Dieser Eintrag wird nach 7 Tagen automatisch gelöscht. Es werden keine Cookies gesetzt. Die gespeicherten Daten werden nicht an Dritte übermittelt und ausschließlich lokal in Ihrem Browser verarbeitet.
 
 **Rechtsgrundlage:** § 25 Abs. 2 TTDSG (technisch notwendige Speicherung zur Erbringung des vom Nutzer ausdrücklich gewünschten Dienstes).
 

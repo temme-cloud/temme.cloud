@@ -26,7 +26,7 @@ We work closely with selected partners who share our values and complement our e
 <div class="partners">
   <a href="https://frankeundschwarz.de" target="_blank" class="partner-card">
     <div class="partner-card__logo partner-card__logo--dark">
-      <img src="/partners/franke-schwarz.png" alt="Franke und Schwarz">
+      <img src="/partners/franke-schwarz.webp" alt="Franke und Schwarz">
     </div>
     <h3>Franke und Schwarz GmbH</h3>
     <p>Sales Transformation</p>

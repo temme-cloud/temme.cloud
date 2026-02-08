@@ -1,0 +1,51 @@
+{{/* Self-hosted fonts with fingerprinted URLs for cache busting
+     NOTE: Houschka Rounded (G-Type) license prohibits subsetting/modification. Do NOT run pyftsubset or similar tools on these files. */}}
+{{- $hrMedium := resources.Get "fonts/houschka-rounded-medium.woff2" | fingerprint -}}
+{{- $hrDemiBold := resources.Get "fonts/houschka-rounded-demibold.woff2" | fingerprint -}}
+{{- $hrBold := resources.Get "fonts/houschka-rounded-bold.woff2" | fingerprint -}}
+{{- $nunito := resources.Get "fonts/nunito-sans.woff2" | fingerprint -}}
+{{- $ubuntuMono400 := resources.Get "fonts/ubuntu-mono-400.woff2" | fingerprint -}}
+{{/* ubuntu-mono-700.woff2 is in the repo but not loaded – re-enable when adding code-heavy content (blog, tutorials) */}}
+
+<!-- Preload critical fonts -->
+<link rel="preload" href="{{ $hrDemiBold.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ $nunito.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+
+<style>
+@font-face {
+  font-family: "houschka-rounded";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ $hrMedium.RelPermalink }}") format("woff2");
+}
+@font-face {
+  font-family: "houschka-rounded";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ $hrDemiBold.RelPermalink }}") format("woff2");
+}
+@font-face {
+  font-family: "houschka-rounded";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ $hrBold.RelPermalink }}") format("woff2");
+}
+@font-face {
+  font-family: "nunito-sans";
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ $nunito.RelPermalink }}") format("woff2");
+}
+@font-face {
+  font-family: "ubuntu-mono";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ $ubuntuMono400.RelPermalink }}") format("woff2");
+}
+{{/* ubuntu-mono 700 – re-enable for code-heavy content (blog, tutorials) */}}
+</style>

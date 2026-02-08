@@ -22,7 +22,7 @@ Unser Netzwerk umfasst DevOps- und Security-Expert:innen, Data Engineers, Design
 
 <div class="partner-detail">
   <div class="partner-detail__logo partner-detail__logo--dark">
-    <img src="/partners/franke-schwarz.png" alt="Franke und Schwarz">
+    <img src="/partners/franke-schwarz.webp" alt="Franke und Schwarz">
   </div>
   <h2 class="partner-detail__name">Franke und Schwarz GmbH</h2>
 </div>

@@ -3,8 +3,7 @@
 {{ $secureJS := slice $main $menu | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
 <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
-{{ range $val := $.Site.Params.customJS }}
-    {{ if gt (len $val) 0 }}
-        <script src="{{ $val }}"></script>
-    {{ end }}
+{{ with resources.Get "js/redirect-vcard.js" }}
+  {{ $vcard := . | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $vcard.RelPermalink }}" integrity="{{ $vcard.Data.Integrity }}" defer></script>
 {{ end }}

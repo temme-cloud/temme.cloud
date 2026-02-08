@@ -83,5 +83,8 @@
     </script>
 
     <!-- Delivery Check JavaScript (pre-built with Vite) -->
-    <script type="text/javascript" src="/js/delivery-check.js" defer></script>
+    {{ with resources.Get "js/delivery-check.js" }}
+      {{ $dc := . | resources.Fingerprint "sha512" }}
+      <script type="text/javascript" src="{{ $dc.RelPermalink }}" integrity="{{ $dc.Data.Integrity }}" defer></script>
+    {{ end }}
 {{ end }}

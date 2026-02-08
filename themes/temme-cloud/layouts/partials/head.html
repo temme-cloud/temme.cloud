@@ -92,12 +92,11 @@
 <!-- Schema.org structured data -->
 {{ template "_internal/schema.html" . }}
 
-<!-- Fonts: Typekit primary, self-hosted fallback -->
-<link rel="preconnect" href="https://use.typekit.net" crossorigin>
-<link rel="stylesheet" href="https://use.typekit.net/clz1zkl.css">
+<!-- Fonts: self-hosted with fingerprinted URLs -->
+{{- partial "fonts.html" . -}}
 
 <!-- CSS -->
-{{ $opts := dict "transpiler" "libsass" "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true }}
+{{ $opts := dict "transpiler" "libsass" "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction) }}
 {{ with resources.Get "scss/main.scss" | toCSS $opts | minify | fingerprint }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
 {{ end }}

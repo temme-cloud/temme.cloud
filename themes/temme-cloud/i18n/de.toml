@@ -59,6 +59,9 @@ other = "Kontakt"
 [footerPrivacy]
 other = "Datenschutz"
 
+[footerSocial]
+other = "Folge uns"
+
 [footerDeliveryCheck]
 other = "Delivery-Check starten"
 

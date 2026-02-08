@@ -102,6 +102,30 @@
     }
   }
 
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $light-color;
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   &__right {
     display: flex;
     flex-direction: row;
@@ -127,8 +151,12 @@
         order: 1;
       }
 
+      &--social {
+        order: 2;
+      }
+
       &--legal {
-        order: 3; // Legal links come last on mobile
+        order: 3;
       }
     }
 

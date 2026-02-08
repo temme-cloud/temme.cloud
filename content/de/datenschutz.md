@@ -181,7 +181,7 @@ Mit allen genannten Dienstleistern bestehen Auftragsverarbeitungsverträge gemä
 
 ## 13. Schriftarten (Self-Hosted)
 
-Diese Website verwendet die Schriftarten Houschka Rounded, Nunito Sans und Ubuntu Mono. Alle Schriftarten werden lokal auf unserem eigenen Server gehostet (Self-Hosting). Beim Laden der Schriftarten werden keine Verbindungen zu externen Servern hergestellt und keine Daten an Dritte übermittelt.
+Diese Website verwendet die Schriftarten Houschka Rounded, Nunito Sans und Ubuntu Mono. Alle Schriftarten sind Bestandteil der Website und werden über unseren Hosting-Anbieter Netlify ausgeliefert (siehe Abschnitt 3). Es werden keine externen Schriftarten-Dienste (z. B. Google Fonts, Adobe Fonts) eingebunden. Beim Laden der Schriftarten findet keine Datenübermittlung an Dritte über den bestehenden Hosting-Anbieter hinaus statt.
 
 ---
 

@@ -182,7 +182,7 @@ Data processing agreements pursuant to Art. 28 GDPR are in place with all named 
 
 ## 13. Fonts (Self-Hosted)
 
-This website uses the typefaces Houschka Rounded, Nunito Sans, and Ubuntu Mono. All fonts are hosted locally on our own server (self-hosting). No connections to external servers are established when loading fonts, and no data is transmitted to third parties.
+This website uses the typefaces Houschka Rounded, Nunito Sans, and Ubuntu Mono. All fonts are part of the website and served via our hosting provider Netlify (see Section 3). No external font services (e.g., Google Fonts, Adobe Fonts) are used. Loading fonts does not involve any data transfer to third parties beyond the existing hosting provider.
 
 ---
 
